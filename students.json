@@ -1,0 +1,7162 @@
+{
+  "CÔNG NGHỆ THÔNG TIN": {
+    "CĐ9+K5": {
+      "Tin học ứng dụng 1 - CĐ9+K5": [
+        {
+          "maSV": "DT24NL3206",
+          "tenSV": "Lê Minh Đạt"
+        },
+        {
+          "maSV": "TH24TH3101",
+          "tenSV": "Diệp Hải An"
+        },
+        {
+          "maSV": "TH24TH3102",
+          "tenSV": "Nguyễn Hoàng Anh"
+        },
+        {
+          "maSV": "TH24TH3103",
+          "tenSV": "Trần Đức Anh"
+        },
+        {
+          "maSV": "TH24TH3104",
+          "tenSV": "Bùi Xuân Bắc"
+        },
+        {
+          "maSV": "TH24TH3107",
+          "tenSV": "Đỗ Hải Đăng"
+        },
+        {
+          "maSV": "TH24TH3109",
+          "tenSV": "Phan Ngọc Thúy Diệu"
+        },
+        {
+          "maSV": "TH24TH3111",
+          "tenSV": "Nguyễn Trường Giang"
+        },
+        {
+          "maSV": "TH24TH3113",
+          "tenSV": "Nguyễn Bùi Vinh Hiển"
+        },
+        {
+          "maSV": "TH24TH3114",
+          "tenSV": "Trương Trung Hiếu"
+        },
+        {
+          "maSV": "TH24TH3115",
+          "tenSV": "Trần Minh Hoàng"
+        },
+        {
+          "maSV": "TH24TH3116",
+          "tenSV": "Huỳnh Gia Huy"
+        },
+        {
+          "maSV": "TH24TH3117",
+          "tenSV": "Nguyễn Duy Khang"
+        },
+        {
+          "maSV": "TH24TH3118",
+          "tenSV": "Phạm Mai Gia Khang"
+        },
+        {
+          "maSV": "TH24TH3119",
+          "tenSV": "Nguyễn Quốc Khánh"
+        },
+        {
+          "maSV": "TH24TH3120",
+          "tenSV": "Hà Anh Kiệt"
+        },
+        {
+          "maSV": "TH24TH3121",
+          "tenSV": "Nguyễn Ngọc Tường Lam"
+        },
+        {
+          "maSV": "TH24TH3124",
+          "tenSV": "Phan Kiều Diễm My"
+        },
+        {
+          "maSV": "TH24TH3125",
+          "tenSV": "Trần Nghiêm"
+        },
+        {
+          "maSV": "TH24TH3126",
+          "tenSV": "Nguyễn Bích Ngọc"
+        },
+        {
+          "maSV": "TH24TH3127",
+          "tenSV": "Danh Nhân"
+        },
+        {
+          "maSV": "TH24TH3128",
+          "tenSV": "Nguyễn Trần Thảo Nhi"
+        },
+        {
+          "maSV": "TH24TH3129",
+          "tenSV": "Nguyễn Triệu Như"
+        },
+        {
+          "maSV": "TH24TH3130",
+          "tenSV": "Châu Tấn Phát"
+        },
+        {
+          "maSV": "TH24TH3132",
+          "tenSV": "Nguyễn Thanh Phú"
+        },
+        {
+          "maSV": "TH24TH3133",
+          "tenSV": "Trần Minh Phước"
+        },
+        {
+          "maSV": "TH24TH3134",
+          "tenSV": "Chau Sa Râm"
+        },
+        {
+          "maSV": "TH24TH3138",
+          "tenSV": "Thị Tiền"
+        },
+        {
+          "maSV": "TH24TH3140",
+          "tenSV": "Danh Trịnh Ngọc Trâm"
+        },
+        {
+          "maSV": "TH24TH3141",
+          "tenSV": "Trần Thị Bảo Trân"
+        },
+        {
+          "maSV": "TH24TH3142",
+          "tenSV": "Võ Thành Trọng"
+        },
+        {
+          "maSV": "TH24TH3146",
+          "tenSV": "Vũ Mạnh Anh Khoa"
+        },
+        {
+          "maSV": "TH24TH3147",
+          "tenSV": "Vương Chí Nguyên"
+        },
+        {
+          "maSV": "TH24TH3149",
+          "tenSV": "Trần Nguyễn Dỉ"
+        },
+        {
+          "maSV": "TH24TH3202",
+          "tenSV": "Trương Quốc Anh"
+        },
+        {
+          "maSV": "TH24TH3206",
+          "tenSV": "Huỳnh Chi"
+        },
+        {
+          "maSV": "TH24TH3210",
+          "tenSV": "Trương Nguyễn Dương"
+        },
+        {
+          "maSV": "TH24TH3211",
+          "tenSV": "Phan Chí Hải"
+        },
+        {
+          "maSV": "TH24TH3212",
+          "tenSV": "Ngô Quốc Hào"
+        },
+        {
+          "maSV": "TH24TH3213",
+          "tenSV": "Trần Minh Hiếu"
+        },
+        {
+          "maSV": "TH24TH3216",
+          "tenSV": "Dương Quốc Huy"
+        },
+        {
+          "maSV": "TH24TH3217",
+          "tenSV": "Hồ Hoàng Khang"
+        },
+        {
+          "maSV": "TH24TH3221",
+          "tenSV": "Nguyễn Thị Diễm Lê"
+        },
+        {
+          "maSV": "TH24TH3222",
+          "tenSV": "Ngô Phước Lộc"
+        },
+        {
+          "maSV": "TH24TH3223",
+          "tenSV": "Nguyễn Trúc Ly"
+        },
+        {
+          "maSV": "TH24TH3225",
+          "tenSV": "Nguyễn Trần Kim Ngọc"
+        },
+        {
+          "maSV": "TH24TH3226",
+          "tenSV": "Lê Trọng Nhân"
+        },
+        {
+          "maSV": "TH24TH3243",
+          "tenSV": "Từ Ngọc Thanh Vy"
+        },
+        {
+          "maSV": "TH24TH3335",
+          "tenSV": "Nguyễn Hương Thảo"
+        }
+      ],
+      "Tin học ứng dụng 2 - CĐ9+K5": [
+        {
+          "maSV": "TH24TH3106",
+          "tenSV": "Nguyễn Kim Châu"
+        },
+        {
+          "maSV": "TH24TH3215",
+          "tenSV": "Nguyễn Hoàng"
+        },
+        {
+          "maSV": "TH24TH3227",
+          "tenSV": "Lê Ngọc Uyển Nhi"
+        },
+        {
+          "maSV": "TH24TH3228",
+          "tenSV": "Lạc Thái Nhiên"
+        },
+        {
+          "maSV": "TH24TH3229",
+          "tenSV": "Trương Nhật Phát"
+        },
+        {
+          "maSV": "TH24TH3230",
+          "tenSV": "Châu Thuận Phát"
+        },
+        {
+          "maSV": "TH24TH3232",
+          "tenSV": "Lê Trọng Phúc"
+        },
+        {
+          "maSV": "TH24TH3233",
+          "tenSV": "Nguyễn Hoàng Anh Quốc"
+        },
+        {
+          "maSV": "TH24TH3234",
+          "tenSV": "Trương Thành Tài"
+        },
+        {
+          "maSV": "TH24TH3235",
+          "tenSV": "Đặng Hoàng Thành"
+        },
+        {
+          "maSV": "TH24TH3236",
+          "tenSV": "Nguyễn Thịnh Thiên"
+        },
+        {
+          "maSV": "TH24TH3238",
+          "tenSV": "Nguyễn Đức Tín"
+        },
+        {
+          "maSV": "TH24TH3239",
+          "tenSV": "Võ Quốc Tình"
+        },
+        {
+          "maSV": "TH24TH3241",
+          "tenSV": "Nguyễn Minh Triêu"
+        },
+        {
+          "maSV": "TH24TH3242",
+          "tenSV": "Cao Ngọc Tuyền"
+        },
+        {
+          "maSV": "TH24TH3245",
+          "tenSV": "Huỳnh Võ Như Ý"
+        },
+        {
+          "maSV": "TH24TH3247",
+          "tenSV": "Lê Thanh Hùng"
+        },
+        {
+          "maSV": "TH24TH3301",
+          "tenSV": "Bùi Công Thọ Anh"
+        },
+        {
+          "maSV": "TH24TH3302",
+          "tenSV": "Nguyễn Huỳnh Anh"
+        },
+        {
+          "maSV": "TH24TH3305",
+          "tenSV": "Dương Bảo Chân"
+        },
+        {
+          "maSV": "TH24TH3306",
+          "tenSV": "Nguyễn Tấn Chuyển"
+        },
+        {
+          "maSV": "TH24TH3307",
+          "tenSV": "Trần Thành Đạt"
+        },
+        {
+          "maSV": "TH24TH3308",
+          "tenSV": "Thị Diền"
+        },
+        {
+          "maSV": "TH24TH3310",
+          "tenSV": "Lê Thị Duyên"
+        },
+        {
+          "maSV": "TH24TH3313",
+          "tenSV": "Bùi Chí Hiếu"
+        },
+        {
+          "maSV": "TH24TH3314",
+          "tenSV": "Nguyễn Thị Thu Hoài"
+        },
+        {
+          "maSV": "TH24TH3315",
+          "tenSV": "Nguyễn Gia Huy"
+        },
+        {
+          "maSV": "TH24TH3316",
+          "tenSV": "Nguyễn Lê Quang Huy"
+        },
+        {
+          "maSV": "TH24TH3317",
+          "tenSV": "Phạm Đoàn Gia Khang"
+        },
+        {
+          "maSV": "TH24TH3319",
+          "tenSV": "Nguyễn Lý Minh Khôi"
+        },
+        {
+          "maSV": "TH24TH3320",
+          "tenSV": "Hà Gia Lạc"
+        },
+        {
+          "maSV": "TH24TH3324",
+          "tenSV": "Nguyễn Hạo Nam"
+        },
+        {
+          "maSV": "TH24TH3325",
+          "tenSV": "Hồ Bảo Ngọc"
+        },
+        {
+          "maSV": "TH24TH3326",
+          "tenSV": "Đinh Trọng Nhân"
+        },
+        {
+          "maSV": "TH24TH3327",
+          "tenSV": "Nguyễn Thị Yến Nhi"
+        },
+        {
+          "maSV": "TH24TH3328",
+          "tenSV": "Huỳnh Ngọc Như"
+        },
+        {
+          "maSV": "TH24TH3330",
+          "tenSV": "Nguyễn Thái Phát"
+        },
+        {
+          "maSV": "TH24TH3331",
+          "tenSV": "Nguyễn Phong Phú"
+        },
+        {
+          "maSV": "TH24TH3333",
+          "tenSV": "Nguyễn Tri Quyên"
+        },
+        {
+          "maSV": "TH24TH3336",
+          "tenSV": "Huỳnh Tấn Thịnh"
+        },
+        {
+          "maSV": "TH24TH3337",
+          "tenSV": "Nguyễn Thị Bích Thùy"
+        },
+        {
+          "maSV": "TH24TH3339",
+          "tenSV": "Nguyễn Minh Toàn"
+        },
+        {
+          "maSV": "TH24TH3340",
+          "tenSV": "Võ Nguyễn Thu Trân"
+        },
+        {
+          "maSV": "TH24TH3342",
+          "tenSV": "Lê Nhựt Trí Vĩ"
+        },
+        {
+          "maSV": "TH24TH3344",
+          "tenSV": "Trương Lê Ái Vy"
+        },
+        {
+          "maSV": "TH24TH3347",
+          "tenSV": "Kha Nguyễn Tấn Lộc"
+        },
+        {
+          "maSV": "TH24TH3348",
+          "tenSV": "Lê Kiệt Luân"
+        }
+      ]
+    },
+    "CĐ9+K6": {
+      "Công nghệ thông tin 1 - CĐ9+K6": [
+        {
+          "maSV": "TH25CN3101",
+          "tenSV": "Nguyễn Trúc Anh"
+        },
+        {
+          "maSV": "TH25CN3102",
+          "tenSV": "Nguyễn Thị Kim Anh"
+        },
+        {
+          "maSV": "TH25CN3104",
+          "tenSV": "Nguyễn Gia Bảo"
+        },
+        {
+          "maSV": "TH25CN3105",
+          "tenSV": "Nguyễn Thị Huỳnh Châu"
+        },
+        {
+          "maSV": "TH25CN3107",
+          "tenSV": "Lê Khải Đăng"
+        },
+        {
+          "maSV": "TH25CN3108",
+          "tenSV": "Dương Hồng Đức"
+        },
+        {
+          "maSV": "TH25CN3109",
+          "tenSV": "Trần Nguyễn Hoàng Duy"
+        },
+        {
+          "maSV": "TH25CN3110",
+          "tenSV": "Danh Thanh Giàu"
+        },
+        {
+          "maSV": "TH25CN3111",
+          "tenSV": "Võ Vũ Hiền"
+        },
+        {
+          "maSV": "TH25CN3112",
+          "tenSV": "Huỳnh Trọng Hiếu"
+        },
+        {
+          "maSV": "TH25CN3113",
+          "tenSV": "Trương Mạnh Hùng"
+        },
+        {
+          "maSV": "TH25CN3114",
+          "tenSV": "Nguyễn Nhật Huy"
+        },
+        {
+          "maSV": "TH25CN3115",
+          "tenSV": "Lê Phước Huy"
+        },
+        {
+          "maSV": "TH25CN3116",
+          "tenSV": "Lưu Hiếu Khang"
+        },
+        {
+          "maSV": "TH25CN3117",
+          "tenSV": "Phan Minh Khang"
+        },
+        {
+          "maSV": "TH25CN3118",
+          "tenSV": "Trần Kim Khánh"
+        },
+        {
+          "maSV": "TH25CN3119",
+          "tenSV": "Trương Quốc Khánh"
+        },
+        {
+          "maSV": "TH25CN3120",
+          "tenSV": "Nguyễn Trang Nhã Kỳ"
+        },
+        {
+          "maSV": "TH25CN3121",
+          "tenSV": "Huỳnh Trường Kỳ"
+        },
+        {
+          "maSV": "TH25CN3123",
+          "tenSV": "Lê Hữu Lộc"
+        },
+        {
+          "maSV": "TH25CN3124",
+          "tenSV": "Lâm Tấn Lộc"
+        },
+        {
+          "maSV": "TH25CN3125",
+          "tenSV": "Trần Hạo Nam"
+        },
+        {
+          "maSV": "TH25CN3126",
+          "tenSV": "Danh Hồng Nam"
+        },
+        {
+          "maSV": "TH25CN3127",
+          "tenSV": "Võ Minh Nghĩa"
+        },
+        {
+          "maSV": "TH25CN3128",
+          "tenSV": "Nguyễn Thanh Bảo Ngọc"
+        },
+        {
+          "maSV": "TH25CN3131",
+          "tenSV": "Lê Thành Phát"
+        },
+        {
+          "maSV": "TH25CN3132",
+          "tenSV": "Nguyễn Thanh Phong"
+        },
+        {
+          "maSV": "TH25CN3133",
+          "tenSV": "Hà Thanh Phong"
+        },
+        {
+          "maSV": "TH25CN3136",
+          "tenSV": "Phan Nhật Thái"
+        },
+        {
+          "maSV": "TH25CN3137",
+          "tenSV": "Võ Chí Thiện"
+        },
+        {
+          "maSV": "TH25CN3138",
+          "tenSV": "Trần Thị Anh Thư"
+        },
+        {
+          "maSV": "TH25CN3139",
+          "tenSV": "Liêng Hiệp Trọng"
+        },
+        {
+          "maSV": "TH25CN3140",
+          "tenSV": "Danh Duy Tú"
+        },
+        {
+          "maSV": "TH25CN3142",
+          "tenSV": "Nguyễn Thị Thuý Vi"
+        },
+        {
+          "maSV": "TH25CN3143",
+          "tenSV": "Nguyễn Hoàng Vinh"
+        },
+        {
+          "maSV": "TH25CN3144",
+          "tenSV": "Trần Văn Vũ"
+        },
+        {
+          "maSV": "TH25CN3145",
+          "tenSV": "Huỳnh Đỗ Kiều Vy"
+        },
+        {
+          "maSV": "TH25CN3146",
+          "tenSV": "Đặng Gia Bảo"
+        },
+        {
+          "maSV": "TH25CN3148",
+          "tenSV": "Nguyễn Thanh Phúc"
+        },
+        {
+          "maSV": "TH25CN3217",
+          "tenSV": "Ong Ngọc Tín"
+        }
+      ],
+      "Công nghệ thông tin 2 - CĐ9+K6": [
+        {
+          "maSV": "CK25CK3109",
+          "tenSV": "Nguyễn Nhựt Huy"
+        },
+        {
+          "maSV": "DL25HD3114",
+          "tenSV": "Nguyễn Huỳnh Diệu Ngân"
+        },
+        {
+          "maSV": "KT25QT3111",
+          "tenSV": "Trần Gia Hưởng"
+        },
+        {
+          "maSV": "TH25CN3147",
+          "tenSV": "Lê Nguyễn Trung Hiếu"
+        },
+        {
+          "maSV": "TH25CN3201",
+          "tenSV": "Đặng Việt Anh"
+        },
+        {
+          "maSV": "TH25CN3202",
+          "tenSV": "Lê Hoàng Bảo"
+        },
+        {
+          "maSV": "TH25CN3204",
+          "tenSV": "Nguyễn Thiên Hạo"
+        },
+        {
+          "maSV": "TH25CN3205",
+          "tenSV": "Trần Khánh Hoàng"
+        },
+        {
+          "maSV": "TH25CN3206",
+          "tenSV": "Phan Thanh Huy"
+        },
+        {
+          "maSV": "TH25CN3207",
+          "tenSV": "Lê Quốc Huy"
+        },
+        {
+          "maSV": "TH25CN3209",
+          "tenSV": "Nguyễn Quốc Ký"
+        },
+        {
+          "maSV": "TH25CN3210",
+          "tenSV": "Trần Lĩnh"
+        },
+        {
+          "maSV": "TH25CN3211",
+          "tenSV": "Lê Bảo Nam"
+        },
+        {
+          "maSV": "TH25CN3213",
+          "tenSV": "Nguyễn Tài Phát"
+        },
+        {
+          "maSV": "TH25CN3214",
+          "tenSV": "Bùi Thanh Sang"
+        },
+        {
+          "maSV": "TH25CN3215",
+          "tenSV": "Trương Thành Tâm"
+        },
+        {
+          "maSV": "TH25CN3216",
+          "tenSV": "Nguyễn Lê Trường Thịnh"
+        },
+        {
+          "maSV": "TH25CN3220",
+          "tenSV": "Trần Thanh Cẩm Tú"
+        },
+        {
+          "maSV": "TH25CN3221",
+          "tenSV": "Nguyễn Hoài Vân"
+        },
+        {
+          "maSV": "TH25CN3222",
+          "tenSV": "Nguyễn Hoàng Việt"
+        },
+        {
+          "maSV": "TH25CN3223",
+          "tenSV": "Võ Phan Như Ý"
+        },
+        {
+          "maSV": "TH25CN3224",
+          "tenSV": "Võ Trọng Hiếu"
+        },
+        {
+          "maSV": "TH25CN3225",
+          "tenSV": "Nguyễn Lư Kha Hân"
+        }
+      ]
+    },
+    "CĐ9+K7": {
+      "Công nghệ thông tin 1 - CĐ9+K7": [
+        {
+          "maSV": "DL26KS3107",
+          "tenSV": "Nguyễn Thành Đạt"
+        },
+        {
+          "maSV": "IT26CN3101",
+          "tenSV": "Phạm Quốc Anh"
+        },
+        {
+          "maSV": "IT26CN3103",
+          "tenSV": "Nguyễn Trần Gia Bảo"
+        },
+        {
+          "maSV": "IT26CN3105",
+          "tenSV": "Châu Hoàng Đăng"
+        },
+        {
+          "maSV": "IT26CN3106",
+          "tenSV": "Dương Duy Đạt"
+        },
+        {
+          "maSV": "IT26CN3107",
+          "tenSV": "Nguyễn Văn Điền"
+        },
+        {
+          "maSV": "IT26CN3108",
+          "tenSV": "Lâm Minh Đức"
+        },
+        {
+          "maSV": "IT26CN3110",
+          "tenSV": "Phan Nguyễn Hoàng Giang"
+        },
+        {
+          "maSV": "IT26CN3111",
+          "tenSV": "Tạ Võ Kim Hân"
+        },
+        {
+          "maSV": "IT26CN3112",
+          "tenSV": "Văn Thanh Hạo"
+        },
+        {
+          "maSV": "IT26CN3113",
+          "tenSV": "Nguyễn Thanh Thuý Hiền"
+        },
+        {
+          "maSV": "IT26CN3114",
+          "tenSV": "Lê Tấn Hoàng"
+        },
+        {
+          "maSV": "IT26CN3115",
+          "tenSV": "Đỗ Mỹ Hương"
+        },
+        {
+          "maSV": "IT26CN3116",
+          "tenSV": "Nguyễn Lê Huy"
+        },
+        {
+          "maSV": "IT26CN3117",
+          "tenSV": "Trần Trọng Khang"
+        },
+        {
+          "maSV": "IT26CN3118",
+          "tenSV": "Võ Chí Khang"
+        },
+        {
+          "maSV": "IT26CN3119",
+          "tenSV": "Lê Phạm Minh Khôi"
+        },
+        {
+          "maSV": "IT26CN3120",
+          "tenSV": "Trần Khánh Lâm"
+        },
+        {
+          "maSV": "IT26CN3121",
+          "tenSV": "Chung Triệu Mẫn"
+        },
+        {
+          "maSV": "IT26CN3122",
+          "tenSV": "Tống Quang Minh"
+        },
+        {
+          "maSV": "IT26CN3123",
+          "tenSV": "Lê Thảo My"
+        },
+        {
+          "maSV": "IT26CN3124",
+          "tenSV": "Nguyễn Ngọc Thanh Nhã"
+        },
+        {
+          "maSV": "IT26CN3125",
+          "tenSV": "Mai Minh Nhất"
+        },
+        {
+          "maSV": "IT26CN3126",
+          "tenSV": "Đỗ Ngọc Khánh Nhi"
+        },
+        {
+          "maSV": "IT26CN3127",
+          "tenSV": "Lê Vĩnh Phát"
+        },
+        {
+          "maSV": "IT26CN3128",
+          "tenSV": "Lê Đào Minh Phúc"
+        },
+        {
+          "maSV": "IT26CN3130",
+          "tenSV": "Nguyễn Minh Quân"
+        },
+        {
+          "maSV": "IT26CN3131",
+          "tenSV": "Trầm Ngọc Quỳnh"
+        },
+        {
+          "maSV": "IT26CN3132",
+          "tenSV": "Huỳnh Văn Sang"
+        },
+        {
+          "maSV": "IT26CN3133",
+          "tenSV": "Trần Võ Thành Tài"
+        },
+        {
+          "maSV": "IT26CN3135",
+          "tenSV": "Nguyễn Minh Thi"
+        },
+        {
+          "maSV": "IT26CN3136",
+          "tenSV": "Tăng Ngọc Thiện"
+        },
+        {
+          "maSV": "IT26CN3137",
+          "tenSV": "Danh Nguyễn Anh Thư"
+        },
+        {
+          "maSV": "IT26CN3139",
+          "tenSV": "Lê Trọng Tình"
+        },
+        {
+          "maSV": "IT26CN3140",
+          "tenSV": "Đỗ Hoàng Song Trà"
+        },
+        {
+          "maSV": "IT26CN3141",
+          "tenSV": "Nguyễn Thị Mỹ Trân"
+        },
+        {
+          "maSV": "IT26CN3142",
+          "tenSV": "Danh Hữu Trọng"
+        },
+        {
+          "maSV": "IT26CN3143",
+          "tenSV": "Lý Anh Tuấn"
+        },
+        {
+          "maSV": "IT26CN3144",
+          "tenSV": "Trần Văn Vĩ"
+        },
+        {
+          "maSV": "IT26CN3145",
+          "tenSV": "Nguyễn Viên Hải Yến"
+        },
+        {
+          "maSV": "IT26CN3146",
+          "tenSV": "Huỳnh Ngọc Gia Ân"
+        },
+        {
+          "maSV": "IT26CN3147",
+          "tenSV": "Nguyễn Hoàng Yến Linh"
+        },
+        {
+          "maSV": "IT26CN3148",
+          "tenSV": "Lương Thanh Thảo"
+        },
+        {
+          "maSV": "IT26CN3149",
+          "tenSV": "Dương Huỳnh Chí Hiếu"
+        },
+        {
+          "maSV": "IT26CN3150",
+          "tenSV": "Danh Chí Thiện"
+        },
+        {
+          "maSV": "IT26CN3203",
+          "tenSV": "Trần Quỳnh Gia Bảo"
+        },
+        {
+          "maSV": "IT26CN3207",
+          "tenSV": "Dương Hồng Đức"
+        },
+        {
+          "maSV": "IT26CN3213",
+          "tenSV": "Lương Nguyễn Phi Hổ"
+        }
+      ],
+      "Công nghệ thông tin 2 - CĐ9+K7": [
+        {
+          "maSV": "IT26CN3109",
+          "tenSV": "Mai Anh Duy"
+        },
+        {
+          "maSV": "IT26CN3138",
+          "tenSV": "Phí Quang Thuận"
+        },
+        {
+          "maSV": "IT26CN3201",
+          "tenSV": "Trần Kỳ Anh"
+        },
+        {
+          "maSV": "IT26CN3202",
+          "tenSV": "Hồng Gia Bảo"
+        },
+        {
+          "maSV": "IT26CN3204",
+          "tenSV": "Lê Văn Minh Cường"
+        },
+        {
+          "maSV": "IT26CN3205",
+          "tenSV": "Phạm Hải Đăng"
+        },
+        {
+          "maSV": "IT26CN3206",
+          "tenSV": "Nguyễn Minh Đạt"
+        },
+        {
+          "maSV": "IT26CN3208",
+          "tenSV": "Ngô Tín Dũng"
+        },
+        {
+          "maSV": "IT26CN3209",
+          "tenSV": "Bùi Huỳnh Hạnh Duy"
+        },
+        {
+          "maSV": "IT26CN3210",
+          "tenSV": "Phan Thanh Hải"
+        },
+        {
+          "maSV": "IT26CN3211",
+          "tenSV": "Phan Gia Hân"
+        },
+        {
+          "maSV": "IT26CN3212",
+          "tenSV": "Châu Thanh Hiền"
+        },
+        {
+          "maSV": "IT26CN3214",
+          "tenSV": "Đặng Thị Kim Huệ"
+        },
+        {
+          "maSV": "IT26CN3215",
+          "tenSV": "Nguyễn Đoàn Gia Huy"
+        },
+        {
+          "maSV": "IT26CN3216",
+          "tenSV": "Dương Thái Khang"
+        },
+        {
+          "maSV": "IT26CN3217",
+          "tenSV": "Hồ Hoàng Khang"
+        },
+        {
+          "maSV": "IT26CN3218",
+          "tenSV": "Danh Phùng Duy Khánh"
+        },
+        {
+          "maSV": "IT26CN3219",
+          "tenSV": "Tô Minh Khôi"
+        },
+        {
+          "maSV": "IT26CN3220",
+          "tenSV": "Lê Huỳnh Long"
+        },
+        {
+          "maSV": "IT26CN3221",
+          "tenSV": "Nguyễn Văn Mạnh"
+        },
+        {
+          "maSV": "IT26CN3222",
+          "tenSV": "Mã Quốc Minh"
+        },
+        {
+          "maSV": "IT26CN3223",
+          "tenSV": "Võ Hoài Nam"
+        },
+        {
+          "maSV": "IT26CN3224",
+          "tenSV": "Nguyễn Thiện Nhân"
+        },
+        {
+          "maSV": "IT26CN3225",
+          "tenSV": "Nguyễn Tuyết Nhi"
+        },
+        {
+          "maSV": "IT26CN3226",
+          "tenSV": "Trần Hưng Phát"
+        },
+        {
+          "maSV": "IT26CN3227",
+          "tenSV": "Đặng Văn Vũ Phong"
+        },
+        {
+          "maSV": "IT26CN3228",
+          "tenSV": "Trần Bạch Thanh Quan"
+        },
+        {
+          "maSV": "IT26CN3230",
+          "tenSV": "Ngô Phú Quý"
+        },
+        {
+          "maSV": "IT26CN3231",
+          "tenSV": "Danh Nhã Quỳnh"
+        },
+        {
+          "maSV": "IT26CN3232",
+          "tenSV": "Đoàn Ngọc Sơn"
+        },
+        {
+          "maSV": "IT26CN3233",
+          "tenSV": "Hoàng Đức Tài"
+        },
+        {
+          "maSV": "IT26CN3234",
+          "tenSV": "Phan Huệ Thạo"
+        },
+        {
+          "maSV": "IT26CN3235",
+          "tenSV": "Nguyễn Anh Thiện"
+        },
+        {
+          "maSV": "IT26CN3236",
+          "tenSV": "Mai Phú Thịnh"
+        },
+        {
+          "maSV": "IT26CN3237",
+          "tenSV": "Nguyễn Minh Thuận"
+        },
+        {
+          "maSV": "IT26CN3238",
+          "tenSV": "Nguyễn Minh Thức"
+        },
+        {
+          "maSV": "IT26CN3239",
+          "tenSV": "Hình Ích Toàn"
+        },
+        {
+          "maSV": "IT26CN3240",
+          "tenSV": "Nguyễn Ngọc Quế Trân"
+        },
+        {
+          "maSV": "IT26CN3241",
+          "tenSV": "Phạm Văn Trọng"
+        },
+        {
+          "maSV": "IT26CN3242",
+          "tenSV": "Ngô Huỳnh Quốc Trọng"
+        },
+        {
+          "maSV": "IT26CN3243",
+          "tenSV": "Nguyễn Hoàng Anh Tuấn"
+        },
+        {
+          "maSV": "IT26CN3244",
+          "tenSV": "Danh Quốc Việt"
+        },
+        {
+          "maSV": "IT26CN3245",
+          "tenSV": "Nguyễn Hoàng Yến"
+        },
+        {
+          "maSV": "IT26CN3246",
+          "tenSV": "Nguyễn Long Phúc"
+        }
+      ]
+    }
+  },
+  "CƠ KHÍ - XÂY DỰNG": {
+    "CĐ9+K5": {
+      "Công nghệ ô tô 1 - CĐ9+K5": [
+        {
+          "maSV": "CK24OT3103",
+          "tenSV": "Nguyễn Thanh Bình"
+        },
+        {
+          "maSV": "CK24OT3105",
+          "tenSV": "Lê Võ Thanh Đăng"
+        },
+        {
+          "maSV": "CK24OT3106",
+          "tenSV": "Nguyễn Thành Đạt"
+        },
+        {
+          "maSV": "CK24OT3108",
+          "tenSV": "Nguyễn Hoàng Duy"
+        },
+        {
+          "maSV": "CK24OT3109",
+          "tenSV": "Phạm Lâm Khánh Giang"
+        },
+        {
+          "maSV": "CK24OT3111",
+          "tenSV": "Trần Phúc Hào"
+        },
+        {
+          "maSV": "CK24OT3114",
+          "tenSV": "Lương Gia Huy"
+        },
+        {
+          "maSV": "CK24OT3116",
+          "tenSV": "Dương Phước Khang"
+        },
+        {
+          "maSV": "CK24OT3117",
+          "tenSV": "Trần Duy Khánh"
+        },
+        {
+          "maSV": "CK24OT3118",
+          "tenSV": "Trương Huỳnh Khiêm"
+        },
+        {
+          "maSV": "CK24OT3120",
+          "tenSV": "Lương Hoàng Khương"
+        },
+        {
+          "maSV": "CK24OT3121",
+          "tenSV": "Danh Hoàng Lâm"
+        },
+        {
+          "maSV": "CK24OT3123",
+          "tenSV": "Danh Hoàng Long"
+        },
+        {
+          "maSV": "CK24OT3124",
+          "tenSV": "Trương Hoàng Nam"
+        },
+        {
+          "maSV": "CK24OT3125",
+          "tenSV": "Phan Hữu Nghĩa"
+        },
+        {
+          "maSV": "CK24OT3126",
+          "tenSV": "Thái Hoàng Nhân"
+        },
+        {
+          "maSV": "CK24OT3127",
+          "tenSV": "Nguyễn Minh Nhật"
+        },
+        {
+          "maSV": "CK24OT3129",
+          "tenSV": "Đỗ Văn Phi"
+        },
+        {
+          "maSV": "CK24OT3130",
+          "tenSV": "Nguyễn Văn Phú"
+        },
+        {
+          "maSV": "CK24OT3132",
+          "tenSV": "Ngô Kiến Quốc"
+        },
+        {
+          "maSV": "CK24OT3134",
+          "tenSV": "Danh Hoàng Thái"
+        },
+        {
+          "maSV": "CK24OT3135",
+          "tenSV": "Vũ Minh Thành"
+        },
+        {
+          "maSV": "CK24OT3136",
+          "tenSV": "Trương Phước Thịnh"
+        },
+        {
+          "maSV": "CK24OT3137",
+          "tenSV": "Phạm Huỳnh Minh Thuận"
+        },
+        {
+          "maSV": "CK24OT3138",
+          "tenSV": "Danh Hữu Tiến"
+        },
+        {
+          "maSV": "CK24OT3139",
+          "tenSV": "Nguyễn Trần Thanh Toàn"
+        },
+        {
+          "maSV": "CK24OT3140",
+          "tenSV": "Nguyễn Hữu Trọng"
+        },
+        {
+          "maSV": "CK24OT3141",
+          "tenSV": "Lê Văn Vàng"
+        },
+        {
+          "maSV": "CK24OT3142",
+          "tenSV": "Trần Thế Vỹ"
+        },
+        {
+          "maSV": "CK24OT3143",
+          "tenSV": "Huỳnh Siêu"
+        },
+        {
+          "maSV": "CK24OT3144",
+          "tenSV": "Bùi Minh Đương"
+        },
+        {
+          "maSV": "CK24OT3219",
+          "tenSV": "Trương Gia Khiêm"
+        },
+        {
+          "maSV": "CK24OT3237",
+          "tenSV": "Nguyễn Quốc Thịnh"
+        },
+        {
+          "maSV": "CK24OT3413",
+          "tenSV": "Đào Minh Khang"
+        },
+        {
+          "maSV": "CK24OT3416",
+          "tenSV": "Đặng Mạnh Khiêm"
+        },
+        {
+          "maSV": "CK24OT3418",
+          "tenSV": "Trần Mai Anh Kiệt"
+        },
+        {
+          "maSV": "CK24OT3421",
+          "tenSV": "Nguyễn Thành Nam"
+        },
+        {
+          "maSV": "CK24OT3422",
+          "tenSV": "Nguyễn Phạm Bảo Nam"
+        },
+        {
+          "maSV": "CK24OT3435",
+          "tenSV": "Trần Thanh Tiến"
+        }
+      ],
+      "Công nghệ ô tô 2 - CĐ9+K5": [
+        {
+          "maSV": "CK24OT3122",
+          "tenSV": "Lê Thành Lộc"
+        },
+        {
+          "maSV": "CK24OT3201",
+          "tenSV": "Nguyễn Hồng Ân"
+        },
+        {
+          "maSV": "CK24OT3202",
+          "tenSV": "Nguyễn Hồng Anh"
+        },
+        {
+          "maSV": "CK24OT3203",
+          "tenSV": "Lê Gia Bảo"
+        },
+        {
+          "maSV": "CK24OT3204",
+          "tenSV": "Nguyễn Thái Bình"
+        },
+        {
+          "maSV": "CK24OT3205",
+          "tenSV": "Phạm Lê Quốc Đại"
+        },
+        {
+          "maSV": "CK24OT3207",
+          "tenSV": "Ngô Gia Đạt"
+        },
+        {
+          "maSV": "CK24OT3209",
+          "tenSV": "Lê Minh Duy"
+        },
+        {
+          "maSV": "CK24OT3210",
+          "tenSV": "Nguyễn Tấn Giàu"
+        },
+        {
+          "maSV": "CK24OT3211",
+          "tenSV": "Lê Việt Hào"
+        },
+        {
+          "maSV": "CK24OT3212",
+          "tenSV": "Mai Chí Hậu"
+        },
+        {
+          "maSV": "CK24OT3213",
+          "tenSV": "Nguyễn Huy Hoàng"
+        },
+        {
+          "maSV": "CK24OT3214",
+          "tenSV": "Trịnh Quốc Huy"
+        },
+        {
+          "maSV": "CK24OT3215",
+          "tenSV": "Đổng Tấn Kha"
+        },
+        {
+          "maSV": "CK24OT3217",
+          "tenSV": "Trần Tấn Khang"
+        },
+        {
+          "maSV": "CK24OT3220",
+          "tenSV": "Nguyễn Anh Khôi"
+        },
+        {
+          "maSV": "CK24OT3222",
+          "tenSV": "Đỗ Duy Lâm"
+        },
+        {
+          "maSV": "CK24OT3223",
+          "tenSV": "Quách Thành Lộc"
+        },
+        {
+          "maSV": "CK24OT3227",
+          "tenSV": "Lý Thành Nhân"
+        },
+        {
+          "maSV": "CK24OT3229",
+          "tenSV": "Dương Thanh Phát"
+        },
+        {
+          "maSV": "CK24OT3230",
+          "tenSV": "Trương Thanh Phong"
+        },
+        {
+          "maSV": "CK24OT3231",
+          "tenSV": "Lê Hoàng Phúc"
+        },
+        {
+          "maSV": "CK24OT3232",
+          "tenSV": "Đặng Hoàng Phúc"
+        },
+        {
+          "maSV": "CK24OT3233",
+          "tenSV": "Hồ Hoàng Phú Quý"
+        },
+        {
+          "maSV": "CK24OT3234",
+          "tenSV": "Nguyễn Hoài Tấn"
+        },
+        {
+          "maSV": "CK24OT3238",
+          "tenSV": "Nguyễn Văn Thương"
+        },
+        {
+          "maSV": "CK24OT3239",
+          "tenSV": "Đoàn Văn Tiền"
+        },
+        {
+          "maSV": "CK24OT3241",
+          "tenSV": "Dương Phú Trọng"
+        },
+        {
+          "maSV": "CK24OT3242",
+          "tenSV": "Nguyễn Quốc Việt"
+        },
+        {
+          "maSV": "CK24OT3310",
+          "tenSV": "Nguyễn Thanh Hải"
+        },
+        {
+          "maSV": "CK24OT3404",
+          "tenSV": "Tiêu Tiến Đạt"
+        },
+        {
+          "maSV": "CK24OT3405",
+          "tenSV": "Trần Minh Đương"
+        },
+        {
+          "maSV": "CK24OT3408",
+          "tenSV": "Trần Hào"
+        },
+        {
+          "maSV": "CK24OT3419",
+          "tenSV": "Nguyễn Chí Linh"
+        },
+        {
+          "maSV": "CK24OT3424",
+          "tenSV": "Bùi Văn Minh Nhật"
+        },
+        {
+          "maSV": "CK24OT3437",
+          "tenSV": "Nguyễn Nhật Triều"
+        },
+        {
+          "maSV": "CK24OT3438",
+          "tenSV": "Trần Thanh Tú"
+        },
+        {
+          "maSV": "CK24OT3439",
+          "tenSV": "Lê Quang Vinh"
+        }
+      ],
+      "Công nghệ ô tô 3 - CĐ9+K5": [
+        {
+          "maSV": "CK24OT3301",
+          "tenSV": "Lê Hùng Anh"
+        },
+        {
+          "maSV": "CK24OT3302",
+          "tenSV": "Nguyễn Hoàng Phương Bảo"
+        },
+        {
+          "maSV": "CK24OT3304",
+          "tenSV": "Phan Thành Công"
+        },
+        {
+          "maSV": "CK24OT3306",
+          "tenSV": "Danh Thái Đạt"
+        },
+        {
+          "maSV": "CK24OT3311",
+          "tenSV": "Nguyễn Chí Hào"
+        },
+        {
+          "maSV": "CK24OT3312",
+          "tenSV": "Nguyễn Quốc Hậu"
+        },
+        {
+          "maSV": "CK24OT3313",
+          "tenSV": "Nguyễn Quốc Hùng"
+        },
+        {
+          "maSV": "CK24OT3315",
+          "tenSV": "Phạm Tấn Kha"
+        },
+        {
+          "maSV": "CK24OT3316",
+          "tenSV": "Nguyễn Bảo Khang"
+        },
+        {
+          "maSV": "CK24OT3317",
+          "tenSV": "Tân An Khang"
+        },
+        {
+          "maSV": "CK24OT3318",
+          "tenSV": "Đỗ Quốc Khánh"
+        },
+        {
+          "maSV": "CK24OT3319",
+          "tenSV": "Bùi Vĩ Khiêm"
+        },
+        {
+          "maSV": "CK24OT3320",
+          "tenSV": "Bùi Trọng Khởi"
+        },
+        {
+          "maSV": "CK24OT3321",
+          "tenSV": "Lê Gia Kiệt"
+        },
+        {
+          "maSV": "CK24OT3323",
+          "tenSV": "Nguyễn Tấn Lộc"
+        },
+        {
+          "maSV": "CK24OT3324",
+          "tenSV": "Võ Công Minh"
+        },
+        {
+          "maSV": "CK24OT3325",
+          "tenSV": "Trần Phương Nam"
+        },
+        {
+          "maSV": "CK24OT3326",
+          "tenSV": "Nguyễn Hoàng Bảo Nguyên"
+        },
+        {
+          "maSV": "CK24OT3327",
+          "tenSV": "Danh Trọng Nhân"
+        },
+        {
+          "maSV": "CK24OT3330",
+          "tenSV": "Nguyễn Thái Phong"
+        },
+        {
+          "maSV": "CK24OT3332",
+          "tenSV": "Đào Minh Quân"
+        },
+        {
+          "maSV": "CK24OT3334",
+          "tenSV": "Cao Quốc Thái"
+        },
+        {
+          "maSV": "CK24OT3335",
+          "tenSV": "Nguyễn Hoài Thanh"
+        },
+        {
+          "maSV": "CK24OT3337",
+          "tenSV": "Lê Nguyễn Hữu Thịnh"
+        },
+        {
+          "maSV": "CK24OT3341",
+          "tenSV": "Dương Văn Trung"
+        },
+        {
+          "maSV": "CK24OT3402",
+          "tenSV": "Nguyễn Hải Đăng"
+        },
+        {
+          "maSV": "CK24OT3406",
+          "tenSV": "Danh Tuấn Em"
+        },
+        {
+          "maSV": "CK24OT3410",
+          "tenSV": "Nguyễn Hoàng Huy"
+        },
+        {
+          "maSV": "CK24OT3412",
+          "tenSV": "Trương Hoàng Trung Kha"
+        },
+        {
+          "maSV": "CK24OT3417",
+          "tenSV": "Nguyễn Tuấn Khương"
+        },
+        {
+          "maSV": "CK24OT3428",
+          "tenSV": "Nguyễn Hữu Phúc"
+        },
+        {
+          "maSV": "CK24OT3429",
+          "tenSV": "Từ Huỳnh Minh Quân"
+        },
+        {
+          "maSV": "CK24OT3436",
+          "tenSV": "Lâm Minh Toàn"
+        }
+      ],
+      "Cắt gọt kim loại - CĐ9+K5": [
+        {
+          "maSV": "CK24KL3101",
+          "tenSV": "Phạm Văn An"
+        },
+        {
+          "maSV": "CK24KL3102",
+          "tenSV": "Lê Quốc Anh"
+        },
+        {
+          "maSV": "CK24KL3104",
+          "tenSV": "Nguyễn Khánh Đạt"
+        },
+        {
+          "maSV": "CK24KL3105",
+          "tenSV": "Bùi Quốc Đạt"
+        },
+        {
+          "maSV": "CK24KL3106",
+          "tenSV": "Nguyễn Thiên Đỉnh"
+        },
+        {
+          "maSV": "CK24KL3108",
+          "tenSV": "Lê Khánh Dương"
+        },
+        {
+          "maSV": "CK24KL3110",
+          "tenSV": "Trần Chí Hải"
+        },
+        {
+          "maSV": "CK24KL3111",
+          "tenSV": "Trần Nhật Hào"
+        },
+        {
+          "maSV": "CK24KL3112",
+          "tenSV": "Trần Quốc Hiếu"
+        },
+        {
+          "maSV": "CK24KL3114",
+          "tenSV": "Nguyễn Chấn Khang"
+        },
+        {
+          "maSV": "CK24KL3115",
+          "tenSV": "Doãn Duy Khánh"
+        },
+        {
+          "maSV": "CK24KL3116",
+          "tenSV": "Nguyễn Thành Khích"
+        },
+        {
+          "maSV": "CK24KL3117",
+          "tenSV": "Nguyễn Đăng Khoa"
+        },
+        {
+          "maSV": "CK24KL3118",
+          "tenSV": "Nguyễn Hoài Linh"
+        },
+        {
+          "maSV": "CK24KL3119",
+          "tenSV": "Danh Loạn"
+        },
+        {
+          "maSV": "CK24KL3121",
+          "tenSV": "Nguyễn Hữu Luận"
+        },
+        {
+          "maSV": "CK24KL3122",
+          "tenSV": "Hà Minh Nam"
+        },
+        {
+          "maSV": "CK24KL3123",
+          "tenSV": "Nguyễn Trần Kim Nam"
+        },
+        {
+          "maSV": "CK24KL3124",
+          "tenSV": "Danh Hoàng Nhân"
+        },
+        {
+          "maSV": "CK24KL3127",
+          "tenSV": "Trần Vũ Phong"
+        },
+        {
+          "maSV": "CK24KL3128",
+          "tenSV": "Nguyễn Hải Phong"
+        },
+        {
+          "maSV": "CK24KL3129",
+          "tenSV": "Lại Thiên Quốc"
+        },
+        {
+          "maSV": "CK24KL3130",
+          "tenSV": "Nguyễn Trí Tài"
+        },
+        {
+          "maSV": "CK24KL3132",
+          "tenSV": "Trần Chí Tâm"
+        },
+        {
+          "maSV": "CK24KL3134",
+          "tenSV": "Võ Minh Thành"
+        },
+        {
+          "maSV": "CK24KL3135",
+          "tenSV": "Danh Minh Trí"
+        },
+        {
+          "maSV": "CK24KL3136",
+          "tenSV": "Danh Minh Trọng"
+        },
+        {
+          "maSV": "CK24KL3139",
+          "tenSV": "Trần Chí Thành"
+        },
+        {
+          "maSV": "CK24KL3140",
+          "tenSV": "Nguyễn Châu Gia Khang"
+        },
+        {
+          "maSV": "CK24KL3141",
+          "tenSV": "Danh Thắng"
+        },
+        {
+          "maSV": "CK24OT3206",
+          "tenSV": "Nguyễn Công Danh"
+        },
+        {
+          "maSV": "DL24TA3108",
+          "tenSV": "Trần Hữu Lộc"
+        }
+      ],
+      "Kỹ thuật xây dựng - CĐ9+K5": [
+        {
+          "maSV": "KT24QT3127",
+          "tenSV": "Hình Minh Thuận"
+        },
+        {
+          "maSV": "XD24XD3101",
+          "tenSV": "Nguyễn Gia Bảo"
+        },
+        {
+          "maSV": "XD24XD3102",
+          "tenSV": "Nguyễn Hoàng Đạt"
+        },
+        {
+          "maSV": "XD24XD3103",
+          "tenSV": "Nguyễn Khánh Du"
+        },
+        {
+          "maSV": "XD24XD3104",
+          "tenSV": "Trịnh Thanh Duy"
+        },
+        {
+          "maSV": "XD24XD3105",
+          "tenSV": "Vũ Hoàng Hà"
+        },
+        {
+          "maSV": "XD24XD3107",
+          "tenSV": "Bùi Duy Khánh"
+        },
+        {
+          "maSV": "XD24XD3109",
+          "tenSV": "Danh Lãm"
+        },
+        {
+          "maSV": "XD24XD3113",
+          "tenSV": "Nguyễn Tấn Phát"
+        },
+        {
+          "maSV": "XD24XD3114",
+          "tenSV": "Từ Đình Gia Phong"
+        },
+        {
+          "maSV": "XD24XD3115",
+          "tenSV": "Lâm Minh Trí"
+        },
+        {
+          "maSV": "XD24XD3116",
+          "tenSV": "Hình Quang Viễn"
+        },
+        {
+          "maSV": "XD24XD3117",
+          "tenSV": "Nguyễn Thanh Bình"
+        },
+        {
+          "maSV": "XD24XD3118",
+          "tenSV": "Huỳnh Ngọc Long"
+        }
+      ]
+    },
+    "CĐ9+K6": {
+      "CNKT Cơ khí - CĐ9+K6": [
+        {
+          "maSV": "CK25CK3103",
+          "tenSV": "Phan Minh Hiển"
+        },
+        {
+          "maSV": "CK25CK3105",
+          "tenSV": "Trần Đoàn Minh Hùng"
+        },
+        {
+          "maSV": "CK25CK3106",
+          "tenSV": "Nguyễn Quốc Hưng"
+        },
+        {
+          "maSV": "CK25CK3108",
+          "tenSV": "Nguyễn Nhựt Huy"
+        },
+        {
+          "maSV": "CK25CK3111",
+          "tenSV": "Võ Phạm Tường Huy"
+        },
+        {
+          "maSV": "CK25CK3113",
+          "tenSV": "Lâm Hoàng Khải"
+        },
+        {
+          "maSV": "CK25CK3114",
+          "tenSV": "Đinh Văn Khang"
+        },
+        {
+          "maSV": "CK25CK3115",
+          "tenSV": "Danh Thanh Kim"
+        },
+        {
+          "maSV": "CK25CK3118",
+          "tenSV": "Lữ Khánh Phong"
+        },
+        {
+          "maSV": "CK25CK3119",
+          "tenSV": "Lê Phú"
+        },
+        {
+          "maSV": "CK25CK3121",
+          "tenSV": "Chiêm Kim Quy"
+        },
+        {
+          "maSV": "CK25CK3122",
+          "tenSV": "Nguyễn Thanh Quy"
+        },
+        {
+          "maSV": "CK25CK3123",
+          "tenSV": "Nguyễn Chí Thiện"
+        },
+        {
+          "maSV": "CK25CK3124",
+          "tenSV": "Huỳnh Tiến Thịnh"
+        },
+        {
+          "maSV": "CK25CK3125",
+          "tenSV": "Vũ Quốc Việt"
+        },
+        {
+          "maSV": "CK25CK3128",
+          "tenSV": "Nguyễn Quốc Hậu"
+        },
+        {
+          "maSV": "CK25OT3113",
+          "tenSV": "Huỳnh Đức Hiệp"
+        },
+        {
+          "maSV": "CK25OT3117",
+          "tenSV": "Đỗ Quốc Huy"
+        },
+        {
+          "maSV": "TH25CN3129",
+          "tenSV": "Đặng Thành Nhân"
+        }
+      ],
+      "Công nghệ ô tô 1 - CĐ9+K6": [
+        {
+          "maSV": "CK25OT3106",
+          "tenSV": "Đinh Nguyễn Hải Đăng"
+        },
+        {
+          "maSV": "CK25OT3107",
+          "tenSV": "Nguyễn Trương Thành Đạt"
+        },
+        {
+          "maSV": "CK25OT3108",
+          "tenSV": "Lê Quốc Định"
+        },
+        {
+          "maSV": "CK25OT3109",
+          "tenSV": "Lý Trấn Đông"
+        },
+        {
+          "maSV": "CK25OT3110",
+          "tenSV": "Phạm Thành Được"
+        },
+        {
+          "maSV": "CK25OT3111",
+          "tenSV": "Nguyễn Văn Giỏi"
+        },
+        {
+          "maSV": "CK25OT3114",
+          "tenSV": "Lê Minh Hiếu"
+        },
+        {
+          "maSV": "CK25OT3116",
+          "tenSV": "Lê Hữu Hùng"
+        },
+        {
+          "maSV": "CK25OT3118",
+          "tenSV": "Vũ Nhất Huy"
+        },
+        {
+          "maSV": "CK25OT3119",
+          "tenSV": "Nguyễn Quốc Khang"
+        },
+        {
+          "maSV": "CK25OT3120",
+          "tenSV": "Trịnh Minh Khang"
+        },
+        {
+          "maSV": "CK25OT3121",
+          "tenSV": "Nguyễn Tuấn Khánh"
+        },
+        {
+          "maSV": "CK25OT3122",
+          "tenSV": "Phan Trung Kiên"
+        },
+        {
+          "maSV": "CK25OT3123",
+          "tenSV": "Bùi Gia Kỳ"
+        },
+        {
+          "maSV": "CK25OT3127",
+          "tenSV": "Nguyễn Hoàng Nam"
+        },
+        {
+          "maSV": "CK25OT3128",
+          "tenSV": "Phạm Hoàng Nam"
+        },
+        {
+          "maSV": "CK25OT3130",
+          "tenSV": "Hà Trần Minh Phát"
+        },
+        {
+          "maSV": "CK25OT3131",
+          "tenSV": "Huỳnh Huy Phong"
+        },
+        {
+          "maSV": "CK25OT3132",
+          "tenSV": "Danh Hoài Phong"
+        },
+        {
+          "maSV": "CK25OT3133",
+          "tenSV": "Phạm Trọng Phúc"
+        },
+        {
+          "maSV": "CK25OT3134",
+          "tenSV": "Nguyễn Tuấn Quy"
+        },
+        {
+          "maSV": "CK25OT3135",
+          "tenSV": "Đỗ Trọng Sang"
+        },
+        {
+          "maSV": "CK25OT3136",
+          "tenSV": "Phạm Hữu Tài"
+        },
+        {
+          "maSV": "CK25OT3137",
+          "tenSV": "Trần Lê Phú Tài"
+        },
+        {
+          "maSV": "CK25OT3138",
+          "tenSV": "Viên Văn Thạch"
+        },
+        {
+          "maSV": "CK25OT3142",
+          "tenSV": "Phạm Đức Trí"
+        },
+        {
+          "maSV": "CK25OT3143",
+          "tenSV": "Lê Trí Trọng"
+        },
+        {
+          "maSV": "CK25OT3144",
+          "tenSV": "Phạm Minh Tường"
+        },
+        {
+          "maSV": "CK25OT3145",
+          "tenSV": "Lâm Minh Vương"
+        },
+        {
+          "maSV": "CK25OT3146",
+          "tenSV": "Trương Thanh Văn"
+        }
+      ],
+      "Công nghệ ô tô 2 - CĐ9+K6": [
+        {
+          "maSV": "CK25OT3202",
+          "tenSV": "Lý Lư Kỳ Anh"
+        },
+        {
+          "maSV": "CK25OT3203",
+          "tenSV": "Huỳnh Quang Bạc"
+        },
+        {
+          "maSV": "CK25OT3204",
+          "tenSV": "Nguyễn Duy Bảo"
+        },
+        {
+          "maSV": "CK25OT3205",
+          "tenSV": "Lê Thái Bảo"
+        },
+        {
+          "maSV": "CK25OT3207",
+          "tenSV": "Huỳnh Văn Đạt"
+        },
+        {
+          "maSV": "CK25OT3209",
+          "tenSV": "Trần Khánh Duy"
+        },
+        {
+          "maSV": "CK25OT3210",
+          "tenSV": "Nguyễn Hoàng Hải"
+        },
+        {
+          "maSV": "CK25OT3211",
+          "tenSV": "Bùi Nhựt Hiếu"
+        },
+        {
+          "maSV": "CK25OT3212",
+          "tenSV": "Huỳnh Văn Hiếu"
+        },
+        {
+          "maSV": "CK25OT3213",
+          "tenSV": "Nguyễn Văn Hơn"
+        },
+        {
+          "maSV": "CK25OT3214",
+          "tenSV": "Nguyễn Nhất Huy"
+        },
+        {
+          "maSV": "CK25OT3216",
+          "tenSV": "Lê Văn Khang"
+        },
+        {
+          "maSV": "CK25OT3217",
+          "tenSV": "Trần Duy Khánh"
+        },
+        {
+          "maSV": "CK25OT3218",
+          "tenSV": "Nguyễn Tuấn Kiệt"
+        },
+        {
+          "maSV": "CK25OT3219",
+          "tenSV": "Lê Thị Trúc Linh"
+        },
+        {
+          "maSV": "CK25OT3220",
+          "tenSV": "Võ Phan Thành Long"
+        },
+        {
+          "maSV": "CK25OT3221",
+          "tenSV": "Trần Hoàng Minh"
+        },
+        {
+          "maSV": "CK25OT3222",
+          "tenSV": "Võ Quốc Nhựt Nam"
+        },
+        {
+          "maSV": "CK25OT3223",
+          "tenSV": "Đào Thanh Nguyên"
+        },
+        {
+          "maSV": "CK25OT3225",
+          "tenSV": "Nguyễn Hoàng Phong"
+        },
+        {
+          "maSV": "CK25OT3226",
+          "tenSV": "Danh Thanh Phong"
+        },
+        {
+          "maSV": "CK25OT3227",
+          "tenSV": "Trương Minh Phú"
+        },
+        {
+          "maSV": "CK25OT3229",
+          "tenSV": "Nguyễn Ngọc Quý"
+        },
+        {
+          "maSV": "CK25OT3230",
+          "tenSV": "Cao Trọng Quý"
+        },
+        {
+          "maSV": "CK25OT3231",
+          "tenSV": "Lê Hồng Sang"
+        },
+        {
+          "maSV": "CK25OT3232",
+          "tenSV": "Đặng Tấn Tài"
+        },
+        {
+          "maSV": "CK25OT3233",
+          "tenSV": "Nguyễn Thái Tài"
+        },
+        {
+          "maSV": "CK25OT3234",
+          "tenSV": "Ngô Hữu Tấn"
+        },
+        {
+          "maSV": "CK25OT3237",
+          "tenSV": "Phạm Trường Thiên"
+        },
+        {
+          "maSV": "CK25OT3238",
+          "tenSV": "Nguyễn Ngọc Thiện"
+        },
+        {
+          "maSV": "CK25OT3239",
+          "tenSV": "Tô Đức Tín"
+        },
+        {
+          "maSV": "CK25OT3241",
+          "tenSV": "Trịnh Văn Toàn"
+        },
+        {
+          "maSV": "CK25OT3242",
+          "tenSV": "Lê Minh Trí"
+        },
+        {
+          "maSV": "CK25OT3245",
+          "tenSV": "Phạm Hồng Vủ"
+        },
+        {
+          "maSV": "CK25OT3247",
+          "tenSV": "Trần Sỹ Đô"
+        },
+        {
+          "maSV": "CK25OT3303",
+          "tenSV": "Nguyễn Trần Quang Anh"
+        },
+        {
+          "maSV": "CK25OT3304",
+          "tenSV": "Nguyễn Hoàng Anh"
+        },
+        {
+          "maSV": "CK25OT3305",
+          "tenSV": "Danh Gia Bảo"
+        },
+        {
+          "maSV": "CK25OT3306",
+          "tenSV": "Bùi Quý Cương"
+        },
+        {
+          "maSV": "CK25OT3307",
+          "tenSV": "Huỳnh Công Danh"
+        },
+        {
+          "maSV": "CK25OT3308",
+          "tenSV": "Lê Hoàng Đức"
+        },
+        {
+          "maSV": "CK25OT3309",
+          "tenSV": "Lê Hoàng Trường Giang"
+        },
+        {
+          "maSV": "CK25OT3310",
+          "tenSV": "Trần Thanh Hào"
+        },
+        {
+          "maSV": "CK25OT3311",
+          "tenSV": "Phạm Chí Hiếu"
+        },
+        {
+          "maSV": "CK25OT3313",
+          "tenSV": "Lương Chí Huy"
+        },
+        {
+          "maSV": "CK25OT3314",
+          "tenSV": "Danh Li Kha"
+        },
+        {
+          "maSV": "CK25OT3315",
+          "tenSV": "Huỳnh Nguyễn Minh Khôi"
+        },
+        {
+          "maSV": "CK25OT3316",
+          "tenSV": "Huỳnh Tấn Kiệt"
+        },
+        {
+          "maSV": "CK25OT3318",
+          "tenSV": "Trần Quốc Minh"
+        },
+        {
+          "maSV": "CK25OT3321",
+          "tenSV": "Nguyễn Hoàng Phúc"
+        },
+        {
+          "maSV": "CK25OT3323",
+          "tenSV": "Trần Trường Sơn"
+        },
+        {
+          "maSV": "CK25OT3324",
+          "tenSV": "Nguyễn Văn Thanh"
+        }
+      ]
+    },
+    "CĐ9+K7": {
+      "CNKT Cơ khí - CĐ9+K7": [
+        {
+          "maSV": "CX26CK3101",
+          "tenSV": "Danh Trần Huỳnh Anh"
+        },
+        {
+          "maSV": "CX26CK3102",
+          "tenSV": "Ngô Gia Bảo"
+        },
+        {
+          "maSV": "CX26CK3103",
+          "tenSV": "Lê Minh Chiến"
+        },
+        {
+          "maSV": "CX26CK3104",
+          "tenSV": "Danh Chí Cường"
+        },
+        {
+          "maSV": "CX26CK3105",
+          "tenSV": "Danh Minh Đặng"
+        },
+        {
+          "maSV": "CX26CK3106",
+          "tenSV": "Nguyễn Hữu Đạt"
+        },
+        {
+          "maSV": "CX26CK3107",
+          "tenSV": "Nguyễn Minh Đường"
+        },
+        {
+          "maSV": "CX26CK3108",
+          "tenSV": "Trương Nguyễn Thanh Duy"
+        },
+        {
+          "maSV": "CX26CK3110",
+          "tenSV": "Võ Tuấn Hưng"
+        },
+        {
+          "maSV": "CX26CK3111",
+          "tenSV": "Lương Thanh Hữu"
+        },
+        {
+          "maSV": "CX26CK3112",
+          "tenSV": "Danh Hoàng Huy"
+        },
+        {
+          "maSV": "CX26CK3114",
+          "tenSV": "Nguyễn Ngọc Khải"
+        },
+        {
+          "maSV": "CX26CK3115",
+          "tenSV": "Huỳnh Chí Kiệt"
+        },
+        {
+          "maSV": "CX26CK3116",
+          "tenSV": "Mã Hải Gia Lạc"
+        },
+        {
+          "maSV": "CX26CK3117",
+          "tenSV": "Danh Nhựt Linh"
+        },
+        {
+          "maSV": "CX26CK3119",
+          "tenSV": "Đinh Nguyễn Hoàng Long"
+        },
+        {
+          "maSV": "CX26CK3120",
+          "tenSV": "Trần Văn Luận"
+        },
+        {
+          "maSV": "CX26CK3121",
+          "tenSV": "Trần Triệu Minh"
+        },
+        {
+          "maSV": "CX26CK3123",
+          "tenSV": "Huỳnh Thanh Nhã"
+        },
+        {
+          "maSV": "CX26CK3124",
+          "tenSV": "Phan Lâm Thành Phát"
+        },
+        {
+          "maSV": "CX26CK3125",
+          "tenSV": "Huỳnh Thanh Phú"
+        },
+        {
+          "maSV": "CX26CK3126",
+          "tenSV": "Phan Hoàng Phúc"
+        },
+        {
+          "maSV": "CX26CK3127",
+          "tenSV": "Nguyễn Hoàng Thắng"
+        },
+        {
+          "maSV": "CX26CK3128",
+          "tenSV": "Trần Văn Thật"
+        },
+        {
+          "maSV": "CX26CK3129",
+          "tenSV": "Trần Minh Thiện"
+        },
+        {
+          "maSV": "CX26CK3132",
+          "tenSV": "Danh Hoàng Trọng"
+        },
+        {
+          "maSV": "CX26CK3133",
+          "tenSV": "Lê Nhật Trường"
+        },
+        {
+          "maSV": "CX26CK3134",
+          "tenSV": "Tôn Đại Gia Tường"
+        },
+        {
+          "maSV": "CX26CK3136",
+          "tenSV": "Phạm Bảo Nam"
+        },
+        {
+          "maSV": "CX26CK3137",
+          "tenSV": "Trần Thành Nghĩa"
+        },
+        {
+          "maSV": "CX26CK3138",
+          "tenSV": "Ngô Phúc Thịnh"
+        },
+        {
+          "maSV": "CX26CK3139",
+          "tenSV": "Nguyễn Tuấn Thịnh"
+        },
+        {
+          "maSV": "CX26CK3140",
+          "tenSV": "Nguyễn Thái Anh Tuấn"
+        },
+        {
+          "maSV": "CX26CK3141",
+          "tenSV": "Phạm Duy Tường"
+        },
+        {
+          "maSV": "CX26CK3142",
+          "tenSV": "Ngô Dương Thiên"
+        },
+        {
+          "maSV": "CX26CK3143",
+          "tenSV": "Nguyễn Anh Tuấn"
+        },
+        {
+          "maSV": "CX26OT3304",
+          "tenSV": "Doãn Lê Thành Bảo"
+        },
+        {
+          "maSV": "CX26OT3324",
+          "tenSV": "Đoàn Trần Quang Minh"
+        },
+        {
+          "maSV": "IT26CN3134",
+          "tenSV": "Nguyễn Ngọc Thái"
+        }
+      ],
+      "Công nghệ ô tô 1 - CĐ9+K7": [
+        {
+          "maSV": "CX26OT3101",
+          "tenSV": "Lý Phước An"
+        },
+        {
+          "maSV": "CX26OT3102",
+          "tenSV": "Phạm Tuấn Anh"
+        },
+        {
+          "maSV": "CX26OT3103",
+          "tenSV": "Đặng Quốc Anh"
+        },
+        {
+          "maSV": "CX26OT3104",
+          "tenSV": "Dương Gia Bảo"
+        },
+        {
+          "maSV": "CX26OT3106",
+          "tenSV": "Đặng Phạm Thành Công"
+        },
+        {
+          "maSV": "CX26OT3107",
+          "tenSV": "Nguyễn Quốc Đại"
+        },
+        {
+          "maSV": "CX26OT3108",
+          "tenSV": "Đặng Minh Đăng"
+        },
+        {
+          "maSV": "CX26OT3109",
+          "tenSV": "Nguyễn Tấn Đạt"
+        },
+        {
+          "maSV": "CX26OT3110",
+          "tenSV": "Nguyễn Thành Đạt"
+        },
+        {
+          "maSV": "CX26OT3111",
+          "tenSV": "Huỳnh Nguyễn Thành Định"
+        },
+        {
+          "maSV": "CX26OT3112",
+          "tenSV": "Phan Văn Đồng"
+        },
+        {
+          "maSV": "CX26OT3113",
+          "tenSV": "Trần Hoàng Dũng"
+        },
+        {
+          "maSV": "CX26OT3114",
+          "tenSV": "Lý Trường Hải"
+        },
+        {
+          "maSV": "CX26OT3115",
+          "tenSV": "Nguyễn Thanh Hào"
+        },
+        {
+          "maSV": "CX26OT3116",
+          "tenSV": "Ngô Minh Hiếu"
+        },
+        {
+          "maSV": "CX26OT3117",
+          "tenSV": "Dương Ngọc Hữu"
+        },
+        {
+          "maSV": "CX26OT3118",
+          "tenSV": "Nguyễn Đinh Huỳnh"
+        },
+        {
+          "maSV": "CX26OT3119",
+          "tenSV": "Nguyễn Thanh Khang"
+        },
+        {
+          "maSV": "CX26OT3120",
+          "tenSV": "Lê Duy Khánh"
+        },
+        {
+          "maSV": "CX26OT3121",
+          "tenSV": "Nguyễn Trần Hoàng Khởi"
+        },
+        {
+          "maSV": "CX26OT3122",
+          "tenSV": "Nguyễn Phước Lắm"
+        },
+        {
+          "maSV": "CX26OT3124",
+          "tenSV": "Nguyễn Minh Mẫn"
+        },
+        {
+          "maSV": "CX26OT3125",
+          "tenSV": "Nguyễn Duy Minh"
+        },
+        {
+          "maSV": "CX26OT3126",
+          "tenSV": "Lê Lý Hoàng Minh"
+        },
+        {
+          "maSV": "CX26OT3127",
+          "tenSV": "Lương Thanh Nghĩa"
+        },
+        {
+          "maSV": "CX26OT3128",
+          "tenSV": "Ngô Trọng Nhân"
+        },
+        {
+          "maSV": "CX26OT3129",
+          "tenSV": "Cao Minh Nhựt"
+        },
+        {
+          "maSV": "CX26OT3130",
+          "tenSV": "Viên Đức Phát"
+        },
+        {
+          "maSV": "CX26OT3132",
+          "tenSV": "Lâm Đông Phong"
+        },
+        {
+          "maSV": "CX26OT3133",
+          "tenSV": "Dương Trọng Phúc"
+        },
+        {
+          "maSV": "CX26OT3134",
+          "tenSV": "Nguyễn Phú Quí"
+        },
+        {
+          "maSV": "CX26OT3135",
+          "tenSV": "Trương Thành Quốc"
+        },
+        {
+          "maSV": "CX26OT3137",
+          "tenSV": "Lâm Minh Tấn"
+        },
+        {
+          "maSV": "CX26OT3138",
+          "tenSV": "Viên Phước Thịnh"
+        },
+        {
+          "maSV": "CX26OT3139",
+          "tenSV": "Trương Thái Thịnh"
+        },
+        {
+          "maSV": "CX26OT3140",
+          "tenSV": "Đinh Huệ Thức"
+        },
+        {
+          "maSV": "CX26OT3141",
+          "tenSV": "Lâm Hoàng Tính"
+        },
+        {
+          "maSV": "CX26OT3142",
+          "tenSV": "Trần Quốc Trung"
+        },
+        {
+          "maSV": "CX26OT3143",
+          "tenSV": "Nguyễn Huỳnh Minh Tứ"
+        },
+        {
+          "maSV": "CX26OT3144",
+          "tenSV": "Võ Thanh Vinh"
+        },
+        {
+          "maSV": "CX26OT3145",
+          "tenSV": "Vương Trí Vỹ"
+        }
+      ],
+      "Công nghệ ô tô 2 - CĐ9+K7": [
+        {
+          "maSV": "CX26OT3201",
+          "tenSV": "Trần Nguyễn Minh An"
+        },
+        {
+          "maSV": "CX26OT3202",
+          "tenSV": "Phạm Đức Anh"
+        },
+        {
+          "maSV": "CX26OT3205",
+          "tenSV": "Nguyễn Trần Gia Bảo"
+        },
+        {
+          "maSV": "CX26OT3206",
+          "tenSV": "Danh Minh Cường"
+        },
+        {
+          "maSV": "CX26OT3207",
+          "tenSV": "Khương Vỹ Đại"
+        },
+        {
+          "maSV": "CX26OT3209",
+          "tenSV": "Trần Thành Đạt"
+        },
+        {
+          "maSV": "CX26OT3210",
+          "tenSV": "Tôn Thành Đạt"
+        },
+        {
+          "maSV": "CX26OT3211",
+          "tenSV": "Huỳnh Hải Đoàn"
+        },
+        {
+          "maSV": "CX26OT3215",
+          "tenSV": "Trần Kỳ Hiệp"
+        },
+        {
+          "maSV": "CX26OT3216",
+          "tenSV": "Lâm Huy Hoàng"
+        },
+        {
+          "maSV": "CX26OT3217",
+          "tenSV": "Nguyễn Thanh Huy"
+        },
+        {
+          "maSV": "CX26OT3218",
+          "tenSV": "Trần Hoàng Khang"
+        },
+        {
+          "maSV": "CX26OT3219",
+          "tenSV": "Nguyễn Đặng Thành Khang"
+        },
+        {
+          "maSV": "CX26OT3220",
+          "tenSV": "Nguyễn Trần Anh Khoa"
+        },
+        {
+          "maSV": "CX26OT3221",
+          "tenSV": "Trương Anh Kiệt"
+        },
+        {
+          "maSV": "CX26OT3222",
+          "tenSV": "Nguyễn Khắc Lập"
+        },
+        {
+          "maSV": "CX26OT3224",
+          "tenSV": "Nguyễn Như Mến"
+        },
+        {
+          "maSV": "CX26OT3225",
+          "tenSV": "Hồ Lâm Minh"
+        },
+        {
+          "maSV": "CX26OT3226",
+          "tenSV": "Danh Hoàng Nam"
+        },
+        {
+          "maSV": "CX26OT3227",
+          "tenSV": "Phạm Văn Nghĩa"
+        },
+        {
+          "maSV": "CX26OT3228",
+          "tenSV": "Nguyễn Hoàng Nhân"
+        },
+        {
+          "maSV": "CX26OT3229",
+          "tenSV": "Lê Quốc Nhựt"
+        },
+        {
+          "maSV": "CX26OT3230",
+          "tenSV": "Lê Huỳnh Phát"
+        },
+        {
+          "maSV": "CX26OT3231",
+          "tenSV": "Trần Anh Phi"
+        },
+        {
+          "maSV": "CX26OT3233",
+          "tenSV": "Trần Thanh Phong"
+        },
+        {
+          "maSV": "CX26OT3234",
+          "tenSV": "Châu Nguyễn Thiên Phúc"
+        },
+        {
+          "maSV": "CX26OT3236",
+          "tenSV": "Phan Lập Quý"
+        },
+        {
+          "maSV": "CX26OT3237",
+          "tenSV": "Võ Duy Tam"
+        },
+        {
+          "maSV": "CX26OT3238",
+          "tenSV": "Cao Lê Anh Thiện"
+        },
+        {
+          "maSV": "CX26OT3239",
+          "tenSV": "Đặng Phước Thịnh"
+        },
+        {
+          "maSV": "CX26OT3240",
+          "tenSV": "Nguyễn Học Thịnh"
+        },
+        {
+          "maSV": "CX26OT3241",
+          "tenSV": "Phạm Quốc Tiến"
+        },
+        {
+          "maSV": "CX26OT3242",
+          "tenSV": "Châu Quốc Trọng"
+        },
+        {
+          "maSV": "CX26OT3243",
+          "tenSV": "Võ Huỳnh Gia Trung"
+        },
+        {
+          "maSV": "CX26OT3244",
+          "tenSV": "Nguyễn Văn Tuấn"
+        },
+        {
+          "maSV": "CX26OT3344",
+          "tenSV": "Bùi Văn Phát"
+        },
+        {
+          "maSV": "CX26OT3345",
+          "tenSV": "Lâm Văn Gia Bảo"
+        }
+      ],
+      "Công nghệ ô tô 3 - CĐ9+K7": [
+        {
+          "maSV": "CX26OT3203",
+          "tenSV": "Triệu Tuấn Anh"
+        },
+        {
+          "maSV": "CX26OT3214",
+          "tenSV": "Tô Quang Hào"
+        },
+        {
+          "maSV": "CX26OT3223",
+          "tenSV": "Dương Tấn Lộc"
+        },
+        {
+          "maSV": "CX26OT3232",
+          "tenSV": "Trần Hoài Phong"
+        },
+        {
+          "maSV": "CX26OT3302",
+          "tenSV": "Trần Thái Anh"
+        },
+        {
+          "maSV": "CX26OT3303",
+          "tenSV": "Nguyễn Sơn Bách"
+        },
+        {
+          "maSV": "CX26OT3305",
+          "tenSV": "Võ Đăng Bình"
+        },
+        {
+          "maSV": "CX26OT3306",
+          "tenSV": "Lê Quốc Đại"
+        },
+        {
+          "maSV": "CX26OT3308",
+          "tenSV": "Nguyễn Công Danh"
+        },
+        {
+          "maSV": "CX26OT3309",
+          "tenSV": "Trần Thành Đạt"
+        },
+        {
+          "maSV": "CX26OT3310",
+          "tenSV": "Nguyễn Thành Đạt"
+        },
+        {
+          "maSV": "CX26OT3311",
+          "tenSV": "Lê Phương Đông"
+        },
+        {
+          "maSV": "CX26OT3312",
+          "tenSV": "Trần Linh Dũng"
+        },
+        {
+          "maSV": "CX26OT3313",
+          "tenSV": "Trần Văn Giàu"
+        },
+        {
+          "maSV": "CX26OT3314",
+          "tenSV": "Trần Nhật Hào"
+        },
+        {
+          "maSV": "CX26OT3315",
+          "tenSV": "Huỳnh Trí Hiếu"
+        },
+        {
+          "maSV": "CX26OT3317",
+          "tenSV": "Võ Nguyễn Trường Huy"
+        },
+        {
+          "maSV": "CX26OT3319",
+          "tenSV": "Quách Tấn Khang"
+        },
+        {
+          "maSV": "CX26OT3320",
+          "tenSV": "Lê Trịnh Đăng Khôi"
+        },
+        {
+          "maSV": "CX26OT3321",
+          "tenSV": "Phạm Trần Tấn Kiệt"
+        },
+        {
+          "maSV": "CX26OT3322",
+          "tenSV": "Vũ Tiến Long"
+        },
+        {
+          "maSV": "CX26OT3323",
+          "tenSV": "Phan Thế Luân"
+        },
+        {
+          "maSV": "CX26OT3325",
+          "tenSV": "Trương Quang Minh"
+        },
+        {
+          "maSV": "CX26OT3326",
+          "tenSV": "Nguyễn Phương Nam"
+        },
+        {
+          "maSV": "CX26OT3327",
+          "tenSV": "Đặng Bảo Nguyên"
+        },
+        {
+          "maSV": "CX26OT3328",
+          "tenSV": "Nguyễn Trọng Nhân"
+        },
+        {
+          "maSV": "CX26OT3329",
+          "tenSV": "Ngô Tấn Phát"
+        },
+        {
+          "maSV": "CX26OT3330",
+          "tenSV": "Huỳnh Thiên Phát"
+        },
+        {
+          "maSV": "CX26OT3332",
+          "tenSV": "Lê Quí"
+        },
+        {
+          "maSV": "CX26OT3333",
+          "tenSV": "Nguyễn Văn Quốc"
+        },
+        {
+          "maSV": "CX26OT3334",
+          "tenSV": "Lê Minh Sang"
+        },
+        {
+          "maSV": "CX26OT3335",
+          "tenSV": "Nguyễn Hoài Tân"
+        },
+        {
+          "maSV": "CX26OT3336",
+          "tenSV": "Võ Minh Thiện"
+        },
+        {
+          "maSV": "CX26OT3337",
+          "tenSV": "Trần Hoàng Phúc Thịnh"
+        },
+        {
+          "maSV": "CX26OT3339",
+          "tenSV": "Nguyễn Minh Tiến"
+        },
+        {
+          "maSV": "CX26OT3340",
+          "tenSV": "Nguyễn Minh Trọng"
+        },
+        {
+          "maSV": "CX26OT3341",
+          "tenSV": "Lý Minh Trường"
+        },
+        {
+          "maSV": "CX26OT3342",
+          "tenSV": "Nguyễn Hồ Bá Vĩ"
+        },
+        {
+          "maSV": "CX26OT3343",
+          "tenSV": "Tăng Gia Vỹ"
+        }
+      ]
+    }
+  },
+  "DU LỊCH - NGOẠI NGỮ": {
+    "CĐ9+K5": {
+      "Hướng dẫn du lịch - CĐ9+K5": [
+        {
+          "maSV": "DL24HD3104",
+          "tenSV": "Huỳnh Nguyễn Thảo Duy"
+        },
+        {
+          "maSV": "DL24HD3106",
+          "tenSV": "Lê Phạm Thảo Hiền"
+        },
+        {
+          "maSV": "DL24HD3110",
+          "tenSV": "Phạm Thị Diễm Kiều"
+        },
+        {
+          "maSV": "DL24HD3111",
+          "tenSV": "Trương Thiện Kỳ"
+        },
+        {
+          "maSV": "DL24HD3113",
+          "tenSV": "Nguyễn Châu Bảo Ngân"
+        },
+        {
+          "maSV": "DL24HD3114",
+          "tenSV": "Phan Ngọc Ngân"
+        },
+        {
+          "maSV": "DL24HD3115",
+          "tenSV": "Nguyễn Thị Cẩm Ngân"
+        },
+        {
+          "maSV": "DL24HD3116",
+          "tenSV": "Phan Trần Thảo Nghi"
+        },
+        {
+          "maSV": "DL24HD3117",
+          "tenSV": "Nguyễn Tuyết Nhi"
+        },
+        {
+          "maSV": "DL24HD3118",
+          "tenSV": "Phan Thị Yến Nhi"
+        },
+        {
+          "maSV": "DL24HD3120",
+          "tenSV": "Trương Thị Thảo Quyên"
+        },
+        {
+          "maSV": "DL24HD3122",
+          "tenSV": "Nguyễn Tâm Thư"
+        },
+        {
+          "maSV": "DL24HD3123",
+          "tenSV": "Nguyễn Thị Tiên"
+        },
+        {
+          "maSV": "DL24HD3125",
+          "tenSV": "Lê Thanh Bảo Trân"
+        },
+        {
+          "maSV": "DL24HD3126",
+          "tenSV": "Nguyễn Lê Ánh Tuyết"
+        },
+        {
+          "maSV": "DL24HD3127",
+          "tenSV": "Nguyễn Thùy Vân"
+        },
+        {
+          "maSV": "DL24HD3128",
+          "tenSV": "Nguyễn Khánh Vân"
+        },
+        {
+          "maSV": "DL24HD3129",
+          "tenSV": "Đào Lê Thanh Vy"
+        },
+        {
+          "maSV": "DL24HD3130",
+          "tenSV": "Phan Nguyễn Thảo Vy"
+        },
+        {
+          "maSV": "DL24HD3131",
+          "tenSV": "Nguyễn Tường Vy"
+        },
+        {
+          "maSV": "DL24HD3132",
+          "tenSV": "Nguyễn Thị Tường Vy"
+        },
+        {
+          "maSV": "TH24TH3338",
+          "tenSV": "Danh Phương Tính"
+        }
+      ],
+      "Quản lý & kinh doanh KS 1 - CĐ9+K5": [
+        {
+          "maSV": "DL24KS3108",
+          "tenSV": "Võ Thị Kiều Diễm"
+        },
+        {
+          "maSV": "DL24KS3109",
+          "tenSV": "Trương Hoàng Dương"
+        },
+        {
+          "maSV": "DL24KS3111",
+          "tenSV": "Phạm Thị Hồng Gấm"
+        },
+        {
+          "maSV": "DL24KS3112",
+          "tenSV": "Lê Bảo Hân"
+        },
+        {
+          "maSV": "DL24KS3115",
+          "tenSV": "Nguyễn Hưng"
+        },
+        {
+          "maSV": "DL24KS3116",
+          "tenSV": "La Gia Huy"
+        },
+        {
+          "maSV": "DL24KS3118",
+          "tenSV": "Phan Kim Liên"
+        },
+        {
+          "maSV": "DL24KS3119",
+          "tenSV": "Nguyễn Duy Mạnh"
+        },
+        {
+          "maSV": "DL24KS3121",
+          "tenSV": "Nguyễn Ngọc Kim Ngân"
+        },
+        {
+          "maSV": "DL24KS3125",
+          "tenSV": "Mai Thành Nhân"
+        },
+        {
+          "maSV": "DL24KS3129",
+          "tenSV": "Nguyễn Thị Hồng Phương"
+        },
+        {
+          "maSV": "DL24KS3131",
+          "tenSV": "Trần Nguyễn Khánh Quỳnh"
+        },
+        {
+          "maSV": "DL24KS3132",
+          "tenSV": "Lê Ngọc Sang"
+        },
+        {
+          "maSV": "DL24KS3136",
+          "tenSV": "Phạm Minh Thư"
+        },
+        {
+          "maSV": "DL24KS3137",
+          "tenSV": "Nguyễn Lê Tuyết Thủy"
+        },
+        {
+          "maSV": "DL24KS3139",
+          "tenSV": "Huỳnh Thị Tố Tố"
+        },
+        {
+          "maSV": "DL24KS3140",
+          "tenSV": "Trần Thanh Mỹ Trân"
+        },
+        {
+          "maSV": "DL24KS3141",
+          "tenSV": "Ngô Lưu Đức Trọng"
+        },
+        {
+          "maSV": "DL24KS3142",
+          "tenSV": "Huỳnh Thanh Trúc"
+        },
+        {
+          "maSV": "DL24KS3143",
+          "tenSV": "Nguyễn Huỳnh Minh Tuyết"
+        },
+        {
+          "maSV": "DL24KS3144",
+          "tenSV": "Nguyễn Thị Tường Vy"
+        },
+        {
+          "maSV": "DL24KS3145",
+          "tenSV": "Nguyễn Giang Bảo Vy"
+        },
+        {
+          "maSV": "DL24KS3147",
+          "tenSV": "Lê Thị Như Ý"
+        },
+        {
+          "maSV": "DL24KS3203",
+          "tenSV": "Hoàng Nguyễn Lan Anh"
+        },
+        {
+          "maSV": "DL24KS3210",
+          "tenSV": "Nguyễn Đặng Hương Duyên"
+        },
+        {
+          "maSV": "DL24KS3212",
+          "tenSV": "Võ Thị Ngọc Hân"
+        },
+        {
+          "maSV": "DL24KS3215",
+          "tenSV": "Nguyễn Thị Thanh Hương"
+        },
+        {
+          "maSV": "DL24KS3219",
+          "tenSV": "Lê Gia Minh"
+        },
+        {
+          "maSV": "DL24KS3220",
+          "tenSV": "Dương Thái Kim Ngân"
+        },
+        {
+          "maSV": "DL24KS3221",
+          "tenSV": "Nguyễn Trần Thanh Ngân"
+        },
+        {
+          "maSV": "DL24KS3223",
+          "tenSV": "Trương Võ Bảo Ngọc"
+        },
+        {
+          "maSV": "DL24KS3226",
+          "tenSV": "Nguyễn Huỳnh Yến Nhi"
+        },
+        {
+          "maSV": "DL24KS3230",
+          "tenSV": "Huỳnh Thị Tố Quyên"
+        },
+        {
+          "maSV": "DL24KS3231",
+          "tenSV": "Trần Phương Quỳnh"
+        },
+        {
+          "maSV": "DL24KS3233",
+          "tenSV": "Nguyễn Hồng Thắm"
+        },
+        {
+          "maSV": "DL24KS3235",
+          "tenSV": "Phạm Cẩm Thi"
+        },
+        {
+          "maSV": "DL24KS3237",
+          "tenSV": "Trương Ngọc Bảo Thy"
+        },
+        {
+          "maSV": "DL24KS3238",
+          "tenSV": "Bành Kim Tiền"
+        },
+        {
+          "maSV": "DL24KS3246",
+          "tenSV": "Nguyễn Phước Như Ý"
+        },
+        {
+          "maSV": "DL24KS3247",
+          "tenSV": "Lê Huỳnh Bảo Yến"
+        },
+        {
+          "maSV": "DL24KS3323",
+          "tenSV": "Nguyễn Yến Nhi"
+        }
+      ],
+      "Quản lý & kinh doanh KS 2 - CĐ9+K5": [
+        {
+          "maSV": "DL24KS3102",
+          "tenSV": "Nguyễn Thương Hoài An"
+        },
+        {
+          "maSV": "DL24KS3110",
+          "tenSV": "Võ Ngọc Duy"
+        },
+        {
+          "maSV": "DL24KS3126",
+          "tenSV": "Mai Thị Yến Nhi"
+        },
+        {
+          "maSV": "DL24KS3201",
+          "tenSV": "Nguyễn Phương Anh"
+        },
+        {
+          "maSV": "DL24KS3204",
+          "tenSV": "Dương Minh Bảo"
+        },
+        {
+          "maSV": "DL24KS3205",
+          "tenSV": "Nguyễn Mến Hòa Bình"
+        },
+        {
+          "maSV": "DL24KS3207",
+          "tenSV": "Lê Thành Đạt"
+        },
+        {
+          "maSV": "DL24KS3213",
+          "tenSV": "Trần Minh Hén"
+        },
+        {
+          "maSV": "DL24KS3216",
+          "tenSV": "Nguyễn Gia Huy"
+        },
+        {
+          "maSV": "DL24KS3227",
+          "tenSV": "Tôn Nguyễn Thiên Nhiên"
+        },
+        {
+          "maSV": "DL24KS3228",
+          "tenSV": "Lâm Thị Nữ"
+        },
+        {
+          "maSV": "DL24KS3229",
+          "tenSV": "Lê Việt Quân"
+        },
+        {
+          "maSV": "DL24KS3241",
+          "tenSV": "Nguyễn Ngọc Trúc"
+        },
+        {
+          "maSV": "DL24KS3302",
+          "tenSV": "Phạm Vĩnh Chinh"
+        },
+        {
+          "maSV": "DL24KS3304",
+          "tenSV": "Võ Tấn Đạt"
+        },
+        {
+          "maSV": "DL24KS3305",
+          "tenSV": "Huỳnh Công Dự"
+        },
+        {
+          "maSV": "DL24KS3306",
+          "tenSV": "Thái Thị Thuỳ Dương"
+        },
+        {
+          "maSV": "DL24KS3307",
+          "tenSV": "Võ Minh Khang Em"
+        },
+        {
+          "maSV": "DL24KS3309",
+          "tenSV": "Danh Dương Ngọc Hân"
+        },
+        {
+          "maSV": "DL24KS3310",
+          "tenSV": "Lê Trần Ngọc Hiền"
+        },
+        {
+          "maSV": "DL24KS3311",
+          "tenSV": "Lê Lý Gia Hưng"
+        },
+        {
+          "maSV": "DL24KS3313",
+          "tenSV": "Trần Thị Kim Kha"
+        },
+        {
+          "maSV": "DL24KS3314",
+          "tenSV": "Đoàn Viên Thy Lam"
+        },
+        {
+          "maSV": "DL24KS3315",
+          "tenSV": "Nguyễn Ngọc Tuyết Mai"
+        },
+        {
+          "maSV": "DL24KS3316",
+          "tenSV": "Tạ Ngọc Thảo My"
+        },
+        {
+          "maSV": "DL24KS3317",
+          "tenSV": "Vũ Trần Bích Ngân"
+        },
+        {
+          "maSV": "DL24KS3318",
+          "tenSV": "Lê Thanh Ngân"
+        },
+        {
+          "maSV": "DL24KS3321",
+          "tenSV": "Nguyễn Khánh Nhàn"
+        },
+        {
+          "maSV": "DL24KS3324",
+          "tenSV": "Phạm Uyển Như"
+        },
+        {
+          "maSV": "DL24KS3327",
+          "tenSV": "Nguyễn Thị Như Quỳnh"
+        },
+        {
+          "maSV": "DL24KS3329",
+          "tenSV": "Đinh Thị Hồng Sương"
+        },
+        {
+          "maSV": "DL24KS3330",
+          "tenSV": "Nguyễn Nguyên Thắng"
+        },
+        {
+          "maSV": "DL24KS3331",
+          "tenSV": "Đỗ Nguyễn Nguyên Thảo"
+        },
+        {
+          "maSV": "DL24KS3333",
+          "tenSV": "Lê Thị Thuỷ"
+        },
+        {
+          "maSV": "DL24KS3335",
+          "tenSV": "Nguyễn Đức Tín"
+        },
+        {
+          "maSV": "DL24KS3338",
+          "tenSV": "Danh Thị Thanh Trúc"
+        },
+        {
+          "maSV": "DL24KS3343",
+          "tenSV": "Lê Ngọc Như Ý"
+        },
+        {
+          "maSV": "DL24KS3344",
+          "tenSV": "Lê Thị Diệu Yến"
+        },
+        {
+          "maSV": "DL24KS3346",
+          "tenSV": "Trương Trần Hải Nghi"
+        },
+        {
+          "maSV": "TH24TH3137",
+          "tenSV": "Thị Thu"
+        }
+      ],
+      "Tiếng Anh du lịch - CĐ9+K5": [
+        {
+          "maSV": "CK24OT3307",
+          "tenSV": "Lý Gia Đạt"
+        },
+        {
+          "maSV": "DL24HD3124",
+          "tenSV": "Trần Thị Ngọc Tiến"
+        },
+        {
+          "maSV": "DL24KS3341",
+          "tenSV": "Nguyễn Ngọc Yến Vy"
+        },
+        {
+          "maSV": "DL24TA3101",
+          "tenSV": "Trần Gia Bảo"
+        },
+        {
+          "maSV": "DL24TA3102",
+          "tenSV": "Nguyễn Thị Ngọc Hân"
+        },
+        {
+          "maSV": "DL24TA3103",
+          "tenSV": "Bùi Ngọc Gia Hân"
+        },
+        {
+          "maSV": "DL24TA3104",
+          "tenSV": "Lại Diệu Huyền"
+        },
+        {
+          "maSV": "DL24TA3105",
+          "tenSV": "Phạm Trần Hoàng Khương"
+        },
+        {
+          "maSV": "DL24TA3106",
+          "tenSV": "Võ Minh Kiên"
+        },
+        {
+          "maSV": "DL24TA3107",
+          "tenSV": "Nguyễn Thị Thùy Liên"
+        },
+        {
+          "maSV": "DL24TA3112",
+          "tenSV": "Trương Nguyễn"
+        },
+        {
+          "maSV": "DL24TA3113",
+          "tenSV": "Phạm Thị Ánh Như"
+        },
+        {
+          "maSV": "DL24TA3115",
+          "tenSV": "Nguyễn Thanh Thắng"
+        },
+        {
+          "maSV": "DL24TA3116",
+          "tenSV": "Đỗ Phụng Thảo"
+        },
+        {
+          "maSV": "DL24TA3117",
+          "tenSV": "Trần Anh Thi"
+        },
+        {
+          "maSV": "DL24TA3118",
+          "tenSV": "Lâm Nhất Thiên"
+        },
+        {
+          "maSV": "DL24TA3120",
+          "tenSV": "Trần Trương Thoại Thư"
+        },
+        {
+          "maSV": "DL24TA3122",
+          "tenSV": "Nguyễn Kim Tiền"
+        },
+        {
+          "maSV": "DL24TA3124",
+          "tenSV": "Nguyễn Thị Duy Trân"
+        },
+        {
+          "maSV": "DL24TA3126",
+          "tenSV": "Lữ Thị Ngọc Trúc"
+        },
+        {
+          "maSV": "DL24TA3128",
+          "tenSV": "Nguyễn Vi"
+        },
+        {
+          "maSV": "DL24TA3130",
+          "tenSV": "Trần Nguyễn Ý Vy"
+        },
+        {
+          "maSV": "DL24TA3137",
+          "tenSV": "Trần Kim Duy"
+        }
+      ]
+    },
+    "CĐ9+K6": {
+      "Hướng dẫn du lịch - CĐ9+K6": [
+        {
+          "maSV": "DL25HD3103",
+          "tenSV": "Chu Khánh Duy"
+        },
+        {
+          "maSV": "DL25HD3105",
+          "tenSV": "Huỳnh Ngọc Tường Hân"
+        },
+        {
+          "maSV": "DL25HD3108",
+          "tenSV": "Châu Anh Kiệt"
+        },
+        {
+          "maSV": "DL25HD3110",
+          "tenSV": "Trần Thị Phương Linh"
+        },
+        {
+          "maSV": "DL25HD3111",
+          "tenSV": "Nguyễn Thị Thùy Linh"
+        },
+        {
+          "maSV": "DL25HD3113",
+          "tenSV": "Phạm Thị Trúc Mai"
+        },
+        {
+          "maSV": "DL25HD3115",
+          "tenSV": "Lưu Thị Bảo Ngọc"
+        },
+        {
+          "maSV": "DL25HD3117",
+          "tenSV": "Võ Huỳnh Phi Nhung"
+        },
+        {
+          "maSV": "DL25HD3118",
+          "tenSV": "Nguyễn Thị Trúc Phương"
+        },
+        {
+          "maSV": "DL25HD3121",
+          "tenSV": "Đinh Quốc Thái"
+        },
+        {
+          "maSV": "DL25HD3122",
+          "tenSV": "Phùng Thanh Thão"
+        },
+        {
+          "maSV": "DL25HD3123",
+          "tenSV": "Trần Hoàng Thịnh"
+        },
+        {
+          "maSV": "DL25HD3124",
+          "tenSV": "Nguyễn Quốc Thịnh"
+        },
+        {
+          "maSV": "DL25HD3125",
+          "tenSV": "Nguyễn Tấn Thới"
+        },
+        {
+          "maSV": "DL25HD3126",
+          "tenSV": "Ngô Thị Anh Thư"
+        },
+        {
+          "maSV": "DL25HD3127",
+          "tenSV": "Nguyễn Nhật Tính"
+        },
+        {
+          "maSV": "DL25HD3128",
+          "tenSV": "Danh Quanh Triết"
+        },
+        {
+          "maSV": "DL25HD3129",
+          "tenSV": "Ngô Thanh Tuyền"
+        },
+        {
+          "maSV": "DL25HD3131",
+          "tenSV": "Lâm Tâm Ý"
+        },
+        {
+          "maSV": "DL25HD3132",
+          "tenSV": "Võ Thị Ngọc Yến"
+        },
+        {
+          "maSV": "DL25HD3134",
+          "tenSV": "Tạ Thành Tâm"
+        },
+        {
+          "maSV": "DL25HD3135",
+          "tenSV": "Huỳnh Thị Tuyền"
+        },
+        {
+          "maSV": "DL25KS3204",
+          "tenSV": "Lê Chí Bình"
+        }
+      ],
+      "Nghiệp vụ nhà hàng - CĐ9+K6": [
+        {
+          "maSV": "DL25NH3101",
+          "tenSV": "Nguyễn Thịnh An"
+        },
+        {
+          "maSV": "DL25NH3103",
+          "tenSV": "Lê Kim Cúc"
+        },
+        {
+          "maSV": "DL25NH3105",
+          "tenSV": "Dương Thị Mỹ Huyền"
+        },
+        {
+          "maSV": "DL25NH3106",
+          "tenSV": "Nguyễn Thị Khôn"
+        },
+        {
+          "maSV": "DL25NH3107",
+          "tenSV": "Trần Thị Trúc Ly"
+        },
+        {
+          "maSV": "DL25NH3108",
+          "tenSV": "Trần Thị Diễm My"
+        },
+        {
+          "maSV": "DL25NH3109",
+          "tenSV": "Danh Thị Ngọc Ngoan"
+        },
+        {
+          "maSV": "DL25NH3110",
+          "tenSV": "Danh Trần Được Nguyên"
+        },
+        {
+          "maSV": "DL25NH3111",
+          "tenSV": "Nguyễn Quỳnh Như"
+        },
+        {
+          "maSV": "DL25NH3113",
+          "tenSV": "Trần Hồng Nhung"
+        },
+        {
+          "maSV": "DL25NH3114",
+          "tenSV": "Trần Tuấn Nhựt"
+        },
+        {
+          "maSV": "DL25NH3115",
+          "tenSV": "Nguyễn Lý Hoàng Oanh"
+        },
+        {
+          "maSV": "DL25NH3117",
+          "tenSV": "Võ Thị Thu Thảo"
+        },
+        {
+          "maSV": "DL25NH3118",
+          "tenSV": "Huỳnh Thị Anh Thư"
+        },
+        {
+          "maSV": "DL25NH3120",
+          "tenSV": "Nguyễn Bảo Trâm"
+        },
+        {
+          "maSV": "DL25NH3121",
+          "tenSV": "Võ Ngọc Vy"
+        },
+        {
+          "maSV": "DL25NH3122",
+          "tenSV": "Phan Thị Khã Vy"
+        },
+        {
+          "maSV": "DL25NH3123",
+          "tenSV": "Đặng Như Ý"
+        },
+        {
+          "maSV": "DL25NH3124",
+          "tenSV": "Võ Thị Mỹ Duyên"
+        },
+        {
+          "maSV": "DL25NH3125",
+          "tenSV": "Ngô Gia Minh"
+        },
+        {
+          "maSV": "DL25NH3126",
+          "tenSV": "Đặng Ngọc Phú"
+        },
+        {
+          "maSV": "DL25NH3127",
+          "tenSV": "Nguyễn Phạm Hồng Tân"
+        },
+        {
+          "maSV": "DT25NL3221",
+          "tenSV": "Trương Tài Năng"
+        }
+      ],
+      "Quản trị khách sạn 1 - CĐ9+K6": [
+        {
+          "maSV": "DL25KS3102",
+          "tenSV": "Nguyễn Lan Anh"
+        },
+        {
+          "maSV": "DL25KS3103",
+          "tenSV": "Lê Tuấn Anh"
+        },
+        {
+          "maSV": "DL25KS3104",
+          "tenSV": "Võ Thành Danh"
+        },
+        {
+          "maSV": "DL25KS3105",
+          "tenSV": "Phan Cẩm Diệu"
+        },
+        {
+          "maSV": "DL25KS3107",
+          "tenSV": "Nguyễn Thị Ngọc Hân"
+        },
+        {
+          "maSV": "DL25KS3108",
+          "tenSV": "Ngô Thị Thuý Hằng"
+        },
+        {
+          "maSV": "DL25KS3109",
+          "tenSV": "Phạm Văn Hậu"
+        },
+        {
+          "maSV": "DL25KS3112",
+          "tenSV": "Lê Trúc Lam"
+        },
+        {
+          "maSV": "DL25KS3113",
+          "tenSV": "Nguyễn Ngọc Lan"
+        },
+        {
+          "maSV": "DL25KS3114",
+          "tenSV": "Nguyễn Thị Trúc Linh"
+        },
+        {
+          "maSV": "DL25KS3115",
+          "tenSV": "Trương Ái My"
+        },
+        {
+          "maSV": "DL25KS3116",
+          "tenSV": "Danh Hoàng Nam"
+        },
+        {
+          "maSV": "DL25KS3117",
+          "tenSV": "Huỳnh Phạm Ngọc"
+        },
+        {
+          "maSV": "DL25KS3122",
+          "tenSV": "Nguyễn Ngọc Yến Như"
+        },
+        {
+          "maSV": "DL25KS3124",
+          "tenSV": "Phạm Hoàng Phú"
+        },
+        {
+          "maSV": "DL25KS3125",
+          "tenSV": "Lê Bích Phụng"
+        },
+        {
+          "maSV": "DL25KS3126",
+          "tenSV": "Đặng Minh Quang"
+        },
+        {
+          "maSV": "DL25KS3127",
+          "tenSV": "Dương Gia Quí"
+        },
+        {
+          "maSV": "DL25KS3129",
+          "tenSV": "Nguyễn Tú Quỳnh"
+        },
+        {
+          "maSV": "DL25KS3130",
+          "tenSV": "Nguyễn Thị Thu Tâm"
+        },
+        {
+          "maSV": "DL25KS3131",
+          "tenSV": "Trần Thị Xuân Thảo"
+        },
+        {
+          "maSV": "DL25KS3132",
+          "tenSV": "Trương Ngọc Thường"
+        },
+        {
+          "maSV": "DL25KS3133",
+          "tenSV": "Võ Thị Bích Tiên"
+        },
+        {
+          "maSV": "DL25KS3136",
+          "tenSV": "Nguyễn Thị Diễm Trinh"
+        },
+        {
+          "maSV": "DL25KS3137",
+          "tenSV": "Lê Thanh Trúc"
+        },
+        {
+          "maSV": "DL25KS3139",
+          "tenSV": "Danh Thị Bích Tuyền"
+        },
+        {
+          "maSV": "DL25KS3140",
+          "tenSV": "Phan Ngọc Kỳ Vân"
+        },
+        {
+          "maSV": "DL25KS3141",
+          "tenSV": "Nguyễn Tường Vy"
+        },
+        {
+          "maSV": "DL25KS3142",
+          "tenSV": "Danh Thị Khả Vy"
+        },
+        {
+          "maSV": "DL25KS3143",
+          "tenSV": "Võ Trúc Xuân"
+        },
+        {
+          "maSV": "DL25KS3145",
+          "tenSV": "Nguyễn Thị Ngọc Yến"
+        },
+        {
+          "maSV": "DL25KS3147",
+          "tenSV": "Đỗ Huỳnh Gia Khương"
+        },
+        {
+          "maSV": "DL25KS3223",
+          "tenSV": "Kim Thị Như Ý"
+        }
+      ],
+      "Quản trị khách sạn 2 - CĐ9+K6": [
+        {
+          "maSV": "DL25KS3119",
+          "tenSV": "Lê Thị Phương Nhã"
+        },
+        {
+          "maSV": "DL25KS3144",
+          "tenSV": "Nguyễn Lê Như Ý"
+        },
+        {
+          "maSV": "DL25KS3146",
+          "tenSV": "Phan Thị Hồng Lan"
+        },
+        {
+          "maSV": "DL25KS3201",
+          "tenSV": "Nguyễn Quỳnh Anh"
+        },
+        {
+          "maSV": "DL25KS3203",
+          "tenSV": "Tạ Tú Ngọc Ánh"
+        },
+        {
+          "maSV": "DL25KS3205",
+          "tenSV": "Bùi Ngọc Kim Cương"
+        },
+        {
+          "maSV": "DL25KS3206",
+          "tenSV": "Đinh Công Đạt"
+        },
+        {
+          "maSV": "DL25KS3207",
+          "tenSV": "Mai Thị Thùy Dương"
+        },
+        {
+          "maSV": "DL25KS3208",
+          "tenSV": "Nguyễn Ngọc Giàu"
+        },
+        {
+          "maSV": "DL25KS3210",
+          "tenSV": "Nguyễn Võ Thanh Hào"
+        },
+        {
+          "maSV": "DL25KS3211",
+          "tenSV": "Châu Vinh Hiển"
+        },
+        {
+          "maSV": "DL25KS3215",
+          "tenSV": "Danh Thị Quỳnh Linh"
+        },
+        {
+          "maSV": "DL25KS3216",
+          "tenSV": "Phạm Minh Mẫn"
+        },
+        {
+          "maSV": "DL25KS3217",
+          "tenSV": "Trần Thị Thùy Mỵ"
+        },
+        {
+          "maSV": "DL25KS3219",
+          "tenSV": "Danh Khánh Ngọc"
+        },
+        {
+          "maSV": "DL25KS3224",
+          "tenSV": "Phan Kim Yến"
+        },
+        {
+          "maSV": "DL25KS3225",
+          "tenSV": "Lâm Quốc Hoàng"
+        },
+        {
+          "maSV": "DL25KS3227",
+          "tenSV": "Trần Tôn Bảo Long"
+        },
+        {
+          "maSV": "DL25KS3228",
+          "tenSV": "Nguyễn Thành Tài"
+        },
+        {
+          "maSV": "DL25KS3229",
+          "tenSV": "Nguyễn Thị Trinh"
+        },
+        {
+          "maSV": "DL25KS3231",
+          "tenSV": "Huỳnh Thị Ngọc Lợi"
+        },
+        {
+          "maSV": "DL25KS3232",
+          "tenSV": "Nguyễn Chí Tâm"
+        },
+        {
+          "maSV": "DL25KS3233",
+          "tenSV": "Lưu Ngọc Giàu"
+        }
+      ]
+    },
+    "CĐ9+K7": {
+      "Hướng dẫn du lịch - CĐ9+K7": [
+        {
+          "maSV": "DL26HD3101",
+          "tenSV": "Huỳnh Kim Ái"
+        },
+        {
+          "maSV": "DL26HD3102",
+          "tenSV": "Danh Thị Triều An"
+        },
+        {
+          "maSV": "DL26HD3103",
+          "tenSV": "Tạ Quỳnh Anh"
+        },
+        {
+          "maSV": "DL26HD3104",
+          "tenSV": "Nguyễn Ngọc Trâm Anh"
+        },
+        {
+          "maSV": "DL26HD3105",
+          "tenSV": "Trần Ngọc Ánh"
+        },
+        {
+          "maSV": "DL26HD3106",
+          "tenSV": "Thạch Thái Châu"
+        },
+        {
+          "maSV": "DL26HD3108",
+          "tenSV": "Lê Thị Ngọc Diễm"
+        },
+        {
+          "maSV": "DL26HD3109",
+          "tenSV": "Trần Nguyễn Trúc Đoan"
+        },
+        {
+          "maSV": "DL26HD3110",
+          "tenSV": "Trương Ngọc Kỳ Duyên"
+        },
+        {
+          "maSV": "DL26HD3111",
+          "tenSV": "Võ Ngọc Hiếu"
+        },
+        {
+          "maSV": "DL26HD3112",
+          "tenSV": "Nguyễn Thị Mai Hoa"
+        },
+        {
+          "maSV": "DL26HD3113",
+          "tenSV": "Nguyễn Xuân Hùng"
+        },
+        {
+          "maSV": "DL26HD3114",
+          "tenSV": "Danh Thị Thùy Hương"
+        },
+        {
+          "maSV": "DL26HD3115",
+          "tenSV": "Từ Thị Mỹ Huyền"
+        },
+        {
+          "maSV": "DL26HD3116",
+          "tenSV": "Trần Nguyễn Quốc Khang"
+        },
+        {
+          "maSV": "DL26HD3117",
+          "tenSV": "Lư Hoàng Lan"
+        },
+        {
+          "maSV": "DL26HD3119",
+          "tenSV": "Châu Thị Cẩm Ly"
+        },
+        {
+          "maSV": "DL26HD3120",
+          "tenSV": "Chiêm Hà Minh"
+        },
+        {
+          "maSV": "DL26HD3121",
+          "tenSV": "Hà Thị Thảo My"
+        },
+        {
+          "maSV": "DL26HD3122",
+          "tenSV": "Cao Nguyễn Trà My"
+        },
+        {
+          "maSV": "DL26HD3124",
+          "tenSV": "Võ Thanh Ngà"
+        },
+        {
+          "maSV": "DL26HD3126",
+          "tenSV": "Trần Ngọc Bảo Nghi"
+        },
+        {
+          "maSV": "DL26HD3127",
+          "tenSV": "Bùi Thảo Nguyên"
+        },
+        {
+          "maSV": "DL26HD3128",
+          "tenSV": "Triệu Mỹ Nhân"
+        },
+        {
+          "maSV": "DL26HD3129",
+          "tenSV": "Cao Thị Huỳnh Như"
+        },
+        {
+          "maSV": "DL26HD3130",
+          "tenSV": "Phạm Ngô Minh Nhựt"
+        },
+        {
+          "maSV": "DL26HD3131",
+          "tenSV": "Phan Tiến Phát"
+        },
+        {
+          "maSV": "DL26HD3132",
+          "tenSV": "Nguyễn Anh Phúc"
+        },
+        {
+          "maSV": "DL26HD3133",
+          "tenSV": "Nguyễn Nhật Thái"
+        },
+        {
+          "maSV": "DL26HD3134",
+          "tenSV": "Trần Võ Kim Thuỳ"
+        },
+        {
+          "maSV": "DL26HD3135",
+          "tenSV": "Hứa Hồng Thuỷ"
+        },
+        {
+          "maSV": "DL26HD3136",
+          "tenSV": "Trần Thanh Thúy"
+        },
+        {
+          "maSV": "DL26HD3137",
+          "tenSV": "Lê Bảo Thy"
+        },
+        {
+          "maSV": "DL26HD3138",
+          "tenSV": "Lâm Ngọc Tiên"
+        },
+        {
+          "maSV": "DL26HD3139",
+          "tenSV": "Nguyễn Tân Tiến"
+        },
+        {
+          "maSV": "DL26HD3140",
+          "tenSV": "Phạm Kim Tiền"
+        },
+        {
+          "maSV": "DL26HD3141",
+          "tenSV": "Trần Lâm Bảo Trân"
+        },
+        {
+          "maSV": "DL26HD3142",
+          "tenSV": "Nguyễn Hải Vân"
+        },
+        {
+          "maSV": "DL26HD3144",
+          "tenSV": "Trần Tường Vi"
+        },
+        {
+          "maSV": "DL26HD3146",
+          "tenSV": "Trương Quốc Anh"
+        },
+        {
+          "maSV": "DL26HD3147",
+          "tenSV": "Nguyễn Thị Thúy Kiều"
+        }
+      ],
+      "Nghiệp vụ nhà hàng - CĐ9+K7": [
+        {
+          "maSV": "DL26NH3101",
+          "tenSV": "Lê Trường An"
+        },
+        {
+          "maSV": "DL26NH3102",
+          "tenSV": "Trần Khánh An"
+        },
+        {
+          "maSV": "DL26NH3103",
+          "tenSV": "Phạm Bảo Anh"
+        },
+        {
+          "maSV": "DL26NH3104",
+          "tenSV": "Nguyễn Vân Anh"
+        },
+        {
+          "maSV": "DL26NH3105",
+          "tenSV": "Phạm Hồng Diễm"
+        },
+        {
+          "maSV": "DL26NH3106",
+          "tenSV": "Trương Mạnh Điền"
+        },
+        {
+          "maSV": "DL26NH3107",
+          "tenSV": "Vương Hồng Điệp"
+        },
+        {
+          "maSV": "DL26NH3110",
+          "tenSV": "Phan Chí Hạo"
+        },
+        {
+          "maSV": "DL26NH3111",
+          "tenSV": "Lê Trọng Hiếu"
+        },
+        {
+          "maSV": "DL26NH3112",
+          "tenSV": "Nguyễn Trọng Khang"
+        },
+        {
+          "maSV": "DL26NH3113",
+          "tenSV": "Trần Đường Đăng Khiêm"
+        },
+        {
+          "maSV": "DL26NH3114",
+          "tenSV": "Lưu Gia Khương"
+        },
+        {
+          "maSV": "DL26NH3115",
+          "tenSV": "Trương Hùng Kiên"
+        },
+        {
+          "maSV": "DL26NH3116",
+          "tenSV": "Trịnh Y Kiện"
+        },
+        {
+          "maSV": "DL26NH3117",
+          "tenSV": "La Bích Kiều"
+        },
+        {
+          "maSV": "DL26NH3118",
+          "tenSV": "Ngô Quỳnh Lâm"
+        },
+        {
+          "maSV": "DL26NH3119",
+          "tenSV": "Trần Thị Thúy Linh"
+        },
+        {
+          "maSV": "DL26NH3120",
+          "tenSV": "Nguyễn Huỳnh Tuyết My"
+        },
+        {
+          "maSV": "DL26NH3122",
+          "tenSV": "Nguyễn Thị Bảo Ngọc"
+        },
+        {
+          "maSV": "DL26NH3123",
+          "tenSV": "Nguyễn Hoàng Gia Nguyên"
+        },
+        {
+          "maSV": "DL26NH3124",
+          "tenSV": "Nguyễn Văn Nhiều"
+        },
+        {
+          "maSV": "DL26NH3125",
+          "tenSV": "Nguyễn Ngọc Như"
+        },
+        {
+          "maSV": "DL26NH3126",
+          "tenSV": "Nguyễn Tấn Phát"
+        },
+        {
+          "maSV": "DL26NH3127",
+          "tenSV": "Lê Hoài Phong"
+        },
+        {
+          "maSV": "DL26NH3128",
+          "tenSV": "Phạm Ngọc Như Quyên"
+        },
+        {
+          "maSV": "DL26NH3129",
+          "tenSV": "Nguyễn Hồng Thắm"
+        },
+        {
+          "maSV": "DL26NH3131",
+          "tenSV": "Lê Thị Kim Thoa"
+        },
+        {
+          "maSV": "DL26NH3132",
+          "tenSV": "Phạm Anh Thư"
+        },
+        {
+          "maSV": "DL26NH3133",
+          "tenSV": "Dương Thanh Tiến"
+        },
+        {
+          "maSV": "DL26NH3135",
+          "tenSV": "Danh Thị Thảo Trân"
+        },
+        {
+          "maSV": "DL26NH3137",
+          "tenSV": "Nguyễn Phạm Tường Vy"
+        },
+        {
+          "maSV": "DL26NH3138",
+          "tenSV": "Danh Thị Như Ý"
+        },
+        {
+          "maSV": "DL26NH3139",
+          "tenSV": "Trần Ngọc Như Ý"
+        },
+        {
+          "maSV": "DL26NH3140",
+          "tenSV": "Chao Thị Ngọc Yến"
+        },
+        {
+          "maSV": "DL26NH3141",
+          "tenSV": "Lâm Nam Thư"
+        }
+      ],
+      "Quản trị khách sạn 1 - CĐ9+K7": [
+        {
+          "maSV": "DL26KS3101",
+          "tenSV": "Danh Thị Khả Ái"
+        },
+        {
+          "maSV": "DL26KS3102",
+          "tenSV": "Nguyễn Hoàng Anh"
+        },
+        {
+          "maSV": "DL26KS3104",
+          "tenSV": "Huỳnh Hoàng Bảo"
+        },
+        {
+          "maSV": "DL26KS3105",
+          "tenSV": "Châu Ngọc Bích"
+        },
+        {
+          "maSV": "DL26KS3106",
+          "tenSV": "Lê Ngọc Chinh"
+        },
+        {
+          "maSV": "DL26KS3108",
+          "tenSV": "Lương Thị Ánh Dương"
+        },
+        {
+          "maSV": "DL26KS3109",
+          "tenSV": "Nguyễn Thị Ngọc Giàu"
+        },
+        {
+          "maSV": "DL26KS3110",
+          "tenSV": "Hứa Gia Hân"
+        },
+        {
+          "maSV": "DL26KS3111",
+          "tenSV": "Danh Thị Ngọc Hân"
+        },
+        {
+          "maSV": "DL26KS3114",
+          "tenSV": "Trần Nhất Huy"
+        },
+        {
+          "maSV": "DL26KS3115",
+          "tenSV": "Trương Phan Mỹ Huyền"
+        },
+        {
+          "maSV": "DL26KS3116",
+          "tenSV": "Ong Kim Huyền"
+        },
+        {
+          "maSV": "DL26KS3118",
+          "tenSV": "Lê Đăng Khoa"
+        },
+        {
+          "maSV": "DL26KS3119",
+          "tenSV": "Ngô Gia Khương"
+        },
+        {
+          "maSV": "DL26KS3121",
+          "tenSV": "Thị Ngọc Loan"
+        },
+        {
+          "maSV": "DL26KS3122",
+          "tenSV": "Trần Thị Xuân Mai"
+        },
+        {
+          "maSV": "DL26KS3123",
+          "tenSV": "Lê Châu Hoàng Mỹ"
+        },
+        {
+          "maSV": "DL26KS3124",
+          "tenSV": "Đồng Hồng Ngọc"
+        },
+        {
+          "maSV": "DL26KS3125",
+          "tenSV": "Bùi Ngọc Thảo Nguyên"
+        },
+        {
+          "maSV": "DL26KS3126",
+          "tenSV": "Danh Ngọc Hải Nhi"
+        },
+        {
+          "maSV": "DL26KS3127",
+          "tenSV": "Danh Nguyễn Yến Nhi"
+        },
+        {
+          "maSV": "DL26KS3129",
+          "tenSV": "Huỳnh Thị Cẩm Như"
+        },
+        {
+          "maSV": "DL26KS3133",
+          "tenSV": "Lê Ngọc Quỳnh"
+        },
+        {
+          "maSV": "DL26KS3134",
+          "tenSV": "Từ Thị Trúc Thảo"
+        },
+        {
+          "maSV": "DL26KS3136",
+          "tenSV": "Nguyễn Đỗ Anh Thơ"
+        },
+        {
+          "maSV": "DL26KS3137",
+          "tenSV": "Lý Minh Thư"
+        },
+        {
+          "maSV": "DL26KS3138",
+          "tenSV": "Lê Thị Yến Trang"
+        },
+        {
+          "maSV": "DL26KS3139",
+          "tenSV": "Đoàn Thanh Trúc"
+        },
+        {
+          "maSV": "DL26KS3140",
+          "tenSV": "Lê Thanh Tú"
+        },
+        {
+          "maSV": "DL26KS3141",
+          "tenSV": "Nguyễn Thanh Vân"
+        },
+        {
+          "maSV": "DL26KS3142",
+          "tenSV": "Ngô Yến Vy"
+        },
+        {
+          "maSV": "DL26KS3144",
+          "tenSV": "Hồ Ngọc Như Ý"
+        },
+        {
+          "maSV": "DL26KS3146",
+          "tenSV": "Nguyễn Thị Khánh Duy"
+        },
+        {
+          "maSV": "DL26KS3215",
+          "tenSV": "Nguyễn Lê An Kỳ"
+        },
+        {
+          "maSV": "DL26KS3232",
+          "tenSV": "Trần Tường Vy"
+        },
+        {
+          "maSV": "DL26KS3233",
+          "tenSV": "Nguyễn Huỳnh Như Ý"
+        },
+        {
+          "maSV": "KN26QT3118",
+          "tenSV": "Nguyễn Thị Cẩm Nhung"
+        }
+      ],
+      "Quản trị khách sạn 2 - CĐ9+K7": [
+        {
+          "maSV": "DL26KS3113",
+          "tenSV": "Trần Thị Minh Huệ"
+        },
+        {
+          "maSV": "DL26KS3117",
+          "tenSV": "Nguyễn Trần Như Huyền"
+        },
+        {
+          "maSV": "DL26KS3128",
+          "tenSV": "Lê Thị Yến Nhi"
+        },
+        {
+          "maSV": "DL26KS3130",
+          "tenSV": "Nguyễn Minh Nhựt"
+        },
+        {
+          "maSV": "DL26KS3135",
+          "tenSV": "Nguyễn Thị Thanh Thảo"
+        },
+        {
+          "maSV": "DL26KS3143",
+          "tenSV": "Phạm Thị Khả Vy"
+        },
+        {
+          "maSV": "DL26KS3145",
+          "tenSV": "Cao Nguyễn Như Ý"
+        },
+        {
+          "maSV": "DL26KS3147",
+          "tenSV": "Long Như Ngọc"
+        },
+        {
+          "maSV": "DL26KS3201",
+          "tenSV": "Nguyễn Ngọc Anh"
+        },
+        {
+          "maSV": "DL26KS3202",
+          "tenSV": "Thái Kim Anh"
+        },
+        {
+          "maSV": "DL26KS3205",
+          "tenSV": "Hồ Võ Minh Châu"
+        },
+        {
+          "maSV": "DL26KS3206",
+          "tenSV": "Huỳnh Quốc Đạt"
+        },
+        {
+          "maSV": "DL26KS3207",
+          "tenSV": "Nguyễn Thuỳ Dương"
+        },
+        {
+          "maSV": "DL26KS3208",
+          "tenSV": "Lê Trịnh Đức Duy"
+        },
+        {
+          "maSV": "DL26KS3209",
+          "tenSV": "Nguyễn Thị Thu Hà"
+        },
+        {
+          "maSV": "DL26KS3210",
+          "tenSV": "Quách Mỹ Hân"
+        },
+        {
+          "maSV": "DL26KS3212",
+          "tenSV": "Nguyễn Quang Trác Huy"
+        },
+        {
+          "maSV": "DL26KS3213",
+          "tenSV": "Trần Thị Ngọc Huyền"
+        },
+        {
+          "maSV": "DL26KS3214",
+          "tenSV": "Dương Nguyễn Hoàng Khôi"
+        },
+        {
+          "maSV": "DL26KS3216",
+          "tenSV": "Lê Kiều Linh"
+        },
+        {
+          "maSV": "DL26KS3217",
+          "tenSV": "Nguyễn Sĩ Lộc"
+        },
+        {
+          "maSV": "DL26KS3218",
+          "tenSV": "Hồng Gia Minh"
+        },
+        {
+          "maSV": "DL26KS3219",
+          "tenSV": "Nguyễn Kim Ngân"
+        },
+        {
+          "maSV": "DL26KS3220",
+          "tenSV": "Nguyễn Thị Kim Ngọc"
+        },
+        {
+          "maSV": "DL26KS3221",
+          "tenSV": "Trương Nhã Nhi"
+        },
+        {
+          "maSV": "DL26KS3222",
+          "tenSV": "Lâm Huỳnh Như"
+        },
+        {
+          "maSV": "DL26KS3223",
+          "tenSV": "Thạch Thị Mỹ Pha"
+        },
+        {
+          "maSV": "DL26KS3225",
+          "tenSV": "Mai Nhã Quyên"
+        },
+        {
+          "maSV": "DL26KS3226",
+          "tenSV": "Hồ Hồng Ngọc Thảo"
+        },
+        {
+          "maSV": "DL26KS3227",
+          "tenSV": "Hà Anh Thư"
+        },
+        {
+          "maSV": "DL26KS3228",
+          "tenSV": "Nguyễn Thanh Hoài Thương"
+        },
+        {
+          "maSV": "DL26KS3229",
+          "tenSV": "Lê Thị Ngọc Trinh"
+        },
+        {
+          "maSV": "DL26KS3230",
+          "tenSV": "Trần Thị Cẩm Tú"
+        },
+        {
+          "maSV": "DL26KS3231",
+          "tenSV": "Nguyễn Gia Tường"
+        },
+        {
+          "maSV": "DL26KS3234",
+          "tenSV": "Nguyễn Hoàng Yến"
+        },
+        {
+          "maSV": "DL26KS3235",
+          "tenSV": "Nguyễn Phi Luân"
+        },
+        {
+          "maSV": "DL26KS3236",
+          "tenSV": "Trần Phương Nhã"
+        },
+        {
+          "maSV": "DL26NH3108",
+          "tenSV": "Nguyễn Thành Duy"
+        }
+      ],
+      "Tiếng anh du lịch - CĐ9+K7": [
+        {
+          "maSV": "CX26OT3123",
+          "tenSV": "Trương Thiên Long"
+        },
+        {
+          "maSV": "DL26KS3148",
+          "tenSV": "Nguyễn Thị Mỹ Thuận"
+        },
+        {
+          "maSV": "DL26TA3101",
+          "tenSV": "Lê Thị Kim Anh"
+        },
+        {
+          "maSV": "DL26TA3102",
+          "tenSV": "Trương Quỳnh Anh"
+        },
+        {
+          "maSV": "DL26TA3103",
+          "tenSV": "Phạm Kim Anh"
+        },
+        {
+          "maSV": "DL26TA3104",
+          "tenSV": "Trần Thị Mỹ Duyên"
+        },
+        {
+          "maSV": "DL26TA3105",
+          "tenSV": "Võ Trương Gia Huy"
+        },
+        {
+          "maSV": "DL26TA3106",
+          "tenSV": "Nguyễn Nhật Huy"
+        },
+        {
+          "maSV": "DL26TA3107",
+          "tenSV": "Đoàn Thanh Mai Khôi"
+        },
+        {
+          "maSV": "DL26TA3108",
+          "tenSV": "Trang Phương Linh"
+        },
+        {
+          "maSV": "DL26TA3109",
+          "tenSV": "Lương Gia Nghi"
+        },
+        {
+          "maSV": "DL26TA3110",
+          "tenSV": "Vũ Bích Ngọc"
+        },
+        {
+          "maSV": "DL26TA3112",
+          "tenSV": "Nguyễn Hồng Ý Nhi"
+        },
+        {
+          "maSV": "DL26TA3113",
+          "tenSV": "Lê Thị Tuyết Nhi"
+        },
+        {
+          "maSV": "DL26TA3114",
+          "tenSV": "Lê Duy Phúc"
+        },
+        {
+          "maSV": "DL26TA3115",
+          "tenSV": "Huỳnh Nhựt Tiến"
+        },
+        {
+          "maSV": "DL26TA3116",
+          "tenSV": "Phạm Thanh Trà"
+        },
+        {
+          "maSV": "DL26TA3117",
+          "tenSV": "Nguyễn Thị Ngọc Trân"
+        },
+        {
+          "maSV": "DL26TA3118",
+          "tenSV": "Lê Thanh Trúc"
+        },
+        {
+          "maSV": "DL26TA3119",
+          "tenSV": "Võ Thị Tường Vi"
+        },
+        {
+          "maSV": "DL26TA3120",
+          "tenSV": "Trương Thị Lan Vi"
+        },
+        {
+          "maSV": "DL26TA3121",
+          "tenSV": "Phạm Tường Vy"
+        },
+        {
+          "maSV": "DL26TA3123",
+          "tenSV": "Nguyễn Phú Quí Em"
+        },
+        {
+          "maSV": "DL26TA3124",
+          "tenSV": "Dương Phương Anh"
+        },
+        {
+          "maSV": "DL26TA3125",
+          "tenSV": "Lê Ngọc Giàu"
+        }
+      ]
+    }
+  },
+  "KINH TẾ - NÔNG NGHIỆP": {
+    "CĐ9+K5": {
+      "Chăn nuôi - Thú y - CĐ9+K5": [
+        {
+          "maSV": "DL24KS3128",
+          "tenSV": "Nguyễn Thị Mộng Như"
+        },
+        {
+          "maSV": "NN24TY3101",
+          "tenSV": "Nguyễn Đoàn Kiều Anh"
+        },
+        {
+          "maSV": "NN24TY3102",
+          "tenSV": "Lê Nguyễn Phương Anh"
+        },
+        {
+          "maSV": "NN24TY3104",
+          "tenSV": "Lư Mai Trâm Anh"
+        },
+        {
+          "maSV": "NN24TY3105",
+          "tenSV": "Nguyễn Thị Ngọc Ánh"
+        },
+        {
+          "maSV": "NN24TY3107",
+          "tenSV": "Lê Thị Mỹ Duyên"
+        },
+        {
+          "maSV": "NN24TY3108",
+          "tenSV": "Lê Thị Ái Giao"
+        },
+        {
+          "maSV": "NN24TY3109",
+          "tenSV": "Lê Hữu Huỳnh Giao"
+        },
+        {
+          "maSV": "NN24TY3110",
+          "tenSV": "Phan Thị Ngọc Hân"
+        },
+        {
+          "maSV": "NN24TY3111",
+          "tenSV": "Nguyễn Nhựt Hào"
+        },
+        {
+          "maSV": "NN24TY3116",
+          "tenSV": "Nguyễn Thị Trúc Li"
+        },
+        {
+          "maSV": "NN24TY3119",
+          "tenSV": "Nguyễn Gia Nghi"
+        },
+        {
+          "maSV": "NN24TY3120",
+          "tenSV": "Võ Thành Nghiêm"
+        },
+        {
+          "maSV": "NN24TY3122",
+          "tenSV": "Lê Thị Bích Như"
+        },
+        {
+          "maSV": "NN24TY3123",
+          "tenSV": "Trần Cẩm Nhung"
+        },
+        {
+          "maSV": "NN24TY3124",
+          "tenSV": "Huỳnh Trường Phát"
+        },
+        {
+          "maSV": "NN24TY3125",
+          "tenSV": "Danh Ngọc Như Phụng"
+        },
+        {
+          "maSV": "NN24TY3127",
+          "tenSV": "Danh Nguyễn Duy Tân"
+        },
+        {
+          "maSV": "NN24TY3130",
+          "tenSV": "Trần Chí Tín"
+        },
+        {
+          "maSV": "NN24TY3131",
+          "tenSV": "Lê Hiếu Trọng"
+        },
+        {
+          "maSV": "NN24TY3132",
+          "tenSV": "Phạm Tú Uyên"
+        },
+        {
+          "maSV": "NN24TY3133",
+          "tenSV": "Phạm Ái Vân"
+        },
+        {
+          "maSV": "NN24TY3136",
+          "tenSV": "Châu Phương Vy"
+        },
+        {
+          "maSV": "NN24TY3137",
+          "tenSV": "Nguyễn Ngọc Gia Yến"
+        },
+        {
+          "maSV": "NN24TY3139",
+          "tenSV": "Trần Huỳnh Thảo Quyên"
+        }
+      ],
+      "Kế toán doanh nghiệp - CĐ9+K5": [
+        {
+          "maSV": "DL24TA3127",
+          "tenSV": "Bành Thị Phương Uyên"
+        },
+        {
+          "maSV": "KT24KT3102",
+          "tenSV": "Lê Thị Kim Anh"
+        },
+        {
+          "maSV": "KT24KT3103",
+          "tenSV": "Lê Thị Lan Anh"
+        },
+        {
+          "maSV": "KT24KT3104",
+          "tenSV": "Trần Gia Bảo"
+        },
+        {
+          "maSV": "KT24KT3105",
+          "tenSV": "Nguyễn Hữu Bin"
+        },
+        {
+          "maSV": "KT24KT3108",
+          "tenSV": "Trần Ngọc Nhã Đan"
+        },
+        {
+          "maSV": "KT24KT3109",
+          "tenSV": "Lâm Kim Đoan"
+        },
+        {
+          "maSV": "KT24KT3110",
+          "tenSV": "Nguyễn Ngọc Hân"
+        },
+        {
+          "maSV": "KT24KT3112",
+          "tenSV": "Dương Ngọc Hân"
+        },
+        {
+          "maSV": "KT24KT3113",
+          "tenSV": "Nguyễn Sử Bích Hương"
+        },
+        {
+          "maSV": "KT24KT3115",
+          "tenSV": "Lâm Tùng Huy"
+        },
+        {
+          "maSV": "KT24KT3116",
+          "tenSV": "Nguyễn Trần Nhã Kỳ"
+        },
+        {
+          "maSV": "KT24KT3117",
+          "tenSV": "Phan Trường Kỹ"
+        },
+        {
+          "maSV": "KT24KT3118",
+          "tenSV": "Nguyễn Hồ Thảo Lam"
+        },
+        {
+          "maSV": "KT24KT3120",
+          "tenSV": "Đỗ Thảo My"
+        },
+        {
+          "maSV": "KT24KT3121",
+          "tenSV": "Trần Thị Hà My"
+        },
+        {
+          "maSV": "KT24KT3122",
+          "tenSV": "Nguyễn Kim Ngân"
+        },
+        {
+          "maSV": "KT24KT3123",
+          "tenSV": "Hồng Kim Nhàn"
+        },
+        {
+          "maSV": "KT24KT3124",
+          "tenSV": "Huỳnh Thị Trúc Nhi"
+        },
+        {
+          "maSV": "KT24KT3125",
+          "tenSV": "Lâm Thanh Nhiên"
+        },
+        {
+          "maSV": "KT24KT3126",
+          "tenSV": "Ngô Huỳnh Ngọc Như"
+        },
+        {
+          "maSV": "KT24KT3128",
+          "tenSV": "Trần Thị Tố Phương"
+        },
+        {
+          "maSV": "KT24KT3129",
+          "tenSV": "Nguyễn Thị Mai Phương"
+        },
+        {
+          "maSV": "KT24KT3130",
+          "tenSV": "Nguyễn Ngọc Thanh Phương"
+        },
+        {
+          "maSV": "KT24KT3132",
+          "tenSV": "Nguyễn Thị Thanh Tâm"
+        },
+        {
+          "maSV": "KT24KT3133",
+          "tenSV": "Danh Trọng Tấn"
+        },
+        {
+          "maSV": "KT24KT3134",
+          "tenSV": "Lê Phương Thanh"
+        },
+        {
+          "maSV": "KT24KT3137",
+          "tenSV": "Nguyễn Thị Phương Thùy"
+        },
+        {
+          "maSV": "KT24KT3138",
+          "tenSV": "Trần Nguyễn Yến Thy"
+        },
+        {
+          "maSV": "KT24KT3139",
+          "tenSV": "Lê Hồ Ngọc Trân"
+        },
+        {
+          "maSV": "KT24KT3140",
+          "tenSV": "Huỳnh Ngô Bảo Trân"
+        },
+        {
+          "maSV": "KT24KT3141",
+          "tenSV": "Dương Ngọc Huyền Trân"
+        },
+        {
+          "maSV": "KT24KT3142",
+          "tenSV": "Lê Thị Thảo Trang"
+        },
+        {
+          "maSV": "KT24KT3144",
+          "tenSV": "Từ Thảo Vi"
+        },
+        {
+          "maSV": "KT24KT3148",
+          "tenSV": "Phạm Bảo Anh"
+        },
+        {
+          "maSV": "KT24KT3149",
+          "tenSV": "Nguyễn Thiên Kim"
+        },
+        {
+          "maSV": "KT24KT3152",
+          "tenSV": "Đặng Thị Minh Thư"
+        },
+        {
+          "maSV": "KT24KT3156",
+          "tenSV": "Trần Ngọc Anh Thư"
+        },
+        {
+          "maSV": "KT24QT3121",
+          "tenSV": "Huỳnh Phương Quyên"
+        },
+        {
+          "maSV": "KT24QT3122",
+          "tenSV": "Lê Vô Song"
+        },
+        {
+          "maSV": "NN24TY3117",
+          "tenSV": "Nguyễn Thị Gia Linh"
+        }
+      ],
+      "Quản trị kinh doanh - CĐ9+K5": [
+        {
+          "maSV": "DL24KS3320",
+          "tenSV": "Nguyễn Huỳnh Mai Nguyên"
+        },
+        {
+          "maSV": "KT24QT3101",
+          "tenSV": "Danh Thị Thuý An"
+        },
+        {
+          "maSV": "KT24QT3102",
+          "tenSV": "Đặng Huế Anh"
+        },
+        {
+          "maSV": "KT24QT3103",
+          "tenSV": "Phạm Quốc Anh"
+        },
+        {
+          "maSV": "KT24QT3106",
+          "tenSV": "Hình Tuyết Duy"
+        },
+        {
+          "maSV": "KT24QT3107",
+          "tenSV": "Tạ Huỳnh Bảo Hân"
+        },
+        {
+          "maSV": "KT24QT3111",
+          "tenSV": "Nguyễn Chí Khang"
+        },
+        {
+          "maSV": "KT24QT3112",
+          "tenSV": "Trần Kim Ly"
+        },
+        {
+          "maSV": "KT24QT3115",
+          "tenSV": "Đoàn Trọng Nghĩa"
+        },
+        {
+          "maSV": "KT24QT3116",
+          "tenSV": "Vương Tố Ngọc"
+        },
+        {
+          "maSV": "KT24QT3117",
+          "tenSV": "Nguyễn Huỳnh Mỹ Ngọc"
+        },
+        {
+          "maSV": "KT24QT3118",
+          "tenSV": "Trần Huỳnh Như"
+        },
+        {
+          "maSV": "KT24QT3119",
+          "tenSV": "Nguyễn Ngọc Tâm Như"
+        },
+        {
+          "maSV": "KT24QT3120",
+          "tenSV": "Lâm Huỳnh Như"
+        },
+        {
+          "maSV": "KT24QT3123",
+          "tenSV": "Lê Tú Sương"
+        },
+        {
+          "maSV": "KT24QT3126",
+          "tenSV": "Bùi Hà Anh Thư"
+        },
+        {
+          "maSV": "KT24QT3128",
+          "tenSV": "Nguyễn Thị Thanh Thuý"
+        },
+        {
+          "maSV": "KT24QT3129",
+          "tenSV": "Nguyễn Thị Lệ Thuỷ"
+        },
+        {
+          "maSV": "KT24QT3130",
+          "tenSV": "Trần Phương Thúy"
+        },
+        {
+          "maSV": "KT24QT3132",
+          "tenSV": "Chao Thị Huyền Trân"
+        },
+        {
+          "maSV": "KT24QT3135",
+          "tenSV": "Tiêu Như Vàng"
+        },
+        {
+          "maSV": "KT24QT3136",
+          "tenSV": "Bùi Nguyễn Thúy Vy"
+        },
+        {
+          "maSV": "KT24QT3137",
+          "tenSV": "Danh Lâm Yến Vy"
+        },
+        {
+          "maSV": "KT24QT3138",
+          "tenSV": "Nguyễn Thị Kim Xuyến"
+        },
+        {
+          "maSV": "KT24QT3139",
+          "tenSV": "Huỳnh Thị Như Ý"
+        },
+        {
+          "maSV": "KT24QT3140",
+          "tenSV": "Hồ Thiên Hạo"
+        }
+      ]
+    },
+    "CĐ9+K6": {
+      "Dịch vụ thú y - CĐ9+K6": [
+        {
+          "maSV": "DL25HD3119",
+          "tenSV": "Hồ Thị Kim Quyền"
+        },
+        {
+          "maSV": "NN25TY3103",
+          "tenSV": "Huỳnh Mai Quốc Đại"
+        },
+        {
+          "maSV": "NN25TY3105",
+          "tenSV": "Hồ Thuỳ Dương"
+        },
+        {
+          "maSV": "NN25TY3106",
+          "tenSV": "Lâm Thị Kiều Loan"
+        },
+        {
+          "maSV": "NN25TY3107",
+          "tenSV": "Lê Phi Phụng"
+        },
+        {
+          "maSV": "NN25TY3108",
+          "tenSV": "Trần Lan Thanh"
+        },
+        {
+          "maSV": "NN25TY3109",
+          "tenSV": "Châu Nguyễn Gia Thảo"
+        },
+        {
+          "maSV": "NN25TY3110",
+          "tenSV": "Nguyễn Tiến Thông"
+        },
+        {
+          "maSV": "NN25TY3112",
+          "tenSV": "Nguyễn Hiếu Trọng"
+        },
+        {
+          "maSV": "NN25TY3113",
+          "tenSV": "Trần Minh Tú"
+        },
+        {
+          "maSV": "NN25TY3114",
+          "tenSV": "Lâm Thị Thanh Tuyền"
+        },
+        {
+          "maSV": "NN25TY3115",
+          "tenSV": "Trần Huỳnh Đức"
+        },
+        {
+          "maSV": "NN25TY3116",
+          "tenSV": "Trần Thị Hoàng Hiếu"
+        }
+      ],
+      "Kế toán - CĐ9+K6": [
+        {
+          "maSV": "KT24KT3150",
+          "tenSV": "Nguyễn Thiên Nhi"
+        },
+        {
+          "maSV": "KT25KT3101",
+          "tenSV": "Trần Minh Anh"
+        },
+        {
+          "maSV": "KT25KT3102",
+          "tenSV": "Danh Thị Huyền Anh"
+        },
+        {
+          "maSV": "KT25KT3105",
+          "tenSV": "Nguyễn Thị Hồng Đào"
+        },
+        {
+          "maSV": "KT25KT3107",
+          "tenSV": "Võ Phạm Trường Giang"
+        },
+        {
+          "maSV": "KT25KT3108",
+          "tenSV": "Thị Mỹ Hiền"
+        },
+        {
+          "maSV": "KT25KT3110",
+          "tenSV": "Lê Xuân Mai"
+        },
+        {
+          "maSV": "KT25KT3112",
+          "tenSV": "Trần Phạm Bảo Na"
+        },
+        {
+          "maSV": "KT25KT3113",
+          "tenSV": "Lâm Huỳnh Như"
+        },
+        {
+          "maSV": "KT25KT3115",
+          "tenSV": "Trần Thị Minh Thư"
+        },
+        {
+          "maSV": "KT25KT3116",
+          "tenSV": "Nguyễn Ngọc Minh Thư"
+        },
+        {
+          "maSV": "KT25KT3118",
+          "tenSV": "Đinh Ngọc Trâm"
+        },
+        {
+          "maSV": "KT25KT3119",
+          "tenSV": "Vương Ngọc Phụng"
+        }
+      ],
+      "Quản trị kinh doanh - CĐ9+K6": [
+        {
+          "maSV": "DL25KS3123",
+          "tenSV": "Lê Tân Phát"
+        },
+        {
+          "maSV": "KT25QT3105",
+          "tenSV": "Tiêu Thanh Hà"
+        },
+        {
+          "maSV": "KT25QT3106",
+          "tenSV": "Trần Hoàng Hải"
+        },
+        {
+          "maSV": "KT25QT3108",
+          "tenSV": "Đỗ Thị Hân"
+        },
+        {
+          "maSV": "KT25QT3109",
+          "tenSV": "Võ Thị Ngọc Hân"
+        },
+        {
+          "maSV": "KT25QT3113",
+          "tenSV": "Võ Thị Ngọc Lam"
+        },
+        {
+          "maSV": "KT25QT3116",
+          "tenSV": "Lê Trần Thảo Nguyên"
+        },
+        {
+          "maSV": "KT25QT3117",
+          "tenSV": "Nguyễn Ý Nhi"
+        },
+        {
+          "maSV": "KT25QT3119",
+          "tenSV": "Nguyễn Thị Tuyết Nhi"
+        },
+        {
+          "maSV": "KT25QT3121",
+          "tenSV": "Trần Hiếu Quang"
+        },
+        {
+          "maSV": "KT25QT3124",
+          "tenSV": "Lê Kim Tính"
+        },
+        {
+          "maSV": "KT25QT3125",
+          "tenSV": "Nguyễn Liêu Trung Tình"
+        },
+        {
+          "maSV": "KT25QT3126",
+          "tenSV": "Nguyễn Ngọc Thùy Trâm"
+        },
+        {
+          "maSV": "KT25QT3127",
+          "tenSV": "Trần Huyền Trân"
+        },
+        {
+          "maSV": "KT25QT3129",
+          "tenSV": "Tô Ngọc Tuyết"
+        },
+        {
+          "maSV": "KT25QT3131",
+          "tenSV": "Nguyễn Ngọc Tường Vy"
+        },
+        {
+          "maSV": "KT25QT3132",
+          "tenSV": "Nguyễn Như Ý"
+        },
+        {
+          "maSV": "KT25QT3135",
+          "tenSV": "Đỗ Thị Hồng Diễm"
+        }
+      ]
+    },
+    "CĐ9+K7": {
+      "Công nghệ thực phẩm - CĐ9+K7": [
+        {
+          "maSV": "DT26DT3105",
+          "tenSV": "Võ Quốc Đại"
+        },
+        {
+          "maSV": "DT26DT3240",
+          "tenSV": "Đàm Thanh Tường"
+        },
+        {
+          "maSV": "KN26TP3101",
+          "tenSV": "Võ Hoàng Bách"
+        },
+        {
+          "maSV": "KN26TP3102",
+          "tenSV": "Nguyễn Thị Diễm Hương"
+        },
+        {
+          "maSV": "KN26TP3104",
+          "tenSV": "Nguyễn Minh Khôi"
+        },
+        {
+          "maSV": "KN26TP3105",
+          "tenSV": "Trần Gia Kỳ"
+        },
+        {
+          "maSV": "KN26TP3106",
+          "tenSV": "Trương Tuệ Mẫn"
+        },
+        {
+          "maSV": "KN26TP3107",
+          "tenSV": "Phạm Thanh Nghiêm"
+        },
+        {
+          "maSV": "KN26TP3108",
+          "tenSV": "Nguyễn Thị Khánh Ngọc"
+        },
+        {
+          "maSV": "KN26TP3109",
+          "tenSV": "Nguyễn Ngọc Nhi"
+        },
+        {
+          "maSV": "KN26TP3111",
+          "tenSV": "Nhan Ngọc Thư"
+        },
+        {
+          "maSV": "KN26TP3112",
+          "tenSV": "Đặng Thị Thủy Tiên"
+        },
+        {
+          "maSV": "KN26TP3116",
+          "tenSV": "Ngô Huỳnh Khả Vy"
+        },
+        {
+          "maSV": "KN26TP3117",
+          "tenSV": "Bùi Thúy Vy"
+        },
+        {
+          "maSV": "KN26TP3119",
+          "tenSV": "Ngô Nguyễn Quốc Thịnh"
+        },
+        {
+          "maSV": "KN26TP3120",
+          "tenSV": "Trần Thị Kim Vàng"
+        },
+        {
+          "maSV": "KN26TP3121",
+          "tenSV": "Huỳnh Tiến Phát"
+        }
+      ],
+      "Dịch vụ thú y - CĐ9+K7": [
+        {
+          "maSV": "KN26TY3101",
+          "tenSV": "Viên Thị Ngọc Ái"
+        },
+        {
+          "maSV": "KN26TY3103",
+          "tenSV": "Nguyễn Kim Anh"
+        },
+        {
+          "maSV": "KN26TY3104",
+          "tenSV": "Trần Thị Kim Anh"
+        },
+        {
+          "maSV": "KN26TY3105",
+          "tenSV": "Nguyễn Hoàng Anh"
+        },
+        {
+          "maSV": "KN26TY3106",
+          "tenSV": "Nguyễn Khánh Băng"
+        },
+        {
+          "maSV": "KN26TY3107",
+          "tenSV": "Trần Thanh Bình"
+        },
+        {
+          "maSV": "KN26TY3108",
+          "tenSV": "Trà Tấn Đạt"
+        },
+        {
+          "maSV": "KN26TY3109",
+          "tenSV": "Nguyễn Bảo Hân"
+        },
+        {
+          "maSV": "KN26TY3110",
+          "tenSV": "Trương Thị Ngọc Hân"
+        },
+        {
+          "maSV": "KN26TY3112",
+          "tenSV": "Kim Thị Ngọc Hân"
+        },
+        {
+          "maSV": "KN26TY3113",
+          "tenSV": "Ngô Kim Hiền"
+        },
+        {
+          "maSV": "KN26TY3114",
+          "tenSV": "Nguyễn Huy Hoàng"
+        },
+        {
+          "maSV": "KN26TY3115",
+          "tenSV": "Dương Liêu Phát Huy"
+        },
+        {
+          "maSV": "KN26TY3116",
+          "tenSV": "Lý Thiên Kim"
+        },
+        {
+          "maSV": "KN26TY3117",
+          "tenSV": "Phạm Tường Lam"
+        },
+        {
+          "maSV": "KN26TY3118",
+          "tenSV": "Lê Thị Ái Lam"
+        },
+        {
+          "maSV": "KN26TY3119",
+          "tenSV": "Châu Ánh Minh"
+        },
+        {
+          "maSV": "KN26TY3120",
+          "tenSV": "Lê Ngọc Xuân Nghi"
+        },
+        {
+          "maSV": "KN26TY3121",
+          "tenSV": "Lê Trọng Nghĩa"
+        },
+        {
+          "maSV": "KN26TY3122",
+          "tenSV": "Lê Thanh Nghiêm"
+        },
+        {
+          "maSV": "KN26TY3123",
+          "tenSV": "Nguyễn Thị Hồng Ngọc"
+        },
+        {
+          "maSV": "KN26TY3124",
+          "tenSV": "Hồ Bảo Ngọc"
+        },
+        {
+          "maSV": "KN26TY3125",
+          "tenSV": "Danh Tường Nguyên"
+        },
+        {
+          "maSV": "KN26TY3126",
+          "tenSV": "Trần Đỗ Phú Nguyên"
+        },
+        {
+          "maSV": "KN26TY3127",
+          "tenSV": "Phan Nguyễn Thanh Nguyên"
+        },
+        {
+          "maSV": "KN26TY3128",
+          "tenSV": "Nguyễn Nhã Phương"
+        },
+        {
+          "maSV": "KN26TY3129",
+          "tenSV": "Đặng Kiều Phương"
+        },
+        {
+          "maSV": "KN26TY3130",
+          "tenSV": "Đỗ Nhựt Quang"
+        },
+        {
+          "maSV": "KN26TY3131",
+          "tenSV": "Trần Thuận Thanh"
+        },
+        {
+          "maSV": "KN26TY3132",
+          "tenSV": "Chiêm Trần Anh Thơ"
+        },
+        {
+          "maSV": "KN26TY3133",
+          "tenSV": "Nguyễn Minh Thư"
+        },
+        {
+          "maSV": "KN26TY3134",
+          "tenSV": "Nguyễn Thanh Tiền"
+        },
+        {
+          "maSV": "KN26TY3136",
+          "tenSV": "Ngô Phạm Ngọc Trâm"
+        },
+        {
+          "maSV": "KN26TY3137",
+          "tenSV": "Trần Ngọc Bích Tuyền"
+        },
+        {
+          "maSV": "KN26TY3139",
+          "tenSV": "Huỳnh Hửu Tình"
+        },
+        {
+          "maSV": "KN26TY3140",
+          "tenSV": "Võ Đăng Thương"
+        },
+        {
+          "maSV": "KN26TY3141",
+          "tenSV": "Bùi Xuân Lộc"
+        }
+      ],
+      "Kế toán - CĐ9+K7": [
+        {
+          "maSV": "KN26KT3101",
+          "tenSV": "Đặng Vân Anh"
+        },
+        {
+          "maSV": "KN26KT3102",
+          "tenSV": "Ngô Thị Thu Dung"
+        },
+        {
+          "maSV": "KN26KT3103",
+          "tenSV": "Trần Hữu Hậu"
+        },
+        {
+          "maSV": "KN26KT3104",
+          "tenSV": "Nguyễn Phúc Hậu"
+        },
+        {
+          "maSV": "KN26KT3105",
+          "tenSV": "Danh Thị Hiếu"
+        },
+        {
+          "maSV": "KN26KT3106",
+          "tenSV": "Phạm Thiên Kim"
+        },
+        {
+          "maSV": "KN26KT3108",
+          "tenSV": "Trần Tuyết Minh"
+        },
+        {
+          "maSV": "KN26KT3109",
+          "tenSV": "Trần Thị Tuyết Ngân"
+        },
+        {
+          "maSV": "KN26KT3110",
+          "tenSV": "Bùi Võ Thảo Ngọc"
+        },
+        {
+          "maSV": "KN26KT3111",
+          "tenSV": "Lâm Hồ Nhựt"
+        },
+        {
+          "maSV": "KN26KT3112",
+          "tenSV": "Nguyễn Ngọc Ánh Thư"
+        },
+        {
+          "maSV": "KN26KT3113",
+          "tenSV": "Nguyễn Ngọc Thương"
+        },
+        {
+          "maSV": "KN26KT3114",
+          "tenSV": "Phạm Nguyễn Khắc Tường"
+        },
+        {
+          "maSV": "KN26KT3115",
+          "tenSV": "Hồ Lưu Thanh Tuyền"
+        },
+        {
+          "maSV": "KN26KT3116",
+          "tenSV": "Huỳnh Thị Cẩm Vy"
+        },
+        {
+          "maSV": "KN26KT3119",
+          "tenSV": "Huỳnh Ngọc Hân"
+        }
+      ],
+      "Quản trị kinh doanh - CĐ9+K7": [
+        {
+          "maSV": "CX26OT3204",
+          "tenSV": "Phan Gia Bảo"
+        },
+        {
+          "maSV": "CX26OT3318",
+          "tenSV": "Trần Vĩ Khang"
+        },
+        {
+          "maSV": "KN26QT3101",
+          "tenSV": "Phạm Thị Mỹ Ái"
+        },
+        {
+          "maSV": "KN26QT3102",
+          "tenSV": "Nguyễn Thị Minh Anh"
+        },
+        {
+          "maSV": "KN26QT3103",
+          "tenSV": "Lê Thị Hồng Chi"
+        },
+        {
+          "maSV": "KN26QT3105",
+          "tenSV": "Nguyễn Thùy Duyên"
+        },
+        {
+          "maSV": "KN26QT3106",
+          "tenSV": "Nguyễn Huỳnh Gia Hân"
+        },
+        {
+          "maSV": "KN26QT3107",
+          "tenSV": "Nguyễn Ngọc Hân"
+        },
+        {
+          "maSV": "KN26QT3109",
+          "tenSV": "Trần Thị Tuyết Hoa"
+        },
+        {
+          "maSV": "KN26QT3110",
+          "tenSV": "Hồ Nguyễn Quỳnh Hương"
+        },
+        {
+          "maSV": "KN26QT3111",
+          "tenSV": "Cao Nhã Kỳ"
+        },
+        {
+          "maSV": "KN26QT3112",
+          "tenSV": "Trịnh Tuệ Minh"
+        },
+        {
+          "maSV": "KN26QT3113",
+          "tenSV": "Phạm Hoàng Minh"
+        },
+        {
+          "maSV": "KN26QT3114",
+          "tenSV": "Lý Kim Ngân"
+        },
+        {
+          "maSV": "KN26QT3115",
+          "tenSV": "Lê Ngọc Ngân"
+        },
+        {
+          "maSV": "KN26QT3116",
+          "tenSV": "Bùi Lâm Bảo Ngọc"
+        },
+        {
+          "maSV": "KN26QT3117",
+          "tenSV": "Nguyễn Thị Như Ngọc"
+        },
+        {
+          "maSV": "KN26QT3119",
+          "tenSV": "Trần Minh Nhựt"
+        },
+        {
+          "maSV": "KN26QT3120",
+          "tenSV": "Lê Thảo Quyên"
+        },
+        {
+          "maSV": "KN26QT3121",
+          "tenSV": "Nguyễn Hồng Thắm"
+        },
+        {
+          "maSV": "KN26QT3122",
+          "tenSV": "Nguyễn Yến Thi"
+        },
+        {
+          "maSV": "KN26QT3123",
+          "tenSV": "Huỳnh Trường Thịnh"
+        },
+        {
+          "maSV": "KN26QT3125",
+          "tenSV": "Vũ Khắc Toàn"
+        },
+        {
+          "maSV": "KN26QT3126",
+          "tenSV": "Nguyễn Huỳnh Mỹ Trăm"
+        },
+        {
+          "maSV": "KN26QT3127",
+          "tenSV": "Nguyễn Ngọc Thanh Trang"
+        },
+        {
+          "maSV": "KN26QT3128",
+          "tenSV": "Lưu Mộng Tuyền"
+        },
+        {
+          "maSV": "KN26QT3129",
+          "tenSV": "Trịnh Thảo Vy"
+        },
+        {
+          "maSV": "KN26QT3130",
+          "tenSV": "Nguyễn Đặng Như Ý"
+        },
+        {
+          "maSV": "KN26QT3131",
+          "tenSV": "Đỗ Ngọc Hải Yến"
+        }
+      ]
+    }
+  },
+  "ĐIỆN - ĐIỆN TỬ": {
+    "CĐ9+K5": {
+      "CNKT Điện, Điện tử 1 - CĐ9+K5": [
+        {
+          "maSV": "CK24OT3426",
+          "tenSV": "Vũ Duy Phi"
+        },
+        {
+          "maSV": "DT24DT3101",
+          "tenSV": "Dương Văn Tuấn Anh"
+        },
+        {
+          "maSV": "DT24DT3102",
+          "tenSV": "Đỗ Thái Bảo"
+        },
+        {
+          "maSV": "DT24DT3104",
+          "tenSV": "Trần Quốc Đạt"
+        },
+        {
+          "maSV": "DT24DT3105",
+          "tenSV": "Cao Điêu Doãn"
+        },
+        {
+          "maSV": "DT24DT3106",
+          "tenSV": "Nguyễn Tuấn Du"
+        },
+        {
+          "maSV": "DT24DT3107",
+          "tenSV": "Mã Lương Dư"
+        },
+        {
+          "maSV": "DT24DT3108",
+          "tenSV": "Nguyễn Tuấn Dương"
+        },
+        {
+          "maSV": "DT24DT3109",
+          "tenSV": "Lê Hiếu Hậu"
+        },
+        {
+          "maSV": "DT24DT3110",
+          "tenSV": "Nguyễn Minh Hiển"
+        },
+        {
+          "maSV": "DT24DT3111",
+          "tenSV": "Nguyễn Phạm Quốc Hưng"
+        },
+        {
+          "maSV": "DT24DT3113",
+          "tenSV": "Nguyễn Anh Huy"
+        },
+        {
+          "maSV": "DT24DT3115",
+          "tenSV": "Nguyễn Bình Phương Hy"
+        },
+        {
+          "maSV": "DT24DT3119",
+          "tenSV": "Võ Minh Khang"
+        },
+        {
+          "maSV": "DT24DT3121",
+          "tenSV": "Trần Hoàng Khôi"
+        },
+        {
+          "maSV": "DT24DT3122",
+          "tenSV": "Nguyễn Tuấn Kiệt"
+        },
+        {
+          "maSV": "DT24DT3123",
+          "tenSV": "Nguyễn Anh Kiệt"
+        },
+        {
+          "maSV": "DT24DT3124",
+          "tenSV": "Trần Hoài Lộc"
+        },
+        {
+          "maSV": "DT24DT3125",
+          "tenSV": "Huỳnh Kim Long"
+        },
+        {
+          "maSV": "DT24DT3127",
+          "tenSV": "Nguyễn Minh Nghĩa"
+        },
+        {
+          "maSV": "DT24DT3128",
+          "tenSV": "Lê Trọng Nguyễn"
+        },
+        {
+          "maSV": "DT24DT3131",
+          "tenSV": "Lê Quang"
+        },
+        {
+          "maSV": "DT24DT3132",
+          "tenSV": "Trần Văn Minh Thân"
+        },
+        {
+          "maSV": "DT24DT3133",
+          "tenSV": "Cao Chí Thanh"
+        },
+        {
+          "maSV": "DT24DT3134",
+          "tenSV": "Trần Nhân Thế"
+        },
+        {
+          "maSV": "DT24DT3135",
+          "tenSV": "Hồ Xuân Thịnh"
+        },
+        {
+          "maSV": "DT24DT3136",
+          "tenSV": "Đặng Hoàng Minh Thuận"
+        },
+        {
+          "maSV": "DT24DT3137",
+          "tenSV": "Danh Thanh Tiền"
+        },
+        {
+          "maSV": "DT24DT3138",
+          "tenSV": "Nguyễn Hữu Trọn"
+        },
+        {
+          "maSV": "DT24DT3139",
+          "tenSV": "Nguyễn Minh Trúc"
+        },
+        {
+          "maSV": "DT24DT3140",
+          "tenSV": "Nguyễn Quốc Tuấn"
+        },
+        {
+          "maSV": "DT24DT3142",
+          "tenSV": "Danh Vĩ"
+        },
+        {
+          "maSV": "DT24DT3143",
+          "tenSV": "Châu Tấn Vinh"
+        },
+        {
+          "maSV": "DT24DT3225",
+          "tenSV": "Phạm Hùng Vỹ"
+        },
+        {
+          "maSV": "DT24NL3105",
+          "tenSV": "Huỳnh Ngọc Hải Đăng"
+        },
+        {
+          "maSV": "DT24NL3221",
+          "tenSV": "Lê Trọng Nguyên"
+        }
+      ],
+      "CNKT Điện, Điện tử 2 - CĐ9+K5": [
+        {
+          "maSV": "CK24KL3120",
+          "tenSV": "Đinh Thiên Long"
+        },
+        {
+          "maSV": "DL24KS3332",
+          "tenSV": "Danh Hoàng Thơ"
+        },
+        {
+          "maSV": "DT24DT3114",
+          "tenSV": "Phạm Quốc Huy"
+        },
+        {
+          "maSV": "DT24DT3203",
+          "tenSV": "Danh Lộc"
+        },
+        {
+          "maSV": "DT24DT3204",
+          "tenSV": "Huỳnh Phước Lộc"
+        },
+        {
+          "maSV": "DT24DT3205",
+          "tenSV": "Lê Vũ Luân"
+        },
+        {
+          "maSV": "DT24DT3206",
+          "tenSV": "Lê Phúc Minh"
+        },
+        {
+          "maSV": "DT24DT3207",
+          "tenSV": "Nông Trần Thế Nguyên"
+        },
+        {
+          "maSV": "DT24DT3208",
+          "tenSV": "Danh Hoàng Nhật"
+        },
+        {
+          "maSV": "DT24DT3209",
+          "tenSV": "Lê Hồng Phúc"
+        },
+        {
+          "maSV": "DT24DT3210",
+          "tenSV": "Đoàn Phi Phụng"
+        },
+        {
+          "maSV": "DT24DT3211",
+          "tenSV": "Lương Anh Quốc"
+        },
+        {
+          "maSV": "DT24DT3212",
+          "tenSV": "Nguyễn Nhựt Thanh"
+        },
+        {
+          "maSV": "DT24DT3214",
+          "tenSV": "Tôn Tấn Thịnh"
+        },
+        {
+          "maSV": "DT24DT3215",
+          "tenSV": "Nguyễn Phúc Thịnh"
+        },
+        {
+          "maSV": "DT24DT3216",
+          "tenSV": "Danh Lưu Hoài Thương"
+        },
+        {
+          "maSV": "DT24DT3217",
+          "tenSV": "Bùi Minh Trí"
+        },
+        {
+          "maSV": "DT24DT3218",
+          "tenSV": "Trần Phước Trọng"
+        },
+        {
+          "maSV": "DT24DT3221",
+          "tenSV": "Đặng Minh Vàng"
+        },
+        {
+          "maSV": "DT24DT3222",
+          "tenSV": "Võ Hoàng Vĩ"
+        },
+        {
+          "maSV": "DT24DT3223",
+          "tenSV": "Nguyễn Hoàng Vinh"
+        },
+        {
+          "maSV": "DT24DT3224",
+          "tenSV": "Nguyễn Minh Vũ"
+        },
+        {
+          "maSV": "DT24DT3226",
+          "tenSV": "Danh Hoàng Phúc"
+        },
+        {
+          "maSV": "DT24DT3227",
+          "tenSV": "Nguyễn Quốc Huy"
+        },
+        {
+          "maSV": "DT24DT3230",
+          "tenSV": "Trang Nguyễn Minh Trí"
+        },
+        {
+          "maSV": "DT24DT3231",
+          "tenSV": "Ngô Bá Đạt"
+        },
+        {
+          "maSV": "DT24DT3234",
+          "tenSV": "Lương Trung Thành"
+        },
+        {
+          "maSV": "TH24TH3207",
+          "tenSV": "Trang Phạm Quốc Đạt"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 1 - CĐ9+K5": [
+        {
+          "maSV": "DT24NL3101",
+          "tenSV": "Đinh Văn An"
+        },
+        {
+          "maSV": "DT24NL3104",
+          "tenSV": "Danh Biểu"
+        },
+        {
+          "maSV": "DT24NL3106",
+          "tenSV": "Lê Phong Đạt"
+        },
+        {
+          "maSV": "DT24NL3108",
+          "tenSV": "Trần Thanh Giàu"
+        },
+        {
+          "maSV": "DT24NL3109",
+          "tenSV": "Cao Nhật Hào"
+        },
+        {
+          "maSV": "DT24NL3110",
+          "tenSV": "Nguyễn Huỳnh Chấn Hiên"
+        },
+        {
+          "maSV": "DT24NL3114",
+          "tenSV": "Nguyễn Thái Khang"
+        },
+        {
+          "maSV": "DT24NL3115",
+          "tenSV": "Danh Tuấn Anh Khoa"
+        },
+        {
+          "maSV": "DT24NL3116",
+          "tenSV": "Phạm Đăng Khôi"
+        },
+        {
+          "maSV": "DT24NL3117",
+          "tenSV": "Đỗ Trung Kiên"
+        },
+        {
+          "maSV": "DT24NL3118",
+          "tenSV": "Huỳnh Anh Kiệt"
+        },
+        {
+          "maSV": "DT24NL3119",
+          "tenSV": "Danh Lộc"
+        },
+        {
+          "maSV": "DT24NL3120",
+          "tenSV": "Lê Quốc Minh"
+        },
+        {
+          "maSV": "DT24NL3121",
+          "tenSV": "Lê Hiếu Nghĩa"
+        },
+        {
+          "maSV": "DT24NL3123",
+          "tenSV": "Trần Minh Nhựt"
+        },
+        {
+          "maSV": "DT24NL3124",
+          "tenSV": "Quách Hồng Tấn Phát"
+        },
+        {
+          "maSV": "DT24NL3125",
+          "tenSV": "Trần Thái Phát"
+        },
+        {
+          "maSV": "DT24NL3128",
+          "tenSV": "Trần Nhật Quang"
+        },
+        {
+          "maSV": "DT24NL3129",
+          "tenSV": "Nguyễn Văn Quý"
+        },
+        {
+          "maSV": "DT24NL3130",
+          "tenSV": "La Quốc Thái"
+        },
+        {
+          "maSV": "DT24NL3131",
+          "tenSV": "Trần Tiến Thành"
+        },
+        {
+          "maSV": "DT24NL3134",
+          "tenSV": "Đặng Lộc Thọ"
+        },
+        {
+          "maSV": "DT24NL3135",
+          "tenSV": "Lê Hoài Tính"
+        },
+        {
+          "maSV": "DT24NL3140",
+          "tenSV": "Hồ Lê Hoàng Vinh"
+        },
+        {
+          "maSV": "DT24NL3301",
+          "tenSV": "Trần Quốc Đại"
+        },
+        {
+          "maSV": "DT24NL3304",
+          "tenSV": "Nguyễn Quốc Duy"
+        },
+        {
+          "maSV": "DT24NL3306",
+          "tenSV": "Nguyễn Hồng Hào"
+        },
+        {
+          "maSV": "DT24NL3311",
+          "tenSV": "Lý Gia Khang"
+        },
+        {
+          "maSV": "DT24NL3312",
+          "tenSV": "Trần Khôi"
+        },
+        {
+          "maSV": "DT24NL3313",
+          "tenSV": "Đặng Quốc Khởi"
+        },
+        {
+          "maSV": "DT24NL3314",
+          "tenSV": "Ngô Tuấn Kiệt"
+        },
+        {
+          "maSV": "DT24NL3315",
+          "tenSV": "Dương Gia Lễ"
+        },
+        {
+          "maSV": "DT24NL3316",
+          "tenSV": "Trần Hoàng Minh"
+        },
+        {
+          "maSV": "DT24NL3318",
+          "tenSV": "Trần Phạm Nguyên"
+        },
+        {
+          "maSV": "DT24NL3320",
+          "tenSV": "Văn Thành Phát"
+        },
+        {
+          "maSV": "DT24NL3326",
+          "tenSV": "Danh Nam Thái"
+        },
+        {
+          "maSV": "DT24NL3329",
+          "tenSV": "Nguyễn Tấn Thiên"
+        },
+        {
+          "maSV": "DT24NL3332",
+          "tenSV": "Nguyễn Văn Tình"
+        },
+        {
+          "maSV": "DT24NL3337",
+          "tenSV": "Nguyễn Hoàng Vũ"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 2 - CĐ9+K5": [
+        {
+          "maSV": "DT24NL3112",
+          "tenSV": "Trần Đại Hưng"
+        },
+        {
+          "maSV": "DT24NL3201",
+          "tenSV": "Nguyễn Hữu Anh"
+        },
+        {
+          "maSV": "DT24NL3202",
+          "tenSV": "Cao Gia Bảo"
+        },
+        {
+          "maSV": "DT24NL3203",
+          "tenSV": "Huỳnh Gia Bảo"
+        },
+        {
+          "maSV": "DT24NL3207",
+          "tenSV": "Lê Nhựt Duy"
+        },
+        {
+          "maSV": "DT24NL3209",
+          "tenSV": "Trần Gia Hào"
+        },
+        {
+          "maSV": "DT24NL3210",
+          "tenSV": "Trần Thành Hiệp"
+        },
+        {
+          "maSV": "DT24NL3211",
+          "tenSV": "Nguyễn Huy Hoàng"
+        },
+        {
+          "maSV": "DT24NL3212",
+          "tenSV": "Lê Hoàng Hưởng"
+        },
+        {
+          "maSV": "DT24NL3214",
+          "tenSV": "Bùi Vĩ Khang"
+        },
+        {
+          "maSV": "DT24NL3217",
+          "tenSV": "Phan Tuấn Kiệt"
+        },
+        {
+          "maSV": "DT24NL3219",
+          "tenSV": "Phạm Quốc Minh"
+        },
+        {
+          "maSV": "DT24NL3220",
+          "tenSV": "Trương Quốc Nam"
+        },
+        {
+          "maSV": "DT24NL3223",
+          "tenSV": "Nguyễn Thành Phát"
+        },
+        {
+          "maSV": "DT24NL3225",
+          "tenSV": "Nguyễn Thanh Phong"
+        },
+        {
+          "maSV": "DT24NL3226",
+          "tenSV": "Lê Thanh Phúc"
+        },
+        {
+          "maSV": "DT24NL3227",
+          "tenSV": "Võ Lê Phúc"
+        },
+        {
+          "maSV": "DT24NL3228",
+          "tenSV": "Nguyễn Trọng Quí"
+        },
+        {
+          "maSV": "DT24NL3229",
+          "tenSV": "Nguyễn Ngọc Sang"
+        },
+        {
+          "maSV": "DT24NL3231",
+          "tenSV": "Trần Tiến Thành"
+        },
+        {
+          "maSV": "DT24NL3233",
+          "tenSV": "Võ Hữu Thiện"
+        },
+        {
+          "maSV": "DT24NL3235",
+          "tenSV": "Thạch Trung Tính"
+        },
+        {
+          "maSV": "DT24NL3237",
+          "tenSV": "Danh Thiện Trí"
+        },
+        {
+          "maSV": "DT24NL3238",
+          "tenSV": "Trương Văn Quốc Trường"
+        },
+        {
+          "maSV": "DT24NL3240",
+          "tenSV": "Huỳnh Hữu Vinh"
+        },
+        {
+          "maSV": "DT24NL3305",
+          "tenSV": "Trần Vĩ Hào"
+        },
+        {
+          "maSV": "DT24NL3307",
+          "tenSV": "Nguyễn Trung Hiếu"
+        },
+        {
+          "maSV": "DT24NL3309",
+          "tenSV": "Nguyễn Minh Huy"
+        },
+        {
+          "maSV": "DT24NL3310",
+          "tenSV": "Võ Văn Khải"
+        },
+        {
+          "maSV": "DT24NL3317",
+          "tenSV": "Danh Hoài Nam"
+        },
+        {
+          "maSV": "DT24NL3321",
+          "tenSV": "Nguyễn Thành Phát"
+        },
+        {
+          "maSV": "DT24NL3323",
+          "tenSV": "Trần Trọng Phúc"
+        },
+        {
+          "maSV": "DT24NL3324",
+          "tenSV": "Nguyễn Sỹ Phương"
+        },
+        {
+          "maSV": "DT24NL3327",
+          "tenSV": "Danh Lê Quốc Thanh"
+        },
+        {
+          "maSV": "DT24NL3330",
+          "tenSV": "Trần Huỳnh Thiện"
+        },
+        {
+          "maSV": "DT24NL3335",
+          "tenSV": "Lâm Hồ Quốc Tuấn"
+        },
+        {
+          "maSV": "DT24NL3336",
+          "tenSV": "Phạm Chí Vĩ"
+        }
+      ]
+    },
+    "CĐ9+K6": {
+      "CNKT Điện, Điện tử 1 - CĐ9+K6": [
+        {
+          "maSV": "CK25OT3240",
+          "tenSV": "Bùi Nhật Tinh"
+        },
+        {
+          "maSV": "DT25DT3101",
+          "tenSV": "Nguyễn Duy Anh"
+        },
+        {
+          "maSV": "DT25DT3102",
+          "tenSV": "Võ Hoài Bảo"
+        },
+        {
+          "maSV": "DT25DT3103",
+          "tenSV": "Phạm Hoàng Bảo"
+        },
+        {
+          "maSV": "DT25DT3106",
+          "tenSV": "Nguyễn Hải Đăng"
+        },
+        {
+          "maSV": "DT25DT3107",
+          "tenSV": "Quách Trần Phong Đạt"
+        },
+        {
+          "maSV": "DT25DT3108",
+          "tenSV": "Trịnh Gia Đức"
+        },
+        {
+          "maSV": "DT25DT3109",
+          "tenSV": "Trần Đạt Duy"
+        },
+        {
+          "maSV": "DT25DT3110",
+          "tenSV": "Nguyễn Khắc Ghi"
+        },
+        {
+          "maSV": "DT25DT3111",
+          "tenSV": "Danh Giang"
+        },
+        {
+          "maSV": "DT25DT3112",
+          "tenSV": "Nguyễn Hào"
+        },
+        {
+          "maSV": "DT25DT3114",
+          "tenSV": "Nguyễn Minh Hoàng"
+        },
+        {
+          "maSV": "DT25DT3116",
+          "tenSV": "Nguyễn Chấn Khang"
+        },
+        {
+          "maSV": "DT25DT3117",
+          "tenSV": "Bùi Trọng Khang"
+        },
+        {
+          "maSV": "DT25DT3118",
+          "tenSV": "Thái Nhật Khoa"
+        },
+        {
+          "maSV": "DT25DT3120",
+          "tenSV": "Phan Chí Khỏe"
+        },
+        {
+          "maSV": "DT25DT3121",
+          "tenSV": "Nguyễn Trí Khương"
+        },
+        {
+          "maSV": "DT25DT3122",
+          "tenSV": "Ngô Chính Kiên"
+        },
+        {
+          "maSV": "DT25DT3123",
+          "tenSV": "Phan Tấn Kiệt"
+        },
+        {
+          "maSV": "DT25DT3125",
+          "tenSV": "Vũ Tuấn Lộc"
+        },
+        {
+          "maSV": "DT25DT3126",
+          "tenSV": "Hồ Trần Gia Lộc"
+        },
+        {
+          "maSV": "DT25DT3127",
+          "tenSV": "Nguyễn Bình Minh"
+        },
+        {
+          "maSV": "DT25DT3128",
+          "tenSV": "Huỳnh Nhật Nam"
+        },
+        {
+          "maSV": "DT25DT3130",
+          "tenSV": "Nguyễn Trung Nghĩa"
+        },
+        {
+          "maSV": "DT25DT3131",
+          "tenSV": "Trương Vạn Phát"
+        },
+        {
+          "maSV": "DT25DT3132",
+          "tenSV": "Trần Ngọc Phát"
+        },
+        {
+          "maSV": "DT25DT3133",
+          "tenSV": "Huỳnh Ngọc Phát"
+        },
+        {
+          "maSV": "DT25DT3135",
+          "tenSV": "Danh Quang Tuấn Quỳnh"
+        },
+        {
+          "maSV": "DT25DT3136",
+          "tenSV": "Đặng Trung Sơn"
+        },
+        {
+          "maSV": "DT25DT3137",
+          "tenSV": "Lê Tăng Chí Tài"
+        },
+        {
+          "maSV": "DT25DT3138",
+          "tenSV": "Phan Hoàng Thi"
+        },
+        {
+          "maSV": "DT25DT3139",
+          "tenSV": "Trần Thanh Tiến"
+        },
+        {
+          "maSV": "DT25DT3141",
+          "tenSV": "Nguyễn Công Tới"
+        },
+        {
+          "maSV": "DT25DT3144",
+          "tenSV": "Nguyễn Quang Trường"
+        },
+        {
+          "maSV": "DT25DT3145",
+          "tenSV": "Lê Hoàng Tuấn Vỹ"
+        },
+        {
+          "maSV": "DT25DT3147",
+          "tenSV": "Huỳnh Vang"
+        },
+        {
+          "maSV": "DT25DT3207",
+          "tenSV": "Trần Quang Định"
+        },
+        {
+          "maSV": "DT25DT3209",
+          "tenSV": "Đặng Huỳnh Duy"
+        },
+        {
+          "maSV": "DT25DT3217",
+          "tenSV": "Lưu Hoàng Sang"
+        },
+        {
+          "maSV": "DT25DT3218",
+          "tenSV": "Nguyễn Văn Tài"
+        },
+        {
+          "maSV": "DT25DT3220",
+          "tenSV": "Huỳnh Đức Thiện"
+        },
+        {
+          "maSV": "DT25DT3223",
+          "tenSV": "Nguyễn Văn Trận"
+        },
+        {
+          "maSV": "DT25DT3224",
+          "tenSV": "Lê Minh Trí"
+        },
+        {
+          "maSV": "DT25DT3227",
+          "tenSV": "Đào Triệu Vỹ"
+        },
+        {
+          "maSV": "DT25DT3230",
+          "tenSV": "Đinh Đức Nhân"
+        },
+        {
+          "maSV": "DT25DT3232",
+          "tenSV": "Nguyễn Hoài Thương"
+        },
+        {
+          "maSV": "TH25CN3203",
+          "tenSV": "Nguyễn Thành Đạt"
+        }
+      ],
+      "CNKT Điện, Điện tử 2 - CĐ9+K6": [
+        {
+          "maSV": "CK25CK3107",
+          "tenSV": "Trần Ngọc Hưởng"
+        },
+        {
+          "maSV": "DT25DT3143",
+          "tenSV": "Võ Quốc Triệu"
+        },
+        {
+          "maSV": "DT25DT3201",
+          "tenSV": "Huỳnh Thế Anh"
+        },
+        {
+          "maSV": "DT25DT3203",
+          "tenSV": "Hồ Chí Bình"
+        },
+        {
+          "maSV": "DT25DT3204",
+          "tenSV": "Danh Cường"
+        },
+        {
+          "maSV": "DT25DT3208",
+          "tenSV": "Lê Hữu Đức"
+        },
+        {
+          "maSV": "DT25DT3210",
+          "tenSV": "Dương Hoàng Giang"
+        },
+        {
+          "maSV": "DT25DT3211",
+          "tenSV": "Trần Văn Giàu"
+        },
+        {
+          "maSV": "DT25DT3212",
+          "tenSV": "Hồ Tân Khoa"
+        },
+        {
+          "maSV": "DT25DT3213",
+          "tenSV": "Nguyễn Trần Tấn Phát"
+        },
+        {
+          "maSV": "DT25DT3219",
+          "tenSV": "Trương Hoàng Thắng"
+        },
+        {
+          "maSV": "DT25DT3221",
+          "tenSV": "Nguyễn Minh Tiền"
+        },
+        {
+          "maSV": "DT25DT3225",
+          "tenSV": "Danh Trường"
+        },
+        {
+          "maSV": "DT25DT3228",
+          "tenSV": "Nguyễn Thành Đạt"
+        },
+        {
+          "maSV": "DT25DT3231",
+          "tenSV": "Nguyễn Hoàng Phú"
+        },
+        {
+          "maSV": "DT25DT3233",
+          "tenSV": "Nguyễn Trí Tín"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 1 - CĐ9+K6": [
+        {
+          "maSV": "DT25DT3104",
+          "tenSV": "Trần Quang Chờ"
+        },
+        {
+          "maSV": "DT25NL3101",
+          "tenSV": "Nguyễn Thế Anh"
+        },
+        {
+          "maSV": "DT25NL3102",
+          "tenSV": "Lê Thế Anh"
+        },
+        {
+          "maSV": "DT25NL3105",
+          "tenSV": "Nguyễn Minh Đăng"
+        },
+        {
+          "maSV": "DT25NL3106",
+          "tenSV": "Danh Thành Đạt"
+        },
+        {
+          "maSV": "DT25NL3107",
+          "tenSV": "Phạm Quốc Đạt"
+        },
+        {
+          "maSV": "DT25NL3108",
+          "tenSV": "Danh Đức"
+        },
+        {
+          "maSV": "DT25NL3109",
+          "tenSV": "Trần Nhựt Duy"
+        },
+        {
+          "maSV": "DT25NL3111",
+          "tenSV": "Nguyễn Thanh Hiền"
+        },
+        {
+          "maSV": "DT25NL3112",
+          "tenSV": "Trương Minh Hiếu"
+        },
+        {
+          "maSV": "DT25NL3113",
+          "tenSV": "Danh Hòa Hợp"
+        },
+        {
+          "maSV": "DT25NL3114",
+          "tenSV": "Bùi Văn Hưng"
+        },
+        {
+          "maSV": "DT25NL3116",
+          "tenSV": "Danh Bảo Khang"
+        },
+        {
+          "maSV": "DT25NL3117",
+          "tenSV": "Trần Minh Khang"
+        },
+        {
+          "maSV": "DT25NL3119",
+          "tenSV": "Trần Đăng Khoa"
+        },
+        {
+          "maSV": "DT25NL3121",
+          "tenSV": "Trần Ngô Khôi"
+        },
+        {
+          "maSV": "DT25NL3122",
+          "tenSV": "Dương Trí Kiệt"
+        },
+        {
+          "maSV": "DT25NL3123",
+          "tenSV": "Nguyễn Quốc Kiệt"
+        },
+        {
+          "maSV": "DT25NL3124",
+          "tenSV": "Đồng Minh Kỳ"
+        },
+        {
+          "maSV": "DT25NL3125",
+          "tenSV": "Hồ Minh Lộc"
+        },
+        {
+          "maSV": "DT25NL3126",
+          "tenSV": "Nguyễn Lê Lợi"
+        },
+        {
+          "maSV": "DT25NL3127",
+          "tenSV": "Lương Tiến Lực"
+        },
+        {
+          "maSV": "DT25NL3128",
+          "tenSV": "Nguyễn Quang Minh"
+        },
+        {
+          "maSV": "DT25NL3131",
+          "tenSV": "Nguyễn Trọng Nguyễn"
+        },
+        {
+          "maSV": "DT25NL3134",
+          "tenSV": "Lê Hoàn Như"
+        },
+        {
+          "maSV": "DT25NL3136",
+          "tenSV": "Nguyễn Thái Phát"
+        },
+        {
+          "maSV": "DT25NL3137",
+          "tenSV": "Mai Tấn Phát"
+        },
+        {
+          "maSV": "DT25NL3138",
+          "tenSV": "Phạm Lê Tấn Phát"
+        },
+        {
+          "maSV": "DT25NL3139",
+          "tenSV": "Lâm Trường Phong"
+        },
+        {
+          "maSV": "DT25NL3141",
+          "tenSV": "Nguyễn Thanh Sang"
+        },
+        {
+          "maSV": "DT25NL3143",
+          "tenSV": "Phạm Hoàng Thái"
+        },
+        {
+          "maSV": "DT25NL3144",
+          "tenSV": "Trần Minh Thặt"
+        },
+        {
+          "maSV": "DT25NL3145",
+          "tenSV": "Trần Minh Tiến"
+        },
+        {
+          "maSV": "DT25NL3146",
+          "tenSV": "Nguyễn Minh Triều"
+        },
+        {
+          "maSV": "DT25NL3148",
+          "tenSV": "Lê Quang Vinh"
+        },
+        {
+          "maSV": "DT25NL3149",
+          "tenSV": "Hà Đức Huy"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 2 - CĐ9+K6": [
+        {
+          "maSV": "DT25NL3201",
+          "tenSV": "Nguyễn Hoàng Anh"
+        },
+        {
+          "maSV": "DT25NL3203",
+          "tenSV": "Lý Thanh Bình"
+        },
+        {
+          "maSV": "DT25NL3204",
+          "tenSV": "Nguyễn Phương Đăng"
+        },
+        {
+          "maSV": "DT25NL3205",
+          "tenSV": "Danh Hải Đảo"
+        },
+        {
+          "maSV": "DT25NL3206",
+          "tenSV": "Nguyễn Phong Đạt"
+        },
+        {
+          "maSV": "DT25NL3209",
+          "tenSV": "Trần Thế Duy"
+        },
+        {
+          "maSV": "DT25NL3210",
+          "tenSV": "Phạm Hoàng Hải"
+        },
+        {
+          "maSV": "DT25NL3212",
+          "tenSV": "Võ Minh Hiểu"
+        },
+        {
+          "maSV": "DT25NL3214",
+          "tenSV": "Triệu Minh Huy"
+        },
+        {
+          "maSV": "DT25NL3215",
+          "tenSV": "Nguyễn Quốc Huy"
+        },
+        {
+          "maSV": "DT25NL3216",
+          "tenSV": "Lưu Gia Khánh"
+        },
+        {
+          "maSV": "DT25NL3217",
+          "tenSV": "Lê Anh Khoa"
+        },
+        {
+          "maSV": "DT25NL3218",
+          "tenSV": "Phan Minh Kiệt"
+        },
+        {
+          "maSV": "DT25NL3222",
+          "tenSV": "Trần Minh Nhật"
+        },
+        {
+          "maSV": "DT25NL3223",
+          "tenSV": "Danh Hồng Phát"
+        },
+        {
+          "maSV": "DT25NL3224",
+          "tenSV": "Huỳnh Thanh Phong"
+        },
+        {
+          "maSV": "DT25NL3225",
+          "tenSV": "Đoàn Văn Tây"
+        },
+        {
+          "maSV": "DT25NL3227",
+          "tenSV": "Trần Phước Thiện"
+        },
+        {
+          "maSV": "DT25NL3228",
+          "tenSV": "Danh Thoại"
+        },
+        {
+          "maSV": "DT25NL3230",
+          "tenSV": "Phạm Trung Trọng"
+        },
+        {
+          "maSV": "DT25NL3231",
+          "tenSV": "Trần Hoàng Việt"
+        },
+        {
+          "maSV": "DT25NL3234",
+          "tenSV": "Trần Huy Phúc"
+        }
+      ]
+    },
+    "CĐ9+K7": {
+      "CNKT Điện, Điện tử 1 - CĐ9+K7": [
+        {
+          "maSV": "DT26DT3101",
+          "tenSV": "Nguyễn Lê Thuận Anh"
+        },
+        {
+          "maSV": "DT26DT3103",
+          "tenSV": "Nguyễn Hoàng Bảo"
+        },
+        {
+          "maSV": "DT26DT3104",
+          "tenSV": "Trần Gia Bảo"
+        },
+        {
+          "maSV": "DT26DT3107",
+          "tenSV": "Hồ Thành Đạt"
+        },
+        {
+          "maSV": "DT26DT3108",
+          "tenSV": "Trần Đinh Tiến Đạt"
+        },
+        {
+          "maSV": "DT26DT3109",
+          "tenSV": "Lê Hoàng Đạt"
+        },
+        {
+          "maSV": "DT26DT3110",
+          "tenSV": "Huỳnh Chí Dũng"
+        },
+        {
+          "maSV": "DT26DT3111",
+          "tenSV": "Lê Chí Hải"
+        },
+        {
+          "maSV": "DT26DT3112",
+          "tenSV": "Nguyễn Vũ Hải"
+        },
+        {
+          "maSV": "DT26DT3113",
+          "tenSV": "Trần Minh Hào"
+        },
+        {
+          "maSV": "DT26DT3114",
+          "tenSV": "Trần Thanh Hiếu"
+        },
+        {
+          "maSV": "DT26DT3115",
+          "tenSV": "Huỳnh Vũ Hùng"
+        },
+        {
+          "maSV": "DT26DT3116",
+          "tenSV": "Nguyễn Gia Huy"
+        },
+        {
+          "maSV": "DT26DT3117",
+          "tenSV": "Bùi Nguyễn Hoàng Khang"
+        },
+        {
+          "maSV": "DT26DT3119",
+          "tenSV": "Phạm Tuấn Khanh"
+        },
+        {
+          "maSV": "DT26DT3120",
+          "tenSV": "Nguyễn Đăng Khôi"
+        },
+        {
+          "maSV": "DT26DT3121",
+          "tenSV": "Mai Anh Khôi"
+        },
+        {
+          "maSV": "DT26DT3122",
+          "tenSV": "Danh Quốc Kiệt"
+        },
+        {
+          "maSV": "DT26DT3123",
+          "tenSV": "Danh Hoàng Kim"
+        },
+        {
+          "maSV": "DT26DT3124",
+          "tenSV": "Danh Hoàng Linh"
+        },
+        {
+          "maSV": "DT26DT3125",
+          "tenSV": "Phạm Hoàng Lộc"
+        },
+        {
+          "maSV": "DT26DT3126",
+          "tenSV": "Lê Hoàng Long"
+        },
+        {
+          "maSV": "DT26DT3127",
+          "tenSV": "Trần Văn Lực"
+        },
+        {
+          "maSV": "DT26DT3128",
+          "tenSV": "Nguyễn Hoàng Nam"
+        },
+        {
+          "maSV": "DT26DT3129",
+          "tenSV": "Nguyễn Chí Nguyễn"
+        },
+        {
+          "maSV": "DT26DT3130",
+          "tenSV": "Trần Thiện Nhân"
+        },
+        {
+          "maSV": "DT26DT3131",
+          "tenSV": "Danh Nguyễn Phát"
+        },
+        {
+          "maSV": "DT26DT3133",
+          "tenSV": "Danh Hoài Phương"
+        },
+        {
+          "maSV": "DT26DT3135",
+          "tenSV": "Nguyễn Chí Thành"
+        },
+        {
+          "maSV": "DT26DT3136",
+          "tenSV": "Lê Huỳnh Tiến Thịnh"
+        },
+        {
+          "maSV": "DT26DT3137",
+          "tenSV": "Phan Huỳnh Tiến"
+        },
+        {
+          "maSV": "DT26DT3138",
+          "tenSV": "Tài Cao Trí"
+        },
+        {
+          "maSV": "DT26DT3139",
+          "tenSV": "Phan Minh Trí"
+        },
+        {
+          "maSV": "DT26DT3140",
+          "tenSV": "Huỳnh Văn Trọng"
+        },
+        {
+          "maSV": "DT26DT3141",
+          "tenSV": "Châu Hồng Tuấn"
+        },
+        {
+          "maSV": "DT26DT3142",
+          "tenSV": "Từ Võ Phương Trường"
+        },
+        {
+          "maSV": "DT26DT3143",
+          "tenSV": "Lê Anh Tuấn"
+        },
+        {
+          "maSV": "DT26DT3144",
+          "tenSV": "Bùi Minh Tùng"
+        },
+        {
+          "maSV": "DT26DT3145",
+          "tenSV": "Danh Hoàng Vinh"
+        }
+      ],
+      "CNKT Điện, Điện tử 2 - CĐ9+K7": [
+        {
+          "maSV": "DT26DT3134",
+          "tenSV": "Ngô Duy Tân"
+        },
+        {
+          "maSV": "DT26DT3201",
+          "tenSV": "Nguyễn Hoàng Duy Anh"
+        },
+        {
+          "maSV": "DT26DT3203",
+          "tenSV": "Nguyễn Quốc Bảo"
+        },
+        {
+          "maSV": "DT26DT3204",
+          "tenSV": "Danh Thạch Chiến"
+        },
+        {
+          "maSV": "DT26DT3205",
+          "tenSV": "Ngô Tứ Hải Đăng"
+        },
+        {
+          "maSV": "DT26DT3206",
+          "tenSV": "Đỗ Phong Đạt"
+        },
+        {
+          "maSV": "DT26DT3207",
+          "tenSV": "Lê Thành Đạt"
+        },
+        {
+          "maSV": "DT26DT3208",
+          "tenSV": "Đinh Tiến Đạt"
+        },
+        {
+          "maSV": "DT26DT3209",
+          "tenSV": "Nguyễn Vũ Anh Đức"
+        },
+        {
+          "maSV": "DT26DT3210",
+          "tenSV": "Nguyễn Hồng Duy"
+        },
+        {
+          "maSV": "DT26DT3211",
+          "tenSV": "Hoàng Trung Hải"
+        },
+        {
+          "maSV": "DT26DT3212",
+          "tenSV": "Trần Phúc Hào"
+        },
+        {
+          "maSV": "DT26DT3213",
+          "tenSV": "Danh Hậu"
+        },
+        {
+          "maSV": "DT26DT3214",
+          "tenSV": "Lê Trung Hiếu"
+        },
+        {
+          "maSV": "DT26DT3215",
+          "tenSV": "Trần Quốc Hưng"
+        },
+        {
+          "maSV": "DT26DT3216",
+          "tenSV": "Lâm Gia Huy"
+        },
+        {
+          "maSV": "DT26DT3217",
+          "tenSV": "Lê Trọng Khang"
+        },
+        {
+          "maSV": "DT26DT3218",
+          "tenSV": "Danh Tuấn Khang"
+        },
+        {
+          "maSV": "DT26DT3219",
+          "tenSV": "Phạm Anh Khôi"
+        },
+        {
+          "maSV": "DT26DT3220",
+          "tenSV": "Kha Trần Quốc Kiệt"
+        },
+        {
+          "maSV": "DT26DT3221",
+          "tenSV": "Trần Trung Kỳ"
+        },
+        {
+          "maSV": "DT26DT3223",
+          "tenSV": "Nguyễn Đại Lợi"
+        },
+        {
+          "maSV": "DT26DT3224",
+          "tenSV": "Trần Phúc Long"
+        },
+        {
+          "maSV": "DT26DT3225",
+          "tenSV": "Cao Lê Hữu Minh"
+        },
+        {
+          "maSV": "DT26DT3227",
+          "tenSV": "Trần Hữu Nhân"
+        },
+        {
+          "maSV": "DT26DT3228",
+          "tenSV": "Trương Ngọc Niên"
+        },
+        {
+          "maSV": "DT26DT3231",
+          "tenSV": "Nguyễn Minh Tài"
+        },
+        {
+          "maSV": "DT26DT3232",
+          "tenSV": "Nguyễn Tấn"
+        },
+        {
+          "maSV": "DT26DT3233",
+          "tenSV": "Trần Lê Hoàng Thiên"
+        },
+        {
+          "maSV": "DT26DT3235",
+          "tenSV": "Vũ Đình Tiến"
+        },
+        {
+          "maSV": "DT26DT3236",
+          "tenSV": "Danh Minh Trí"
+        },
+        {
+          "maSV": "DT26DT3237",
+          "tenSV": "Huỳnh Minh Triết"
+        },
+        {
+          "maSV": "DT26DT3238",
+          "tenSV": "Nguyễn Hữu Trọng"
+        },
+        {
+          "maSV": "DT26DT3239",
+          "tenSV": "Dương Minh Tuấn"
+        },
+        {
+          "maSV": "DT26DT3241",
+          "tenSV": "Hồ Phước Vinh"
+        },
+        {
+          "maSV": "DT26DT3242",
+          "tenSV": "Vương Đăng Khoa"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 1 - CĐ9+K7": [
+        {
+          "maSV": "CX26CK3122",
+          "tenSV": "Đỗ Vũ Quốc Nam"
+        },
+        {
+          "maSV": "DT26NL3101",
+          "tenSV": "Thái Tuấn Anh"
+        },
+        {
+          "maSV": "DT26NL3102",
+          "tenSV": "Lâm Tuấn Anh"
+        },
+        {
+          "maSV": "DT26NL3103",
+          "tenSV": "Nông Gia Bảo"
+        },
+        {
+          "maSV": "DT26NL3104",
+          "tenSV": "Nguyễn Thanh Bình"
+        },
+        {
+          "maSV": "DT26NL3105",
+          "tenSV": "Đào Mạnh Cường"
+        },
+        {
+          "maSV": "DT26NL3106",
+          "tenSV": "Đỗ Thành Danh"
+        },
+        {
+          "maSV": "DT26NL3107",
+          "tenSV": "Hiếu Hoàng Đạt"
+        },
+        {
+          "maSV": "DT26NL3108",
+          "tenSV": "Doãn Đông Đông"
+        },
+        {
+          "maSV": "DT26NL3109",
+          "tenSV": "Lý Thanh Duy"
+        },
+        {
+          "maSV": "DT26NL3110",
+          "tenSV": "Nguyễn Duy"
+        },
+        {
+          "maSV": "DT26NL3111",
+          "tenSV": "Trần Đặng Thái Hồ"
+        },
+        {
+          "maSV": "DT26NL3112",
+          "tenSV": "Nguyễn Vũ Quốc Hội"
+        },
+        {
+          "maSV": "DT26NL3113",
+          "tenSV": "Trần Gia Huy"
+        },
+        {
+          "maSV": "DT26NL3114",
+          "tenSV": "Đổng Tấn Khá"
+        },
+        {
+          "maSV": "DT26NL3115",
+          "tenSV": "Đặng Hoàng Khải"
+        },
+        {
+          "maSV": "DT26NL3116",
+          "tenSV": "Huỳnh Phúc Khang"
+        },
+        {
+          "maSV": "DT26NL3117",
+          "tenSV": "Nguyễn Trí Khanh"
+        },
+        {
+          "maSV": "DT26NL3118",
+          "tenSV": "Nguyễn Anh Khoa"
+        },
+        {
+          "maSV": "DT26NL3119",
+          "tenSV": "Huỳnh Đăng Khôi"
+        },
+        {
+          "maSV": "DT26NL3120",
+          "tenSV": "Ngô Quốc Linh"
+        },
+        {
+          "maSV": "DT26NL3121",
+          "tenSV": "Trần Duy Long"
+        },
+        {
+          "maSV": "DT26NL3122",
+          "tenSV": "Dương Nguyễn Duy Mạnh"
+        },
+        {
+          "maSV": "DT26NL3123",
+          "tenSV": "Lê Tấn Minh"
+        },
+        {
+          "maSV": "DT26NL3124",
+          "tenSV": "Đỗ Hải Nam"
+        },
+        {
+          "maSV": "DT26NL3125",
+          "tenSV": "Lê Huỳnh Tài Nguyên"
+        },
+        {
+          "maSV": "DT26NL3127",
+          "tenSV": "Nguyễn Trọng Nhân"
+        },
+        {
+          "maSV": "DT26NL3128",
+          "tenSV": "Lê Văn Nhớ"
+        },
+        {
+          "maSV": "DT26NL3129",
+          "tenSV": "Lương Lộc Phát"
+        },
+        {
+          "maSV": "DT26NL3130",
+          "tenSV": "Trương Văn Phong"
+        },
+        {
+          "maSV": "DT26NL3131",
+          "tenSV": "Trần Minh Phú"
+        },
+        {
+          "maSV": "DT26NL3132",
+          "tenSV": "Quách Trần Hữu Phúc"
+        },
+        {
+          "maSV": "DT26NL3133",
+          "tenSV": "Tôn Tường Phúc"
+        },
+        {
+          "maSV": "DT26NL3134",
+          "tenSV": "Trần Duy Phước"
+        },
+        {
+          "maSV": "DT26NL3136",
+          "tenSV": "Phan Trần Tuấn Tài"
+        },
+        {
+          "maSV": "DT26NL3137",
+          "tenSV": "Nguyễn Ngọc Thạch"
+        },
+        {
+          "maSV": "DT26NL3138",
+          "tenSV": "Hồ Lê Chí Thiện"
+        },
+        {
+          "maSV": "DT26NL3139",
+          "tenSV": "Lê Phúc Thịnh"
+        },
+        {
+          "maSV": "DT26NL3140",
+          "tenSV": "Võ Chí Thuận"
+        },
+        {
+          "maSV": "DT26NL3141",
+          "tenSV": "Trần Quốc Tiến"
+        },
+        {
+          "maSV": "DT26NL3144",
+          "tenSV": "Mã Nguyên Trí"
+        },
+        {
+          "maSV": "DT26NL3146",
+          "tenSV": "Hồ Trần Gia Tỷ"
+        },
+        {
+          "maSV": "DT26NL3147",
+          "tenSV": "Tiêu Chí Vỹ"
+        }
+      ],
+      "Kỹ thuật máy lạnh và ĐHKK 2 - CĐ9+K7": [
+        {
+          "maSV": "DT26NL3143",
+          "tenSV": "Huỳnh Phúc Toàn"
+        },
+        {
+          "maSV": "DT26NL3145",
+          "tenSV": "Cao Văn Tường"
+        },
+        {
+          "maSV": "DT26NL3201",
+          "tenSV": "Võ Tuấn Anh"
+        },
+        {
+          "maSV": "DT26NL3202",
+          "tenSV": "Trần Đinh Gia Bảo"
+        },
+        {
+          "maSV": "DT26NL3203",
+          "tenSV": "Nguyễn Gia Bảo"
+        },
+        {
+          "maSV": "DT26NL3204",
+          "tenSV": "Đỗ Văn Chất"
+        },
+        {
+          "maSV": "DT26NL3205",
+          "tenSV": "Danh Hải Đăng"
+        },
+        {
+          "maSV": "DT26NL3206",
+          "tenSV": "Nguyễn Văn Đạt"
+        },
+        {
+          "maSV": "DT26NL3207",
+          "tenSV": "Lê Tiến Đạt"
+        },
+        {
+          "maSV": "DT26NL3208",
+          "tenSV": "Lê Thành Được"
+        },
+        {
+          "maSV": "DT26NL3209",
+          "tenSV": "Hồ Phước Duy"
+        },
+        {
+          "maSV": "DT26NL3210",
+          "tenSV": "Phạm Thanh Giàu"
+        },
+        {
+          "maSV": "DT26NL3211",
+          "tenSV": "Võ Huy Hoàng"
+        },
+        {
+          "maSV": "DT26NL3212",
+          "tenSV": "Phạm Văn Hưng"
+        },
+        {
+          "maSV": "DT26NL3213",
+          "tenSV": "Nguyễn Trần Gia Huy"
+        },
+        {
+          "maSV": "DT26NL3214",
+          "tenSV": "Ngô Bạch Khả"
+        },
+        {
+          "maSV": "DT26NL3215",
+          "tenSV": "Nguyễn Tuấn Khang"
+        },
+        {
+          "maSV": "DT26NL3216",
+          "tenSV": "Nguyễn Phúc Khang"
+        },
+        {
+          "maSV": "DT26NL3217",
+          "tenSV": "Ngô Trọng Khánh"
+        },
+        {
+          "maSV": "DT26NL3218",
+          "tenSV": "Trần Văn Khôi"
+        },
+        {
+          "maSV": "DT26NL3219",
+          "tenSV": "Hà Văn Lên"
+        },
+        {
+          "maSV": "DT26NL3220",
+          "tenSV": "Phan Lý Hoàng Lộc"
+        },
+        {
+          "maSV": "DT26NL3221",
+          "tenSV": "Trần Đắc Duy Mạnh"
+        },
+        {
+          "maSV": "DT26NL3222",
+          "tenSV": "Nguyễn Duy Minh"
+        },
+        {
+          "maSV": "DT26NL3223",
+          "tenSV": "Danh Thành Nam"
+        },
+        {
+          "maSV": "DT26NL3224",
+          "tenSV": "La Bảo Nam"
+        },
+        {
+          "maSV": "DT26NL3225",
+          "tenSV": "Lê Hữu Nhàn"
+        },
+        {
+          "maSV": "DT26NL3226",
+          "tenSV": "Trần Trọng Nhân"
+        },
+        {
+          "maSV": "DT26NL3227",
+          "tenSV": "Trần Phạm Minh Nhật"
+        },
+        {
+          "maSV": "DT26NL3228",
+          "tenSV": "Nguyễn Thành Phát"
+        },
+        {
+          "maSV": "DT26NL3229",
+          "tenSV": "Huỳnh Trần Phát"
+        },
+        {
+          "maSV": "DT26NL3230",
+          "tenSV": "Nguyễn Quốc Phú"
+        },
+        {
+          "maSV": "DT26NL3231",
+          "tenSV": "Nguyễn Thanh Phú"
+        },
+        {
+          "maSV": "DT26NL3232",
+          "tenSV": "Huỳnh Lê Hoàn Phúc"
+        },
+        {
+          "maSV": "DT26NL3233",
+          "tenSV": "Nguyễn Nhật Phước"
+        },
+        {
+          "maSV": "DT26NL3234",
+          "tenSV": "Danh Quỳnh"
+        },
+        {
+          "maSV": "DT26NL3235",
+          "tenSV": "Nguyễn Trọng Tân"
+        },
+        {
+          "maSV": "DT26NL3236",
+          "tenSV": "Lê Văn Thắng"
+        },
+        {
+          "maSV": "DT26NL3237",
+          "tenSV": "Nguyễn Đức Thịnh"
+        },
+        {
+          "maSV": "DT26NL3238",
+          "tenSV": "Dương Văn Thuận"
+        },
+        {
+          "maSV": "DT26NL3239",
+          "tenSV": "Dương Giảng Thực"
+        },
+        {
+          "maSV": "DT26NL3240",
+          "tenSV": "Huỳnh Văn Tính"
+        },
+        {
+          "maSV": "DT26NL3241",
+          "tenSV": "Trần Hữu Toàn"
+        },
+        {
+          "maSV": "DT26NL3242",
+          "tenSV": "Trần Thanh Trí"
+        },
+        {
+          "maSV": "DT26NL3243",
+          "tenSV": "Vũ Đức Trung"
+        },
+        {
+          "maSV": "DT26NL3244",
+          "tenSV": "Hồ Việt Trường"
+        },
+        {
+          "maSV": "DT26NL3245",
+          "tenSV": "Phạm Quốc Vinh"
+        },
+        {
+          "maSV": "DT26NL3246",
+          "tenSV": "Lưu Chí Vỹ"
+        }
+      ]
+    }
+  },
+  "ĐÀO TẠO VÀ ĐẢM BẢO CHẤT LƯỢNG": {
+    "K18": {
+      "CNKT Điện, Điện tử (INSEE K18 VB2)": [
+        {
+          "maSV": "PDT25DT301",
+          "tenSV": "Nguyễn Hoàng Ái"
+        },
+        {
+          "maSV": "PDT25DT302",
+          "tenSV": "Đặng Xuân Đức"
+        },
+        {
+          "maSV": "PDT25DT303",
+          "tenSV": "Phan Trung Hiếu"
+        },
+        {
+          "maSV": "PDT25DT304",
+          "tenSV": "Ngô Quang Gia Huy"
+        },
+        {
+          "maSV": "PDT25DT305",
+          "tenSV": "Danh Đình Khải"
+        },
+        {
+          "maSV": "PDT25DT306",
+          "tenSV": "Nguyễn Hoàng Nam"
+        },
+        {
+          "maSV": "PDT25DT307",
+          "tenSV": "Lê Trường Phúc"
+        },
+        {
+          "maSV": "PDT25DT308",
+          "tenSV": "Trần Thái Toàn"
+        },
+        {
+          "maSV": "PDT25DT309",
+          "tenSV": "Phạm Bửu Vinh"
+        }
+      ]
+    },
+    "K19": {
+      "CNKT Điện, Điện tử (INSEE K19 VB2)": [
+        {
+          "maSV": "PDT26DT301",
+          "tenSV": "Hồng Kim Bảo"
+        },
+        {
+          "maSV": "PDT26DT302",
+          "tenSV": "Võ Huy Cường"
+        },
+        {
+          "maSV": "PDT26DT303",
+          "tenSV": "Danh Chí Khan"
+        },
+        {
+          "maSV": "PDT26DT304",
+          "tenSV": "Đào Duy Khang"
+        },
+        {
+          "maSV": "PDT26DT305",
+          "tenSV": "Bùi Gia Khiêm"
+        },
+        {
+          "maSV": "PDT26DT306",
+          "tenSV": "Nguyễn Quốc Lộc"
+        },
+        {
+          "maSV": "PDT26DT307",
+          "tenSV": "Bùi Trọng Nghĩa"
+        },
+        {
+          "maSV": "PDT26DT308",
+          "tenSV": "Phan Ngọc Quỳnh Như"
+        },
+        {
+          "maSV": "PDT26DT309",
+          "tenSV": "Trần Thanh Phú"
+        },
+        {
+          "maSV": "PDT26DT310",
+          "tenSV": "Huỳnh Thanh Sang"
+        },
+        {
+          "maSV": "PDT26DT311",
+          "tenSV": "Châu Văn Thắng"
+        },
+        {
+          "maSV": "PDT26DT312",
+          "tenSV": "Nguyễn Hữu Tường"
+        }
+      ]
+    }
+  }
+}

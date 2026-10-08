@@ -1,0 +1,832 @@
+/* ===== GLOBAL ===== */
+:root {
+  --primary: #2055ac;          /* xám đậm */
+  --primary-dark: #0d366f;     /* đen xám */
+  --primary-light: #253d5e;
+  --bg: #f3f4f6;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --success: #059669;
+  --danger: #dc2626;
+  --warning: #d97706;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ===== NÚT QUAY LẠI ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 10px 20px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:hover {
+  background: #275596;
+  transform: translateY(-1px);
+}
+
+/* ===== NÚT SIDEBAR ===== */
+.btn-base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
+}
+
+.btn-base:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-base:active {
+  transform: translateY(0);
+}
+
+/* ===== NÚT SIDEBAR – MÀU RIÊNG ===== */
+.btn-red,
+.btn-back,
+.btn-send,
+.btn-yellow,
+.btn-calendar {
+  color: #ffffff !important;
+  border: none !important;
+  font-weight: 600;
+}
+
+/* Đổi người nhập – đỏ */
+.btn-red {
+  background: #d52d2d !important;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.35);
+}
+.btn-red:hover {
+  background: #b91c1c !important;
+  transform: translateY(-1px);
+}
+
+/* Quay lại – xanh dương */
+.btn-back {
+  background: #2563eb !important;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+}
+.btn-back:hover {
+  background: #1d4ed8 !important;
+  transform: translateY(-1px);
+}
+
+/* Gửi – xanh lá */
+.btn-send {
+  background: #059669 !important;
+  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.35);
+}
+.btn-send:hover {
+  background: #047857 !important;
+  transform: translateY(-1px);
+}
+
+/* Danh sách + Lịch – vàng amber */
+.btn-yellow{
+  background: #f7d353 !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.35);
+  color: #020202 !important;
+}
+.btn-yellow:hover{
+  background: #ada72ff5 !important;
+  transform: translateY(-1px);
+}
+/* ===== NÚT LỊCH – TÍM ===== */
+.btn-calendar {
+  background: #f3a54c !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.35);
+  color: #ffffff !important;
+}
+
+.btn-calendar:hover {
+  background: #9d6622 !important;
+  transform: translateY(-1px);
+}
+/* ===== NÚT QUẢN LÝ – XANH NGỌC ===== */
+.btn-manage {
+  background: #f357c7 !important;
+  box-shadow: 0 2px 8px rgba(13, 148, 136, 0.35);
+  border: none !important;
+  color: #ffffff !important;
+}
+.btn-manage:hover {
+  background: #9f1c89 !important;
+  transform: translateY(-1px);
+}
+.btn-export {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: #379352;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-export:hover {
+  background: #1b6132;
+}
+.btn-export.orange {
+  background: var(--warning);
+}
+.btn-export.orange:hover {
+  background: #b45309;
+}
+
+.export-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+/* ===== SIDEBAR TITLE ===== */
+.title {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  margin-bottom: 8px;
+}
+
+/* ===== CALENDAR PAGE LAYOUT (TRÊN - DƯỚI) ===== */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 20px 24px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Lịch nằm trên, căn giữa, gọn */
+.calendar-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#calendar {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+  padding: 16px 18px 20px;
+  border: 1px solid var(--border);
+}
+
+#calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+#calendar-header button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: #3d76c7;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#calendar-header button:hover {
+  background: var(--primary-dark);
+}
+#calendar-header span {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+/* Bảng lịch gọn đẹp */
+table.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+table.calendar-table th {
+  background: #eff6ff;
+  color: var(--primary-dark);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 4px;
+  border: 1px solid #dbeafe;
+}
+table.calendar-table td {
+  border: 1px solid var(--border);
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.15s;
+  position: relative;
+  padding: 0;
+}
+table.calendar-table td:hover:not(.inactive) {
+  background: #dbeafe;
+}
+table.calendar-table td.inactive {
+  background: #f8fafc;
+  color: #cbd5e1;
+  cursor: default;
+}
+table.calendar-table td.active {
+  background: var(--primary) !important;
+  color: white !important;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 2px var(--primary-dark);
+}
+
+/* Phần chi tiết / bảng phía dưới */
+#details {
+  width: 100%;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 20px 24px 28px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  border: 1px solid var(--border);
+}
+#details h3 {
+  margin: 0 0 12px;
+  color: var(--text);
+  font-size: 1.15rem;
+}
+#selectedDaysLabel {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 14px;
+}
+#totalCount {
+  font-weight: 600;
+  color: var(--primary-dark);
+  margin-bottom: 12px;
+}
+
+/* Bảng vi phạm */
+.violation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 13.5px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.violation-table thead {
+  background: var(--primary);
+  color: white;
+}
+.violation-table th,
+.violation-table td {
+  padding: 10px 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.violation-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+.violation-table tbody tr:hover {
+  background: #eff6ff;
+}
+.violation-table td:last-child {
+  font-weight: 700;
+  color: #dc2626;
+}
+
+/* Bảng gộp */
+#mergeTable thead {
+  background: #d97706;
+  color: white;
+}
+#mergeTable tbody tr:nth-child(even) {
+  background: #fffbeb;
+}
+#mergeTable tbody tr:hover {
+  background: #fef3c7;
+}
+
+/* ===== DANH SÁCH / FILTER ===== */
+.filter-box {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.filter-box .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.filter-btn:hover {
+  background: var(--primary-dark);
+}
+.filter-btn.gray {
+  background: #64748b;
+}
+.filter-btn.gray:hover {
+  background: #475569;
+}
+#filterDate {
+  padding: 10px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  min-width: 180px;
+}
+
+/* Pagination */
+#pagination,
+#paginationTop {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#pagination,
+#paginationTop {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#pagination button,
+#paginationTop button {
+  padding: 6px 12px;
+  border: none;
+  background: #e5e7eb;
+  color: #000000;               /* chữ đen */
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.15s;
+}
+
+#pagination button:hover,
+#paginationTop button:hover {
+  background: #d1d5db;
+  color: #050505;
+}
+
+/* Trang đang chọn */
+#pagination button[style*="background"],
+#paginationTop button[style*="background"] {
+  background: #1f58d2 !important;
+  color: white !important;
+}
+
+/* Credit */
+.credit {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  left:auto;
+  font-size: 7px;
+  color: #94a3b8;
+  opacity: 0.7;
+  z-index: 999;
+  user-select: none;
+}
+.credit:hover {
+  opacity: 1;
+}
+
+/* Responsive */
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    #sidebar {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  #sidebar .title {
+    color: #1e293b;           /* chữ tiêu đề tối, vì không còn nền xanh */
+    border-bottom: none;
+  }
+  #app {
+    flex-direction: column !important;
+    display: flex !important;
+  }
+
+  #sidebar {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 12px !important;
+    align-content: start;
+  }
+
+  #sidebar .title {
+    grid-column: 1 / -1;
+    font-size: 15px;
+    padding: 8px 0;
+    margin-bottom: 4px;
+  }
+
+  #sidebar .btn-base {
+    width: 100% !important;
+    margin-top: 0 !important;
+    padding: 12px 8px !important;
+    font-size: 12px !important;
+    min-height: 48px !important;
+    border-radius: 10px !important;
+  }
+
+  #app > .flex-1 {
+    width: 100% !important;
+    padding: 12px !important;
+    min-width: 0 !important;
+  }
+
+  #globalSearch {
+    font-size: 16px !important;
+    padding: 12px !important;
+  }
+
+  #content.grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  #content button {
+    width: 100% !important;
+    min-height: 52px !important;
+    padding: 14px 12px !important;
+    font-size: 15px !important;
+    text-align: left !important;
+  }
+
+  #calendar {
+    max-width: 100%;
+  }
+
+  table.calendar-table td {
+    height: 44px;
+    font-size: 15px;
+  }
+
+  #calendar-header button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .filter-box,
+  .filter-box .left {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100%;
+  }
+
+  .filter-btn,
+  .btn-trash,
+  .btn-confirm-delete,
+  .btn-cancel-select {
+    width: 100%;
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  #filterDate {
+    width: 100%;
+    min-height: 44px;
+    font-size: 16px;
+  }
+}
+/* Bọc bảng — vuốt ngang trên mobile */
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.table-scroll table {
+  min-width: 640px; /* đủ chỗ cho mọi cột, không bị cắt */
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .table-scroll table {
+    font-size: 13px;
+  }
+  .table-scroll th,
+  .table-scroll td {
+    padding: 8px 10px;
+    white-space: nowrap; /* tránh chữ xuống dòng làm hẹp cột */
+  }
+}
+/* ===== LỊCH – MOBILE ===== */
+@media (max-width: 768px) {
+
+  /* Không cần bảng quá rộng nữa */
+  #violationTable,
+  #mergeTable {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  #violationTable th,
+  #violationTable td,
+  #mergeTable th,
+  #mergeTable td {
+    white-space: normal;
+    font-size: 12px;
+    padding: 8px 4px;
+  }
+  /* Trang lịch */
+  body {
+    padding: 10px !important;
+  }
+
+  .main-layout {
+    padding: 8px 0 24px !important;
+    gap: 16px !important;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+
+  /* Lịch full ngang, ô to hơn */
+  #calendar {
+    max-width: 100% !important;
+    padding: 12px !important;
+    border-radius: 12px;
+  }
+
+  #calendar-header span {
+    font-size: 1.1rem;
+  }
+
+  #calendar-header button {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 16px;
+  }
+
+  table.calendar-table th {
+    font-size: 12px;
+    padding: 6px 2px;
+  }
+
+  table.calendar-table td {
+    height: 46px !important;
+    font-size: 15px !important;
+  }
+
+  /* Khối chi tiết */
+  #details {
+    padding: 14px 12px 20px !important;
+    border-radius: 12px;
+  }
+
+  #details h3 {
+    font-size: 1rem;
+  }
+
+  #selectedDaysLabel {
+    font-size: 13px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  /* Bảng chi tiết + gộp: vuốt ngang */
+  #details .violation-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 12px;
+  }
+
+  /* Ép table bên trong đủ rộng để không cắt cột */
+  #violationTable,
+  #mergeTable {
+    min-width: 900px;
+    width: 100%;
+  }
+
+  #violationTable th,
+  #violationTable td,
+  #mergeTable th,
+  #mergeTable td {
+    padding: 8px 6px;
+    white-space: nowrap;
+  }
+
+  /* Nút Xuất / Gộp */
+  .export-wrapper {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+
+  .btn-export {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  #violationTable,
+  #mergeTable {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+  }
+
+  /* Bo góc 4 góc của hàng header */
+  #violationTable thead th:first-child,
+  #mergeTable thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  #violationTable thead th:last-child,
+  #mergeTable thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .main-layout {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100%;
+  }
+
+  .calendar-top {
+    width: 100%;
+  }
+
+  #calendar,
+  #details {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 12px !important;
+  }
+
+  #details {
+    padding: 14px 12px 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  .main-layout {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #calendar,
+  #details {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    border-radius: 12px !important;
+  }
+
+  #violationTable,
+  #mergeTable {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  #violationTable thead th:first-child,
+  #mergeTable thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  #violationTable thead th:last-child,
+  #mergeTable thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  /* Bảng lịch: vuốt ngang như index */
+  #details .table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+    margin-top: 8px;
+  }
+
+  #details .table-scroll table {
+    min-width: 720px;   /* đủ cột, quẹt để thấy Tổng */
+    width: max-content;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #details .table-scroll th,
+  #details .table-scroll td {
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+
+  /* Không ép display:block lên table (làm gãy layout) */
+  #details .violation-table {
+    display: table;
+    overflow: visible;
+  }
+     #status {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px !important;
+    line-height: 1.35;
+    padding: 8px 10px !important;
+    margin-bottom: 8px !important;
+
+    white-space: nowrap;           /* 1 dòng */
+    overflow-x: auto;              /* dài thì vuốt ngang */
+    -webkit-overflow-scrolling: touch;
+  }
+    #status {
+    font-size: 11px !important;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+}

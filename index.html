@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ thống quản lý vi phạm</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+ function renderViolationTable() {
+   const table = document.getElementById("violationTable");
+   table.innerHTML = "";
+   violationList.forEach((v, index) => {
+     const tr = document.createElement("tr");
+     tr.className = "border-t";
+
+ tr.innerHTML = `
+   <td class="p-2 font-medium">${v["Mã SV"]}</td>
+   <td class="p-2">${v["Họ tên"]}</td>
+   <td class="p-2">${v["Lớp"]}</td>
+   <td class="p-2">${v["Khóa"]}</td>
+   <td class="p-2">${v["Khoa"]}</td>
+   <td class="p-2">${v["Ngày"]}</td>
+   <td class="p-2">${v["Buổi"]}</td>
+   <td class="p-2">${v["Vi phạm"]}</td>
+   <td class="p-2 text-center">
+     <button
+       class="bg-red-500 text-white px-2 py-1 rounded"
+       onclick="deleteViolation(${index})">
+       X
+     </button>
+   </td>
+ `;
+
+     table.appendChild(tr);
+   });
+ }
+ function deleteViolation(index) {
+   console.log("Xóa index:", index); // ⭐ test
+
+   if (!confirm("Bạn có chắc muốn xóa không?")) return;
+
+   violationList.splice(index, 1);
+
+   saveData();
+   renderViolationTable();
+ }
+ </script>
+ <script></script>
+ <script>function renderSinhVienList(list) {
+   const content = document.getElementById("content");
+
+   // Xóa danh sách cũ (chỉ giữ ô tìm kiếm)
+   content.querySelectorAll("button").forEach(b => b.remove());
+
+   list.forEach(sv => {
+     const btn = document.createElement("button");
+     btn.className = "bg-white p-4 rounded shadow hover:bg-blue-100";
+     btn.innerText = sv;
+     btn.onclick = () => {
+       history.push(() => showSinhVien(selected.khoa, selected.khoaHoc, selected.lop));
+       selected.sv = sv;
+       showViPham();
+     };
+     content.appendChild(btn);
+   });
+ }
+ function searchSinhVien(khoa, khoaHoc, lop) {
+   const keyword = document.getElementById("searchSV").value.toLowerCase();
+
+   const list = data[khoa][khoaHoc][lop].filter(sv =>
+     sv.toLowerCase().includes(keyword)
+   );
+
+   renderSinhVienList(list);
+ }
+
+  </script>
+  <script> function updateStatus() {
+   document.getElementById("status").innerText =
+     `Khoa: ${selected.khoa || "—"} | ` +
+     `Khóa: ${selected.khoaHoc || "—"} | ` +
+     `Lớp: ${selected.lop || "—"}`;
+ }
+ </script>
+  <!-- SheetJS -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+
+<div id="app" class="hidden flex flex-col md:flex-row min-h-screen">
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="w-full md:w-64 text-white p-4 flex flex-col shrink-0"
+     style="background: linear-gradient(180deg, #312e81 0%, #1e1b4b 100%);">
+  <h1 class="title">QUẢN LÝ VI PHẠM</h1>
+
+  <button onclick="doiNguoiNhap()" class="btn-base btn-red">
+    <i class="fa-solid fa-user-pen"></i> Đổi người nhập
+  </button>
+
+  <button onclick="goBack()" class="btn-base btn-back">
+    <i class="fa-solid fa-arrow-left"></i> Quay lại
+  </button>
+
+  <button onclick="exportExcel()" class="btn-base btn-send">
+    <i class="fa-solid fa-paper-plane"></i> Gửi
+  </button>
+
+  <a href="danhsach.html" class="btn-base btn-yellow">
+    <i class="fa-solid fa-list"></i> Danh sách vi phạm
+  </a>
+
+  <a href="calendar.html" class="btn-base btn-calendar">
+    <i class="fa-solid fa-calendar-days"></i> Lịch vi phạm
+  </a>
+       <a href="quanly-sv.html" class="btn-base btn-manage">
+    <i class="fa-solid fa-user-plus"></i> Quản lý SV
+  </a>
+</div>
+ 
+
+<!-- MAIN -->
+<div class="flex-1 p-6">
+  <div class="mb-4 relative">
+  <input
+    type="text"
+    id="globalSearch"
+    placeholder="🔍 Tìm sinh viên (tên hoặc mã SV)..."
+    class="w-full p-2 border rounded"
+    oninput="globalSearchSV()"
+  >
+
+  <div
+    id="globalResult"
+    class="absolute bg-white border w-full rounded shadow z-20 hidden">
+  </div>
+</div>
+
+      <div id="status"
+       class="mb-3 text-sm text-gray-700 font-medium bg-blue-50 p-2 rounded">
+    Khoa: — | Khóa: — | Lớp: —
+  </div>
+
+  <h1 class="text-2xl font-bold mb-4" id="title">Chọn khoa</h1>
+  <div id="content" class="grid grid-cols-3 gap-4"></div>
+
+  <h2 class="text-xl font-bold mt-8 mb-2">Danh sách vi phạm</h2>
+  <div class="table-scroll">
+    <table class="w-full bg-white rounded shadow text-sm">
+      <thead class="bg-gray-200">
+        <tr>
+          <th class="p-2">Mã SV</th>
+          <th class="p-2">Họ tên</th>
+          <th class="p-2">Lớp</th>
+          <th class="p-2">Khóa</th>
+          <th class="p-2">Khoa</th>
+          <th class="p-2">Ngày</th>
+          <th class="p-2">Buổi</th>
+          <th class="p-2">Vi phạm</th>
+          <th class="p-2">Xóa</th>
+        </tr>
+      </thead>
+      <tbody id="violationTable"></tbody>
+    </table>
+  </div>
+</div>
+</div>
+<style>
+.btn-custom{background:#16a34a!important}
+</style>
+<script type="module">
+const app = document.getElementById("app");
+
+const name = localStorage.getItem("nguoiNhap");
+
+if(!name){
+  window.location.href = "login.html";
+}else{
+  app.classList.remove("hidden");
+}
+</script>
+
+
+<script>
+let data = {};
+
+// ================= STATE =================
+let currentLevel = "khoa";
+let history = [];
+let selected = {};
+let violationList = [];
+let isSending = false; 
+ // ⭐ DANH SÁCH VI PHẠM
+// ================= FUNCTIONS =================
+
+function renderButtons(list, callback) {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+  list.forEach(item => {
+    const btn = document.createElement("button");
+    btn.className = "bg-white p-4 rounded shadow hover:bg-blue-100";
+    btn.innerText = item;
+    btn.onclick = () => callback(item);
+    content.appendChild(btn);
+  });
+}
+
+function showKhoa() {
+  selected.khoa = null;
+  selected.khoaHoc = null;
+  selected.lop = null;
+  selected.sv = null;
+  updateStatus();
+
+  document.getElementById("title").innerText = "Chọn khoa";
+  renderButtons(Object.keys(data), khoa => {
+    history.push(showKhoa);
+    selected.khoa = khoa;
+    updateStatus();
+    showKhoaHoc(khoa);
+  });
+}
+
+function sortKhoaHocKeys(keys) {
+  function rank(name) {
+    const s = String(name)
+      .toUpperCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "") // bỏ dấu để bắt "CĐ" / "CD"
+      .replace(/\s+/g, "");
+
+    // CĐ9+K5 / CD9+K5 / CĐ9K5
+    let m = s.match(/CD9\+?K(\d+)/) || s.match(/CĐ9\+?K(\d+)/);
+    if (m) return 100 + Number(m[1]); // 105, 106, 107...
+
+    // CĐ K18 / CDK18 / K18
+    m = s.match(/CDK(\d+)/) || s.match(/[^A-Z]K(\d+)$/) || s.match(/^K(\d+)/);
+    if (m) return 200 + Number(m[1]); // 218, 219, 220...
+
+    // còn lại
+    m = s.match(/K(\d+)/);
+    if (m) return 300 + Number(m[1]);
+    return 900;
+  }
+
+  return [...keys].sort((a, b) => {
+    const d = rank(a) - rank(b);
+    if (d !== 0) return d;
+    return String(a).localeCompare(String(b), "vi");
+  });
+}
+
+function showKhoaHoc(khoa) {
+  selected.khoa = khoa;
+  selected.khoaHoc = null;
+  selected.lop = null;
+  selected.sv = null;
+  updateStatus();
+
+  document.getElementById("title").innerText = "Chọn khóa";
+
+  const raw = Object.keys(data[khoa] || {});
+  const keys = sortKhoaHocKeys(raw);
+
+  // Gỡ comment dòng dưới nếu muốn xem trên Console (F12) tên khóa thực tế
+  // console.log("Khóa raw:", raw, "→ sorted:", keys);
+
+  renderButtons(keys, khoaHoc => {
+    history.push(() => showKhoaHoc(khoa));
+    selected.khoaHoc = khoaHoc;
+    updateStatus();
+    showLop(khoa, khoaHoc);
+  });
+}
+
+function showLop(khoa, khoaHoc) {
+  selected.khoa = khoa;
+  selected.khoaHoc = khoaHoc;
+  selected.lop = null;
+  selected.sv = null;
+  updateStatus();
+
+  document.getElementById("title").innerText = "Chọn lớp";
+  renderButtons(Object.keys(data[khoa][khoaHoc]), lop => {
+    history.push(() => showLop(khoa, khoaHoc));
+    selected.lop = lop;
+    updateStatus();
+    showSinhVien(khoa, khoaHoc, lop);
+  });
+}
+
+function showSinhVien(khoa, khoaHoc, lop) {
+    selected.khoa = khoa;
+  selected.khoaHoc = khoaHoc;
+  selected.lop = lop;
+  selected.sv = null;
+  updateStatus();
+  document.getElementById("title").innerText = "Danh sách sinh viên";
+
+  const content = document.getElementById("content");
+  content.innerHTML = `
+    <div class="col-span-3 mb-4 relative">
+  <input 
+    type="text"
+    id="searchSV"
+    placeholder="🔍  Tìm sinh viên..."
+    class="w-full p-2 border rounded"
+    oninput="autoCompleteSV('${khoa}', '${khoaHoc}', '${lop}')"
+  >
+
+  <div id="suggestBox"
+    class="absolute bg-white border w-full rounded shadow z-10 hidden">
+  </div>
+</div>
+  `;
+
+  renderSinhVienList(data[khoa][khoaHoc][lop]);
+}
+function renderSinhVienList(list) {
+  const content = document.getElementById("content");
+  content.querySelectorAll("button").forEach(b => b.remove());
+
+  list.forEach(sv => {
+    const btn = document.createElement("button");
+    btn.className = "bg-white p-4 rounded shadow hover:bg-blue-100 text-left";
+
+    btn.innerHTML = `
+      <div class="font-semibold">${sv.tenSV}</div>
+      <div class="text-xs text-gray-500">${sv.maSV}</div>
+    `;
+
+    btn.onclick = () => {
+      history.push(() => showSinhVien(selected.khoa, selected.khoaHoc, selected.lop));
+      selected.sv = sv;
+      showViPham();
+    };
+
+    content.appendChild(btn);
+  });
+}
+
+function showViPham() {
+  const content = document.getElementById("content");
+  document.getElementById("title").innerText = "Ghi nhận vi phạm";
+
+  content.innerHTML = `
+    <div class="bg-white p-6 rounded shadow col-span-3">
+      <p><b>Sinh viên:</b> ${selected.sv.tenSV} (${selected.sv.maSV})</p>
+
+      <div class="mt-4">
+        <label>
+          <input type="checkbox" class="vipham" value="Đi trễ"> Đi trễ
+        </label><br>
+
+        <label>
+          <input type="checkbox" class="vipham" value="Hút thuốc"> Hút thuốc
+        </label><br>
+
+        <label>
+          <input type="checkbox" class="vipham" value="Mang dép"> Mang dép
+        </label><br>
+
+         <label>
+          <input type="checkbox" class="vipham" value="Sai đồng phục"> Sai đồng phục
+        </label><br>
+
+            <label>
+          <input type="checkbox" class="vipham" value="Không thẻ sinh viên"> Không thẻ sinh viên
+        </label><br>
+          <label>
+            <input type="checkbox" class="vipham" value="Vắng có phép"> Vắng có phép
+          </label><br>
+
+          <label>
+            <input type="checkbox" class="vipham" value="Vắng không phép"> Vắng không phép
+          </label><br>
+        <label>
+          <input type="checkbox" id="viphamKhac" onchange="toggleOtherViolation()"> Khác
+        </label>
+
+        <input
+          type="text"
+          id="otherViolation"
+          placeholder="Nhập lỗi vi phạm khác..."
+          class="border p-2 mt-2 w-full"
+          style="display:none;"
+        >
+      </div>
+
+      <div class="mt-4">
+        <input type="date" id="date" class="border p-2">
+        <select id="buoi" class="border p-2">
+          <option>Sáng</option>
+          <option>Chiều</option>
+        </select>
+      </div>
+
+      <button onclick="addViolation()" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
+        Thêm vào danh sách vi phạm
+      </button>
+    </div>
+  `;
+}
+
+function toggleOtherViolation() {
+  const checkbox = document.getElementById("viphamKhac");
+  const input = document.getElementById("otherViolation");
+
+  if (checkbox.checked) {
+    input.style.display = "block";
+    input.focus();
+  } else {
+    input.style.display = "none";
+    input.value = "";
+  }
+}
+
+// ================= ADD VIOLATION =================
+function addViolation() {
+  const date = document.getElementById("date").value;
+  const buoi = document.getElementById("buoi").value;
+
+  if (!date) {
+    alert("Vui lòng chọn ngày!");
+    return;
+  }
+
+  let violations = [];
+
+
+  // 1. Lỗi có sẵn
+  document.querySelectorAll(".vipham:checked").forEach(cb => {
+    violations.push(cb.value);
+  });
+
+  // 2. Lỗi khác
+  const otherCheckbox = document.getElementById("viphamKhac");
+  const otherInput = document.getElementById("otherViolation");
+
+  if (otherCheckbox.checked) {
+    if (otherInput.value.trim() === "") {
+      alert("Vui lòng nhập lỗi vi phạm khác!");
+      return;
+    }
+    violations.push(otherInput.value.trim());
+  }
+
+  if (violations.length === 0) {
+    alert("Chưa chọn lỗi vi phạm!");
+    return;
+  }
+  // 3. Thêm vào danh sách
+  violationList.push({
+    "Mã SV": selected.sv.maSV,
+    "Họ tên": selected.sv.tenSV,
+    "Lớp": selected.lop,
+    "Khóa": selected.khoaHoc,
+    "Khoa": selected.khoa,
+    "Ngày": date,
+    "Buổi": buoi.toUpperCase().replace("Á", "A").replace("Ề", "E"), // SANG / CHIEU
+    "Vi phạm": violations.join(", "),
+    "Người nhập": localStorage.getItem("nguoiNhap")
+  });
+
+  saveData();
+  renderViolationTable();
+
+  alert("Đã thêm vào danh sách vi phạm");
+}
+
+
+// ================= EXPORT =================
+async function exportExcel() {
+  if (violationList.length === 0) {
+    alert("Chưa có dữ liệu!");
+    return;
+  }
+
+  if (isSending) return;
+
+  if (!confirm("Gửi dữ liệu lên hệ thống chung?")) return;
+
+  isSending = true;
+
+  try {
+    await window.sendViolations(violationList);
+    alert("Đã gửi thành công!");
+    violationList = [];
+    saveData();
+    renderViolationTable();
+  } catch (e) {
+    console.error(e);
+    // sendViolations đã gỡ khỏi violationList những bản gửi THÀNH CÔNG,
+    // nên giờ đây chỉ còn phần CHƯA gửi → lưu lại phần đó
+    saveData();
+    renderViolationTable();
+    alert("Gửi thất bại. Kiểm tra mạng rồi thử lại.\nPhần chưa gửi vẫn còn trên máy, không bị mất.");
+  }
+
+  isSending = false;
+}
+
+
+function goToDanhSach() {
+  window.location.href = "danhsach.html";
+}
+
+function goBack() {
+  if (history.length > 0) {
+    history.pop()();
+  }
+}
+// KHI OUT RA VẪN CÒN DỮ LIỆU
+function saveData() {
+  localStorage.setItem("violationList", JSON.stringify(violationList));
+}
+
+function loadData() {
+  const dataSaved = localStorage.getItem("violationList");
+  if (dataSaved) {
+    violationList = JSON.parse(dataSaved);
+    renderViolationTable();
+  }
+}
+//AUTOCOMPLETE
+function autoCompleteSV(khoa, khoaHoc, lop) {
+  const keyword = document.getElementById("searchSV").value.toLowerCase();
+  const box = document.getElementById("suggestBox");
+
+  if (!keyword) {
+    box.classList.add("hidden");
+    return;
+  }
+
+  const list = data[khoa][khoaHoc][lop].filter(sv =>
+    sv.tenSV.toLowerCase().includes(keyword) ||
+    sv.maSV.toLowerCase().includes(keyword)
+  );
+
+  box.innerHTML = "";
+  box.classList.remove("hidden");
+
+  list.forEach(sv => {
+    const div = document.createElement("div");
+    div.className = "p-2 hover:bg-blue-100 cursor-pointer";
+
+    div.innerHTML = `
+      <div class="font-medium">${sv.tenSV}</div>
+      <div class="text-xs text-gray-500">${sv.maSV}</div>
+    `;
+
+    div.onclick = () => {
+      document.getElementById("searchSV").value = `${sv.tenSV} (${sv.maSV})`;
+      box.classList.add("hidden");
+
+      history.push(() => showSinhVien(khoa, khoaHoc, lop));
+      selected.sv = sv;
+      showViPham();
+    };
+
+    box.appendChild(div);
+  });
+}
+function doiNguoiNhap(){
+    if(confirm("Bạn có chắc muốn đổi người nhập không?")){
+        localStorage.removeItem("nguoiNhap");
+        window.location.href = "login.html";
+    }
+}
+//==================================TÌM KIẾM==============================================
+function getAllSinhVien() {
+  const result = [];
+
+  for (const khoa in data) {
+    for (const khoaHoc in data[khoa]) {
+      for (const lop in data[khoa][khoaHoc]) {
+        data[khoa][khoaHoc][lop].forEach(sv => {
+          result.push({
+            ...sv,
+            khoa,
+            khoaHoc,
+            lop
+          });
+        });
+      }
+    }
+  }
+
+  return result;
+}
+function globalSearchSV() {
+  const keyword = document
+    .getElementById("globalSearch")
+    .value
+    .toLowerCase();
+
+  const box = document.getElementById("globalResult");
+
+  if (!keyword) {
+    box.classList.add("hidden");
+    return;
+  }
+
+  const allSV = getAllSinhVien();
+
+  const matched = allSV.filter(sv =>
+    sv.tenSV.toLowerCase().includes(keyword) ||
+    sv.maSV.toLowerCase().includes(keyword)
+  );
+
+  box.innerHTML = "";
+
+  if (matched.length === 0) {
+    box.innerHTML = `<div class="p-2 text-gray-500">Không tìm thấy</div>`;
+    box.classList.remove("hidden");
+    return;
+  }
+
+  matched.forEach(sv => {
+    const div = document.createElement("div");
+    div.className = "p-2 hover:bg-blue-100 cursor-pointer";
+
+    div.innerHTML = `
+      <div class="font-medium">${sv.tenSV}</div>
+      <div class="text-xs text-gray-500">
+        ${sv.maSV} — ${sv.lop} — ${sv.khoaHoc}
+      </div>
+    `;
+
+    div.onclick = () => {
+  box.classList.add("hidden");
+  document.getElementById("globalSearch").value = "";
+
+  // RESET HISTORY (rất quan trọng)
+  history = [];
+
+  // PUSH LẠI ĐẦY ĐỦ LUỒNG
+  history.push(showKhoa);
+  history.push(() => showKhoaHoc(sv.khoa));
+  history.push(() => showLop(sv.khoa, sv.khoaHoc));
+  history.push(() => showSinhVien(sv.khoa, sv.khoaHoc, sv.lop));
+
+  // SET STATE
+  selected.khoa = sv.khoa;
+  selected.khoaHoc = sv.khoaHoc;
+  selected.lop = sv.lop;
+  selected.sv = { tenSV: sv.tenSV, maSV: sv.maSV };
+
+  updateStatus();
+  showViPham();
+};
+
+    box.appendChild(div);
+  });
+
+  box.classList.remove("hidden");
+}
+
+// START
+async function loadStudents() {
+  try {
+    const { db } = await import("./firebase.js");
+    const { collection, getDocs } = await import(
+      "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"
+    );
+
+    const snap = await getDocs(collection(db, "students"));
+    const tree = {};
+
+    snap.forEach(d => {
+      const s = d.data();
+      const khoa = s.khoa || "";
+      const khoaHoc = s.khoaHoc || "";
+      const lop = s.lop || "";
+      if (!khoa || !khoaHoc || !lop) return;
+
+      if (!tree[khoa]) tree[khoa] = {};
+      if (!tree[khoa][khoaHoc]) tree[khoa][khoaHoc] = {};
+      if (!tree[khoa][khoaHoc][lop]) tree[khoa][khoaHoc][lop] = [];
+
+      tree[khoa][khoaHoc][lop].push({
+        maSV: s.maSV || d.id,
+        tenSV: s.tenSV || ""
+      });
+    });
+
+    data = tree;
+    showKhoa();
+    loadData();
+  } catch (e) {
+    console.error(e);
+    alert("Lỗi tải danh sách SV từ Firebase.\n" + (e.message || e));
+  }
+}
+
+loadStudents();
+</script>
+<script type="module">
+  import { sendViolations } from "./sendfirebase.js";
+  window.sendViolations = sendViolations;
+</script>
+<link rel="stylesheet" href="style.css">
+<div class="credit">
+  Nguyen Hoang THUD3 9+K5
+</div>
+
+<style>
+/* ===== NÚT CÚP XẾP HẠNG ===== */
+.cup-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 60;
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #fff;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 45%, #d97706 100%);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.cup-btn:hover { transform: scale(1.08); }
+.cup-btn:active { transform: scale(0.95); }
+/* Máy tính: nằm dưới cùng, căn giữa sidebar xanh đậm (md:w-64 = 256px) */
+@media (min-width: 768px) {
+  .cup-btn {
+    top: auto;
+    right: auto;
+    left: 128px;
+    bottom: 14px;
+    transform: translateX(-50%);
+  }
+  .cup-btn:hover { transform: translateX(-50%) scale(1.08); }
+  .cup-btn:active { transform: translateX(-50%) scale(0.95); }
+}
+.rank-tab {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  background: #fff;
+  cursor: pointer;
+}
+.rank-tab.active { background: #312e81; border-color: #312e81; color: #fff; }
+</style>
+
+<!-- NÚT CÚP: xếp hạng người nhập (điện thoại: góc trên phải / máy tính: dưới sidebar) -->
+<button id="cupBtn" class="cup-btn" onclick="openRanking()" title="Xếp hạng người nhập">
+  <i class="fa-solid fa-trophy"></i>
+</button>
+
+<!-- MODAL XẾP HẠNG NGƯỜI NHẬP -->
+<div id="rankingModal" class="hidden fixed inset-0 z-[70] flex items-center justify-center p-4">
+  <div class="absolute inset-0 bg-black/60" onclick="closeRanking()"></div>
+  <div class="relative bg-white rounded-2xl shadow-2xl w-full max-w-md max-h-[85vh] flex flex-col">
+    <div class="p-4 border-b flex items-center justify-between shrink-0">
+      <h3 class="text-lg font-bold text-gray-800">
+        <i class="fa-solid fa-trophy text-amber-500 mr-1"></i> Xếp hạng người nhập
+      </h3>
+      <button onclick="closeRanking()" class="text-gray-400 hover:text-gray-600 text-xl leading-none px-1">✕</button>
+    </div>
+    <div class="px-4 pt-3 flex gap-2 shrink-0">
+      <button id="rankWeek" class="rank-tab" onclick="setRankPeriod('week')">Tuần này</button>
+      <button id="rankMonth" class="rank-tab active" onclick="setRankPeriod('month')">Tháng này</button>
+    </div>
+    <p id="rankNote" class="px-4 pt-2 text-xs text-gray-400 shrink-0">Số lớn = số lần nhập • số nhỏ = số lỗi bắt được. Hết tháng tự reset.</p>
+    <div id="rankList" class="overflow-y-auto p-4 space-y-2"></div>
+  </div>
+</div>
+
+<script type="module">
+import { db } from "./firebase.js";
+import { collection, getDocs } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+let rankPeriod = "month"; // "week" | "month"
+let rankCache = null;
+let rankCacheAt = 0;
+let rankLoading = false;
+
+// Gộp tên không phân biệt HOA/thường, bỏ khoảng trắng thừa
+function normName(s) {
+  return String(s || "").trim().replace(/\s+/g, " ").toLowerCase();
+}
+// Tách "Đi trễ, Hút thuốc, Mang dép" → ["Đi trễ", "Hút thuốc", "Mang dép"]
+function splitLoi(vipham) {
+  return String(vipham || "").split(",").map(s => s.trim()).filter(Boolean);
+}
+function fmtDate(d) {
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return d.getFullYear() + "-" + m + "-" + day;
+}
+// Tuần tính từ thứ Hai → Chủ nhật
+function currentWeekRange() {
+  const now = new Date();
+  const diffToMonday = (now.getDay() + 6) % 7;
+  const start = new Date(now.getFullYear(), now.getMonth(), now.getDate() - diffToMonday);
+  const end = new Date(start.getFullYear(), start.getMonth(), start.getDate() + 6);
+  return { start: fmtDate(start), end: fmtDate(end) };
+}
+
+async function loadRanking(force) {
+  const listEl = document.getElementById("rankList");
+  if (rankLoading) return;
+  if (!force && rankCache && Date.now() - rankCacheAt < 30000) {
+    renderRanking(rankCache);
+    return;
+  }
+  rankLoading = true;
+  listEl.innerHTML = '<div class="text-center text-gray-400 py-6">Đang tải...</div>';
+  try {
+    const snap = await getDocs(collection(db, "violations"));
+    const nowD = new Date();
+    const monthKey = nowD.getFullYear() + "-" + String(nowD.getMonth() + 1).padStart(2, "0");
+    const week = currentWeekRange();
+
+    const map = new Map();
+    snap.forEach(doc => {
+      const v = doc.data();
+      const ngay = String(v.ngay || "");
+      const inMonth = ngay.startsWith(monthKey);
+      const inWeek = ngay >= week.start && ngay <= week.end;
+      if (!inMonth && !inWeek) return;
+
+      const raw = String(v.nguoiNhap || "").trim();
+      if (!raw) return;
+
+      const key = normName(raw);
+      if (!map.has(key)) {
+        map.set(key, {
+          name: raw.replace(/\s+/g, " "),
+          countMonth: 0, countWeek: 0,   // số DÒNG đã nhập
+          loiMonth: 0, loiWeek: 0        // số LỖI bắt được
+        });
+      }
+      const item = map.get(key);
+      const lois = splitLoi(v.vipham);
+      if (inMonth) {
+        item.countMonth++;              // 1 bản ghi = 1 dòng
+        item.loiMonth += lois.length;   // "Đi trễ, Hút thuốc, Mang dép" = 3 lỗi
+      }
+      if (inWeek) {
+        item.countWeek++;
+        item.loiWeek += lois.length;
+      }
+    });
+
+    rankCache = [...map.values()];
+    rankCacheAt = Date.now();
+    renderRanking(rankCache);
+  } catch (e) {
+    console.error(e);
+    listEl.innerHTML = '<div class="text-center text-red-500 py-6">Không tải được dữ liệu. Kiểm tra mạng rồi thử lại.</div>';
+  } finally {
+    rankLoading = false;
+  }
+}
+
+function renderRanking(list) {
+  const el = document.getElementById("rankList");
+  const isMonth = rankPeriod === "month";
+  const countKey = isMonth ? "countMonth" : "countWeek";
+  const loiKey = isMonth ? "loiMonth" : "loiWeek";
+  document.getElementById("rankNote").textContent = isMonth
+    ? "Số lớn = số lần nhập • số nhỏ = số lỗi bắt được. Tính theo ngày vi phạm từ đầu tháng đến hôm nay — hết tháng tự reset."
+    : "Số lớn = số lần nhập • số nhỏ = số lỗi bắt được. Tính theo ngày vi phạm từ thứ Hai tuần này đến hôm nay.";
+
+  const sorted = list
+    .map(x => ({
+      name: x.name,
+      rows: x[countKey] || 0,   // số dòng nhập
+      loi: x[loiKey] || 0       // số lỗi bắt được
+    }))
+    .filter(x => x.rows > 0 || x.loi > 0)
+    .sort((a, b) => b.loi - a.loi || b.rows - a.rows);
+
+  el.innerHTML = "";
+  if (sorted.length === 0) {
+    el.innerHTML = '<div class="text-center text-gray-400 py-6">Chưa có dữ liệu trong kỳ này.</div>';
+    return;
+  }
+
+  const medals = ["🥇", "🥈", "🥉"];
+  sorted.forEach((item, i) => {
+    const row = document.createElement("div");
+    row.className = "flex items-center gap-3 p-2 rounded-lg bg-gray-50 border border-gray-100";
+
+    const badge = document.createElement("div");
+    badge.className =
+      "w-9 h-9 flex items-center justify-center rounded-full text-lg shrink-0 " +
+      (i === 0 ? "bg-amber-100" : i === 1 ? "bg-slate-200" : i === 2 ? "bg-orange-100" : "bg-gray-100 text-gray-400");
+    badge.textContent = medals[i] || String(i + 1);
+
+    const wrap = document.createElement("div");
+    wrap.className = "flex-1 min-w-0";
+    const name = document.createElement("div");
+    name.className = "font-semibold text-gray-800 truncate";
+    name.textContent = item.name;
+
+    // Số lỗi bắt được — nhỏ, màu xám nhạt (không ghi ra từng loại)
+    const sub = document.createElement("div");
+    sub.className = "text-xs text-gray-400";
+    sub.textContent = item.loi + " lỗi";
+    wrap.appendChild(name);
+    wrap.appendChild(sub);
+
+    // Số DÒNG đã nhập — lớn, đậm
+    const num = document.createElement("div");
+    num.className = "text-xl font-bold " + (i === 0 ? "text-amber-500" : "text-gray-600");
+    num.textContent = item.rows;
+
+    row.append(badge, wrap, num);
+    el.appendChild(row);
+  });
+}
+
+function setRankPeriod(p) {
+  rankPeriod = p;
+  document.getElementById("rankWeek").classList.toggle("active", p === "week");
+  document.getElementById("rankMonth").classList.toggle("active", p === "month");
+  loadRanking(false);
+}
+window.setRankPeriod = setRankPeriod;
+
+window.openRanking = () => {
+  document.getElementById("rankingModal").classList.remove("hidden");
+  loadRanking(false);
+};
+window.closeRanking = () => {
+  document.getElementById("rankingModal").classList.add("hidden");
+};
+</script>
+</body>
+</html>

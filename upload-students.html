@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload danh sách SV lên Firebase (chạy 1 lần)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 560px; margin: 40px auto; padding: 20px; }
+    h1 { font-size: 1.25rem; }
+    button {
+      background: #2563eb; color: white; border: none;
+      padding: 12px 20px; border-radius: 8px; font-size: 15px;
+      cursor: pointer; margin-top: 12px;
+    }
+    button:disabled { background: #94a3b8; cursor: not-allowed; }
+    #log {
+      margin-top: 16px; padding: 12px; background: #f1f5f9;
+      border-radius: 8px; font-size: 14px; white-space: pre-wrap;
+      max-height: 320px; overflow: auto;
+    }
+    .ok { color: #059669; }
+    .err { color: #dc2626; }
+  </style>
+</head>
+<body>
+  <h1>Upload danh sách sinh viên lên Firebase</h1>
+  <p>Chỉ cần chạy <b>1 lần</b>. File <code>students.json</code> phải cùng thư mục.</p>
+  <p>Firestore giới hạn 500 ghi / lần → trang sẽ chia lô tự động.</p>
+
+  <button id="btn">Bắt đầu upload</button>
+  <div id="log">Chưa chạy...</div>
+
+  <script type="module">
+    import { db } from "./firebase.js";
+    import {
+      doc,
+      writeBatch
+    } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+    const logEl = document.getElementById("log");
+    const btn = document.getElementById("btn");
+
+    function log(msg, cls = "") {
+      const line = document.createElement("div");
+      if (cls) line.className = cls;
+      line.textContent = msg;
+      logEl.appendChild(line);
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    function flatten(tree) {
+      const list = [];
+      for (const khoa of Object.keys(tree)) {
+        const khoaObj = tree[khoa] || {};
+        for (const khoaHoc of Object.keys(khoaObj)) {
+          const lopObj = khoaObj[khoaHoc] || {};
+          for (const lop of Object.keys(lopObj)) {
+            const arr = lopObj[lop];
+            if (!Array.isArray(arr)) continue;
+            for (const sv of arr) {
+              if (!sv || !sv.maSV) continue;
+              list.push({
+                maSV: String(sv.maSV).trim(),
+                tenSV: String(sv.tenSV || "").trim(),
+                khoa,
+                khoaHoc,
+                lop
+              });
+            }
+          }
+        }
+      }
+      return list;
+    }
+
+    btn.onclick = async () => {
+      btn.disabled = true;
+      logEl.innerHTML = "";
+      try {
+        log("Đang đọc students.json...");
+        const res = await fetch("students.json");
+        if (!res.ok) throw new Error("Không đọc được students.json (cùng thư mục + Live Server)");
+        const tree = await res.json();
+        const list = flatten(tree);
+        log("Tổng số SV: " + list.length);
+
+        if (list.length === 0) {
+          log("Không có SV nào trong JSON.", "err");
+          btn.disabled = false;
+          return;
+        }
+
+        const BATCH = 400; // an toàn dưới 500
+        let done = 0;
+
+        for (let i = 0; i < list.length; i += BATCH) {
+          const chunk = list.slice(i, i + BATCH);
+          const batch = writeBatch(db);
+
+          for (const sv of chunk) {
+            // ID = maSV → trùng thì ghi đè, không nhân đôi
+            const ref = doc(db, "students", sv.maSV);
+            batch.set(ref, sv);
+          }
+
+          await batch.commit();
+          done += chunk.length;
+          log("Đã ghi: " + done + " / " + list.length);
+        }
+
+        log("XONG. Upload thành công " + list.length + " SV.", "ok");
+        log("Có thể đóng trang này. Không cần chạy lại trừ khi đổi JSON lớn.", "ok");
+      } catch (e) {
+        console.error(e);
+        log("LỖI: " + (e.message || e), "err");
+        btn.disabled = false;
+      }
+    };
+  </script>
+</body>
+</html>

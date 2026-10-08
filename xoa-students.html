@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xóa toàn bộ sinh viên</title>
+  <style>
+    body { font-family: system-ui; max-width: 520px; margin: 40px auto; padding: 20px; }
+    button {
+      background: #dc2626; color: white; border: none;
+      padding: 12px 20px; border-radius: 8px; font-size: 15px; cursor: pointer;
+    }
+    button:disabled { background: #94a3b8; }
+    #log {
+      margin-top: 16px; padding: 12px; background: #f1f5f9;
+      border-radius: 8px; white-space: pre-wrap; max-height: 320px; overflow: auto;
+    }
+    .ok { color: #059669; }
+    .err { color: #dc2626; }
+  </style>
+</head>
+<body>
+  <h1>Xóa toàn bộ sinh viên</h1>
+  <p><b>Cảnh báo:</b> Xóa hết collection <code>students</code>. Không hoàn tác được.<br>
+  Vi phạm (violations) <b>không</b> bị xóa.</p>
+  <button id="btn">Xóa hết SV</button>
+  <div id="log">Chưa chạy...</div>
+
+  <script type="module">
+    import { db } from "./firebase.js";
+    import {
+      collection, getDocs, writeBatch, doc
+    } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+    const logEl = document.getElementById("log");
+    const btn = document.getElementById("btn");
+
+    function log(msg, cls = "") {
+      const d = document.createElement("div");
+      if (cls) d.className = cls;
+      d.textContent = msg;
+      logEl.appendChild(d);
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+
+    btn.onclick = async () => {
+      if (!confirm("XÓA HẾT sinh viên trên Firebase?\nKhông hoàn tác được.")) return;
+      btn.disabled = true;
+      logEl.innerHTML = "";
+      try {
+        log("Đang đọc danh sách...");
+        const snap = await getDocs(collection(db, "students"));
+        const ids = snap.docs.map(d => d.id);
+        log("Tổng cần xóa: " + ids.length);
+
+        if (ids.length === 0) {
+          log("Không còn SV nào.", "ok");
+          return;
+        }
+
+        const BATCH = 400;
+        let done = 0;
+        for (let i = 0; i < ids.length; i += BATCH) {
+          const chunk = ids.slice(i, i + BATCH);
+          const batch = writeBatch(db);
+          for (const id of chunk) {
+            batch.delete(doc(db, "students", id));
+          }
+          await batch.commit();
+          done += chunk.length;
+          log("Đã xóa: " + done + " / " + ids.length);
+        }
+        log("XONG. Collection students đã trống.", "ok");
+        log("Bước tiếp: mở upload-students.html và upload file JSON mới.", "ok");
+      } catch (e) {
+        console.error(e);
+        log("LỖI: " + (e.message || e), "err");
+        btn.disabled = false;
+      }
+    };
+  </script>
+</body>
+</html>

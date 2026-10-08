@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Đăng nhập hệ thống</title>
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+<h1>Hệ thống quản lý vi phạm</h1>
+<p class="sub">Nhập tên người nhập dữ liệu</p>
+
+<input id="nameInput" placeholder="Nhập tên của bạn">
+
+<button onclick="saveName()">Vào hệ thống</button>
+
+</div>
+
+<script>
+function saveName(){
+    const name = document.getElementById("nameInput").value.trim();
+
+    if(!name){
+        alert("Vui lòng nhập tên");
+        return;
+    }
+
+    localStorage.setItem("nguoiNhap", name);
+    window.location.href="index.html";
+}
+</script>
+
+</body>
+</html>

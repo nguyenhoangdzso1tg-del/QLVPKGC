@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý danh sách sinh viên</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 24px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 1.35rem; color: #1e293b; margin-bottom: 4px; }
+    .sub { color: #64748b; margin-bottom: 20px; font-size: 14px; }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px 22px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      margin-bottom: 16px;
+    }
+    label { display: block; font-size: 13px; font-weight: 600; color: #334155; margin: 12px 0 4px; }
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 600px) { .row { grid-template-columns: 1fr; } }
+    button.primary {
+      margin-top: 16px;
+      width: 100%;
+      padding: 12px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.primary:hover { background: #1d4ed8; }
+    button.primary:disabled { background: #94a3b8; cursor: not-allowed; }
+    button.danger {
+      margin-top: 12px;
+      width: 100%;
+      padding: 12px;
+      background: #dc2626;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.danger:hover { background: #b91c1c; }
+    button.danger:disabled { background: #94a3b8; cursor: not-allowed; }
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 10px 16px;
+      background: #1f4f9b;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .msg { margin-top: 12px; font-size: 14px; }
+    .msg.ok { color: #059669; }
+    .msg.err { color: #dc2626; }
+    .hint { font-size: 12px; color: #94a3b8; margin-top: 4px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td { padding: 8px 6px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+    th { background: #f8fafc; color: #475569; }
+    .del {
+      background: #ef4444; color: white; border: none;
+      padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 12px;
+    }
+    hr.sep {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Về trang nhập vi phạm</a>
+
+    <h1>Quản lý danh sách sinh viên</h1>
+    <p class="sub">Thêm khóa / lớp / SV mới, hoặc xóa cả lớp / cả khóa.</p>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px;font-size:1.05rem;">Thêm sinh viên / lớp / khóa</h2>
+      <p class="hint">Muốn tạo <b>lớp mới</b> hoặc <b>khóa mới</b>: gõ tên khóa/lớp mới vào ô, rồi thêm ít nhất 1 SV.</p>
+
+      <label>Khoa</label>
+      <input list="listKhoa" id="khoa" placeholder="VD: CÔNG NGHỆ THÔNG TIN">
+      <datalist id="listKhoa"></datalist>
+
+      <div class="row">
+        <div>
+          <label>Khóa</label>
+          <input list="listKhoaHoc" id="khoaHoc" placeholder="VD: CĐ9+K6">
+          <datalist id="listKhoaHoc"></datalist>
+        </div>
+        <div>
+          <label>Lớp</label>
+          <input list="listLop" id="lop" placeholder="VD: Tin học ứng dụng 1">
+          <datalist id="listLop"></datalist>
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label>Mã SV</label>
+          <input id="maSV" placeholder="VD: TH25CN3101">
+        </div>
+        <div>
+          <label>Họ tên</label>
+          <input id="tenSV" placeholder="VD: Nguyễn Văn A">
+        </div>
+      </div>
+
+      <button class="primary" id="btnAdd">Thêm vào hệ thống</button>
+      <div id="msg" class="msg"></div>
+
+      <hr class="sep">
+      <h2 style="margin:0 0 8px;font-size:1.05rem;color:#b91c1c;">Xóa cả lớp / cả khóa</h2>
+      <p class="hint">Xóa hết SV thuộc lớp hoặc khóa đã chọn. <b>Không hoàn tác được.</b></p>
+
+      <label>Khoa (bắt buộc)</label>
+      <input list="listKhoa" id="delKhoa" placeholder="VD: CÔNG NGHỆ THÔNG TIN">
+
+      <div class="row">
+        <div>
+          <label>Khóa (bắt buộc)</label>
+          <input list="listKhoaHoc" id="delKhoaHoc" placeholder="VD: CĐ9+K5">
+        </div>
+        <div>
+          <label>Lớp (điền = xóa 1 lớp; để trống = xóa cả khóa)</label>
+          <input list="listLop" id="delLop" placeholder="VD: Tin học ứng dụng 1">
+        </div>
+      </div>
+
+      <button class="danger" id="btnDelClass">Xóa theo lớp / khóa đã chọn</button>
+      <div id="msgDel" class="msg"></div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px;font-size:1.05rem;">Tìm / xóa từng sinh viên</h2>
+      <input id="search" placeholder="Gõ mã SV, tên hoặc lớp..." style="margin-bottom:12px;">
+      <div style="max-height:280px;overflow:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>Mã SV</th>
+              <th>Họ tên</th>
+              <th>Lớp</th>
+              <th>Khóa</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <p class="hint" id="countLabel">Đang tải...</p>
+    </div>
+  </div>
+
+  <script type="module">
+    import { db } from "./firebase.js";
+    import {
+      collection,
+      doc,
+      setDoc,
+      deleteDoc,
+      getDocs
+    } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+
+    if (!localStorage.getItem("nguoiNhap")) {
+      window.location.href = "login.html";
+    }
+
+    let allStudents = [];
+
+    function showMsg(text, ok) {
+      const el = document.getElementById("msg");
+      el.textContent = text;
+      el.className = "msg " + (ok ? "ok" : "err");
+    }
+
+    function uniqueSorted(arr) {
+      return [...new Set(arr.filter(Boolean))].sort((a, b) => a.localeCompare(b, "vi"));
+    }
+
+    function escapeAttr(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/</g, "&lt;");
+    }
+
+    function fillDatalists() {
+      const khoas = uniqueSorted(allStudents.map(s => s.khoa));
+      const khoaHocs = uniqueSorted(allStudents.map(s => s.khoaHoc));
+      const lops = uniqueSorted(allStudents.map(s => s.lop));
+
+      document.getElementById("listKhoa").innerHTML =
+        khoas.map(k => `<option value="${escapeAttr(k)}">`).join("");
+      document.getElementById("listKhoaHoc").innerHTML =
+        khoaHocs.map(k => `<option value="${escapeAttr(k)}">`).join("");
+      document.getElementById("listLop").innerHTML =
+        lops.map(k => `<option value="${escapeAttr(k)}">`).join("");
+    }
+
+    function renderTable(filter = "") {
+      const kw = filter.trim().toLowerCase();
+      let list = allStudents;
+      if (kw) {
+        list = allStudents.filter(s =>
+          (s.maSV || "").toLowerCase().includes(kw) ||
+          (s.tenSV || "").toLowerCase().includes(kw) ||
+          (s.lop || "").toLowerCase().includes(kw) ||
+          (s.khoaHoc || "").toLowerCase().includes(kw)
+        );
+      }
+      const show = list.slice(0, 50);
+      const tbody = document.getElementById("tbody");
+      tbody.innerHTML = show.map(s => `
+        <tr>
+          <td>${s.maSV}</td>
+          <td>${s.tenSV}</td>
+          <td>${s.lop || ""}</td>
+          <td>${s.khoaHoc || ""}</td>
+          <td><button type="button" class="del" data-id="${escapeAttr(s.maSV)}">Xóa</button></td>
+        </tr>
+      `).join("");
+
+      document.getElementById("countLabel").textContent =
+        kw
+          ? `Hiện ${show.length}/${list.length} (lọc). Tổng hệ thống: ${allStudents.length} SV`
+          : `Hiện ${show.length} sinh viên. Tổng hệ thống: ${allStudents.length} SV`;
+
+      tbody.querySelectorAll(".del").forEach(btn => {
+        btn.onclick = async () => {
+          const id = btn.dataset.id;
+          if (!confirm("Xóa SV " + id + " khỏi danh sách?")) return;
+          try {
+            await deleteDoc(doc(db, "students", id));
+            allStudents = allStudents.filter(s => s.maSV !== id);
+            fillDatalists();
+            renderTable(document.getElementById("search").value);
+            showMsg("Đã xóa " + id, true);
+          } catch (e) {
+            console.error(e);
+            showMsg("Xóa thất bại: " + e.message, false);
+          }
+        };
+      });
+    }
+
+    async function loadAll() {
+      const snap = await getDocs(collection(db, "students"));
+      allStudents = [];
+      snap.forEach(d => {
+        const x = d.data();
+        allStudents.push({
+          maSV: x.maSV || d.id,
+          tenSV: x.tenSV || "",
+          khoa: x.khoa || "",
+          khoaHoc: x.khoaHoc || "",
+          lop: x.lop || ""
+        });
+      });
+      allStudents.sort((a, b) => (a.maSV || "").localeCompare(b.maSV || ""));
+      fillDatalists();
+      renderTable();
+    }
+
+    document.getElementById("search").oninput = (e) => {
+      renderTable(e.target.value);
+    };
+
+    document.getElementById("btnAdd").onclick = async () => {
+      const khoa = document.getElementById("khoa").value.trim();
+      const khoaHoc = document.getElementById("khoaHoc").value.trim();
+      const lop = document.getElementById("lop").value.trim();
+      const maSV = document.getElementById("maSV").value.trim();
+      const tenSV = document.getElementById("tenSV").value.trim();
+
+      if (!khoa || !khoaHoc || !lop || !maSV || !tenSV) {
+        showMsg("Điền đủ: Khoa, Khóa, Lớp, Mã SV, Họ tên.", false);
+        return;
+      }
+
+      const btn = document.getElementById("btnAdd");
+      btn.disabled = true;
+      try {
+        await setDoc(doc(db, "students", maSV), {
+          maSV, tenSV, khoa, khoaHoc, lop
+        });
+
+        const idx = allStudents.findIndex(s => s.maSV === maSV);
+        const row = { maSV, tenSV, khoa, khoaHoc, lop };
+        if (idx >= 0) allStudents[idx] = row;
+        else allStudents.push(row);
+
+        fillDatalists();
+        renderTable(document.getElementById("search").value);
+        showMsg("Đã thêm/cập nhật: " + tenSV + " (" + maSV + ") — Lớp: " + lop, true);
+
+        document.getElementById("maSV").value = "";
+        document.getElementById("tenSV").value = "";
+        document.getElementById("maSV").focus();
+      } catch (e) {
+        console.error(e);
+        showMsg("Lỗi: " + e.message, false);
+      }
+      btn.disabled = false;
+    };
+
+    document.getElementById("btnDelClass").onclick = async () => {
+      const khoa = document.getElementById("delKhoa").value.trim();
+      const khoaHoc = document.getElementById("delKhoaHoc").value.trim();
+      const lop = document.getElementById("delLop").value.trim();
+      const msgDel = document.getElementById("msgDel");
+
+      if (!khoa || !khoaHoc) {
+        msgDel.className = "msg err";
+        msgDel.textContent = "Cần chọn Khoa + Khóa.";
+        return;
+      }
+
+      let targets = allStudents.filter(s =>
+        s.khoa === khoa && s.khoaHoc === khoaHoc
+      );
+      if (lop) {
+        targets = targets.filter(s => s.lop === lop);
+      }
+
+      if (targets.length === 0) {
+        msgDel.className = "msg err";
+        msgDel.textContent = "Không tìm thấy SV nào khớp.";
+        return;
+      }
+
+      const scope = lop
+        ? `lớp "${lop}" (khóa ${khoaHoc})`
+        : `cả khóa "${khoaHoc}"`;
+      if (!confirm(`Xóa ${targets.length} SV thuộc ${scope}?\nKhông hoàn tác được.`)) return;
+
+      const btn = document.getElementById("btnDelClass");
+      btn.disabled = true;
+      try {
+        for (const s of targets) {
+          await deleteDoc(doc(db, "students", s.maSV));
+        }
+        const ids = new Set(targets.map(t => t.maSV));
+        allStudents = allStudents.filter(s => !ids.has(s.maSV));
+        fillDatalists();
+        renderTable(document.getElementById("search").value);
+        msgDel.className = "msg ok";
+        msgDel.textContent = "Đã xóa " + targets.length + " SV.";
+        document.getElementById("delLop").value = "";
+      } catch (e) {
+        console.error(e);
+        msgDel.className = "msg err";
+        msgDel.textContent = "Lỗi: " + e.message;
+      }
+      btn.disabled = false;
+    };
+
+    loadAll().catch(e => {
+      console.error(e);
+      document.getElementById("countLabel").textContent = "Lỗi tải: " + e.message;
+    });
+  </script>
+</body>
+</html>

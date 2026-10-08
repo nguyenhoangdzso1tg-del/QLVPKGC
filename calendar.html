@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch vi phạm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body style="padding: 16px">
+<script>
+  // Đồng bộ với các trang khác: phải nhập tên người nhập trước khi xem dữ liệu
+  if (!localStorage.getItem("nguoiNhap")) window.location.href = "login.html";
+</script>
+
+  <a href="index.html" class="btn">
+    <i class="fa-solid fa-arrow-left"></i> Quay lại nhập vi phạm
+  </a>
+
+  <div class="main-layout">
+    <!-- ===== LỊCH Ở TRÊN ===== -->
+    <div class="calendar-top">
+      <div id="calendar">
+        <div id="calendar-header">
+          <button id="prevMonth" title="Tháng trước"><i class="fa-solid fa-chevron-left"></i></button>
+          <span id="monthYear"></span>
+          <button id="nextMonth" title="Tháng sau"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <table class="calendar-table">
+          <thead>
+            <tr>
+              <th>CN</th><th>T2</th><th>T3</th><th>T4</th>
+              <th>T5</th><th>T6</th><th>T7</th>
+            </tr>
+          </thead>
+          <tbody id="calendar-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== BẢNG TỔNG HỢP + XUẤT EXCEL Ở DƯỚI ===== -->
+    <div id="details">
+      <h3 id="detailTitle"><i class="fa-solid fa-list-check" style="color:#2563eb;margin-right:8px;"></i>Chi tiết vi phạm</h3>
+      <div id="selectedDaysLabel">Các ngày đã chọn: —</div>
+      <p id="totalCount"></p>
+        <div class="table-scroll">
+      <table id="violationTable" class="violation-table">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Mã SV</th>
+            <th>Tên</th>
+            <th>Lớp</th>
+            <th>Khoá</th>
+            <th>Khoa</th>
+            <th>Ngày</th>
+            <th>Mang dép</th>
+            <th>Đi trễ</th>
+            <th>Hút thuốc</th>
+            <th>Sai đồng phục</th>
+            <th>Không thẻ SV</th>
+            <th>Vắng có phép</th>
+            <th>Vắng không phép</th>
+            <th>Tổng</th>
+          </tr>
+        </thead>
+        <tbody id="calendarViolationList"></tbody>
+      </table>
+      </div>
+      <div class="export-wrapper">
+        <button id="exportExcelBtn" class="btn-export">
+          <i class="fa-solid fa-file-excel"></i> Xuất Excel
+        </button>
+      </div>
+
+      <h3 style="margin-top:32px;">
+        <i class="fa-solid fa-layer-group" style="color:#d97706;margin-right:8px;"></i>Bảng gộp vi phạm
+      </h3>
+      <div class="table-scroll">
+      <table id="mergeTable" class="violation-table">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Mã SV</th>
+            <th>Tên</th>
+            <th>Lớp</th>
+            <th>Khoá</th>
+            <th>Khoa</th>
+            <th>Mang dép</th>
+            <th>Đi trễ</th>
+            <th>Hút thuốc</th>
+            <th>Sai đồng phục</th>
+            <th>Không thẻ SV</th>
+            <th>Vắng có phép</th>
+            <th>Vắng không phép</th>
+            <th>Tổng</th>
+          </tr>
+        </thead>
+        <tbody id="mergeList"></tbody>
+      </table>
+      </div>
+      <div class="export-wrapper">
+        <button id="exportExcelBtn2" class="btn-export">
+          <i class="fa-solid fa-file-excel"></i> Xuất Excel
+        </button>
+        <button id="mergeBtn" class="btn-export orange">
+          <i class="fa-solid fa-object-group"></i> Gộp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
